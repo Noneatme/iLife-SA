@@ -1,0 +1,7 @@
+Technobase.FM|http://listen.technobase.fm/tunein-dsl-pls
+Housetime.FM|http://listen.housetime.fm/tunein-dsl-pls
+Hardbase.FM|http://listen.hardbase.fm/tunein-dsl-pls
+YouFM Rock|http://gffstream.ic.llnwd.net/stream/gffstream_mp3_w77a
+Techno4Ever.FM Mainstream|http://tunein01.t4e.dj/main/dsl/mp3
+Techno4Ever.FM Clubstream|http://tunein01.t4e.dj/club/dsl/mp3
+Trancebase.FM|http://listen.trancebase.fm/tunein-dsl-pls

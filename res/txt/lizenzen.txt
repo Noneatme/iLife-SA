@@ -1,0 +1,312 @@
+iLife Server & Client Core - Copyright(C) 2012-2015 by iLife Team
+
+FÜR DIE RICHTIGKEITEN DER FOLGENDEN DATEN WIRD KEINE HAFTUNG ÜBERNOMMEN
+
+
+|||||||| Impressum ||||||||
+Angaben gemäß § 5 TMG:
+
+iLife-SA
+Aaron Schwehm
+Hunsrückstraße 21
+55595 Hargesheim
+
+Telefonnummer auf Anfrage an: admin@fachspace.de
+
+
+- Umsatzsteueridentifikationsnummer (USt-IdNr.):
+Nicht benoetigt
+
+- Vertretungsberechtigter:
+Nicht benoetigt
+
+- Verantwortlicher i.S.d. Presserechts:
+Nico Fölski
+Anschrift auf Anfrage an: admin@fachspace.de & Zaxon@live.de
+
+
+|||||||| Datenschutzerklärung ||||||||:
+
+Geltungsbereich
+
+Diese Datenschutzerklärung klärt Nutzer über die Art, den Umfang und Zwecke der Erhebung und Verwendung personenbezogener Daten durch den verantwortlichen Anbieter auf diesem Server (im folgenden “Angebot”) auf.
+Die rechtlichen Grundlagen des Datenschutzes finden sich im Bundesdatenschutzgesetz (BDSG) und dem Telemediengesetz (TMG).
+
+-- Registrierung und Anmeldung --
+Die im Rahmen der Registrierung eingegebenen Daten werden für die Zwecke der Nutzung des Angebotes verwendet. Die Nutzer können über angebots- oder registrierungsrelevante Informationen, wie Änderungen des Angebotsumfangs oder technische Umstände per E-Mail informiert werden. Die erhobenen Daten sind aus der Eingabemaske im Rahmen der Registrierung ersichtlich. Dazu gehören Name, Alter, Herkunft, Sprache, E-Mail Adresse, IP-Adresse, Spieler-Serial, Datum, Letzes Login Datum, Registrierdatum.
+
+Der Anbieter verwendet die Daten nur für statistische Auswertungen zum Zweck des Betriebs, der Sicherheit und der Optimierung des Angebotes. Der Anbieterbehält sich jedoch vor, die Protokolldaten nachträglich zu überprüfen, wenn aufgrund konkreter Anhaltspunkte der berechtigte Verdacht einer rechtswidrigen Nutzung besteht.
+
+
+-- Zugriffsdaten/ Server-Logfiles --
+
+Der Anbieter (beziehungsweise sein Webspace-Provider) erhebt Daten über jeden Zugriff auf das Angebot (so genannte Serverlogfiles). Zu den Zugriffsdaten gehören:
+
+IP-Adresse des Benutzers, Serial des Benutzers, Datum, Betriebssystem des Benutzers, Land des Benutzers.
+
+Außerdem JEDE getätigte Aktion des Benutzers.
+Darunter zählen Beispielsweise:
+
+VIRTUELLE:
+-> Blitzerfotos
+
+-> Überweisungen, Geldübergaben
+-> Fraktionsaktivitäten, dazu gehören
+    -> Fraktionskassenaktionen
+-> Chatkommunikation
+-> Private Kommunikation
+-> Objektaktionen
+    -> Objekte Platziert, Aufgehoben, Interagiert
+
+-> Geld Ein/Ausgaben in JEDGLICHER Art
+
+-> Ein Virtuelles Bewegungsprofil auf diesem Gameserver, unter anderen für
+    -> Performancezwecken
+    -> Statistiken
+
+Kommunikation kann aus Sicherheitsgründen in Echtzeit von Administratoren Überwacht werden.
+Jede Aktion wird auf diesem Server geloggt.
+
+-- Kontaktaufnahme --
+
+Bei der Kontaktaufnahme mit dem Anbieter (zum Beispiel per Kontaktformular oder E-Mail) werden die Angaben des Nutzers zwecks Bearbeitung der Anfrage sowie für den Fall, dass Anschlussfragen entstehen, gespeichert.
+
+-- Kommentare und Beiträge --
+
+Wenn Nutzer Kommentare auf dem Server oder sonstige Beiträge hinterlassen, werden ihre IP-Adressen gespeichert. Das erfolgt zur Sicherheit des Anbieters, falls jemand in Kommentaren und Beiträgen widerrechtliche Inhalte schreibt (Beleidigungen, verbotene politische Propaganda, etc.). In diesem Fall kann der Anbieter selbst für den Kommentar oder Beitrag belangt werden und ist daher an der Identität des Verfassers interessiert.
+
+-- Einbindung von Diensten und Inhalten Dritter --
+
+Es kann vorkommen, dass innerhalb dieses Onlineangebotes Inhalte Dritter, wie zum Beispiel Videos von YouTube, Kartenmaterial von Google-Maps, RSS-Feeds oder Grafiken von anderen Webseiten eingebunden werden. Dies setzt immer voraus, dass die Anbieter dieser Inhalte (nachfolgend bezeichnet als “Dritt-Anbieter”) die IP-Adresse der Nutzer wahr nehmen. Denn ohne die IP-Adresse, könnten sie die Inhalte nicht an den Browser des jeweiligen Nutzers senden. Die IP-Adresse ist damit für die Darstellung dieser Inhalte erforderlich. Wir bemühen uns nur solche Inhalte zu verwenden, deren jeweilige Anbieter die IP-Adresse lediglich zur Auslieferung der Inhalte verwenden. Jedoch haben wir keinen Einfluss darauf, falls die Dritt-Anbieter die IP-Adresse z.B. für statistische Zwecke speichern. Soweit dies uns bekannt ist, klären wir die Nutzer darüber auf.
+
+
+|||||||| Haftungsausschluss (Disclaimer) ||||||||
+
+Haftung für Inhalte
+
+Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesem Gameserver nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
+
+-- Haftung für Links --
+
+Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.
+
+-- Urheberrecht --
+
+Die durch die Betreiber erstellten Inhalte und Werke, darunter auch die Client und Serverseitgen Scripte auf diesem Server die von dem Urheber erstellt wurden, unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
+
+
+Quelle: http://www.e-recht24.de
+
+
+!! JEDER USER STIMMT AB 1. FEBRUAR 2015 AUTOMATISCH DEN DATENSCHUTZERKLÄRUNGEN UND HAFTUNSAUSSCHLUß ZU. !!
+Wer diesen Dokumenten nicht zustimmen möchte, hat das Recht auf Accountlöschung.
+
+Bei der Löschung von Accounts wird jegliche Information des Betroffenen Benutzers unmittelbar gelöscht und für immer Vernichtet.
+Diese Aktion kann nicht Rückgängig gemacht werden.
+
+Bei Bedarf können Sie eine E-Mail an folgenden Adressen senden:
+
+noneatme@hotmail.de     <- Primär!
+
+<!-- NOTFALL ADRESSEN --!>
+webmaster@ilife-sa.de
+info@noneatme.de
+law@noneatme.de
+admin@fachspace
+Zaxon@live.de
+
+
+>>>>>> ILIFE SA, MULTI THEFT AUTO: SAN ANDREAS GAMESERVER <<<<<<
+
+Mitwirkende Personen:
+    - Danny To. (ReWrite)
+    - Audifire
+    - Zaxon
+    - Noneatme
+    - Samy / Fachpersonal
+
+
+Betatester(Seit 2015):
+    - Saphiron
+    - Armeniapower
+    - Karim, Reazon, Zaxon
+	- Dawi, Shape, Doneasty, Jonny, Jackss, Nytech, Noneatme, Samy
+    - Weitere Betatester die vergessen wurden.
+        ! Danke an Allen !
+
+Vielen Dank an alle anderen Betatestern und spielern!
+Diese Liste wird stetig erweitert.
+
+
+Quellenangaben, Sources:
+-> Für die Rechtschreibung kann keine Garantie gegeben werden
+
+-- Der Inhaber haftet nicht für die Richtigkeit dieser Angaben --
+-- Änderungen vorbehalten --
+-- Nicht alle Quellen wurden hier aufgelistet, diese Liste wird bei Bedarf erweitert --
+
+-> Musik und Sounds:
+    -> "Pr0n Groove": Spidey's FL Sessions - Oni Groove
+    -> "mus_anmasian": Copyright <2000-?> Bungie Entertainment
+    -> Diverse Sound Effekte:
+        -> freeSFX.co.uk
+        -> soundideas.com
+        -> Royalty free music
+
+        -> Death Sound Effect: Copyright 2015 2k Games
+        -> Blitzer Sound Effect: Copyright <?> Valve Software
+        -> Punch Sounds: Copyright <2000> Bungie Entertainment
+        -> Weapon Sounds: Valve, Team Fortress, <?>
+        -> Vehicle Sounds & Train Sounds:
+            -> Copyright, Sound-Ideas.com
+
+        -> HUD Components:
+            -> Copyright, Valve Entertainment (Portal 2)
+            -> Copyright Team17, Acade America
+        -> Hitmarker:
+            -> Random MLG Stuff Package
+                -> reddit.com
+
+        -> Achievement:
+            -> Copyright Valve Entertainment (DotA 2)
+
+        -> Objekte Sounds:
+            -> Allgemein: Copyright Mindscape (1995), Abenteuer auf der Lego Insel
+            -> Jail Music: Copyright Mindscape
+
+        -> Achievements:
+            -> Copyright <?>, Blizzard Entertainment, WoW
+
+        -> Thunder:
+            -> sound-ideas.om
+
+        -> Slotmachine:
+            -> 2K Games
+			
+		-> Shisha/Hookah:
+            -> Made by Youtube Channel "gangsigns209" (c) 2012 Standard Youtube License
+
+        -> RadialMenu:
+            -> Valve Entertainment
+
+        -> Jobs:
+            -> Containerjob:
+                -> Copyright, Sound-Ideas.com
+
+		-> Firework:
+            -> Copyright, Sound-Ideas.com
+            -> Copyright, free-sfx.co.uk
+            -> Copyright, YouTube User: <?>
+			
+		-> Vorgespeicherte Radios:
+            -> Copyright, Technobase.FM
+            -> Copyright, Housetime.FM
+            -> Copyright, Hardbase.FM
+			-> Copyright, YouFM Rock
+			-> Copyright, Techno4Ever.FM Mainstream
+			-> Copyright, Techno4Ever.FM Clubstream
+			-> Copyright, Trancebase.FM
+			-> Copyright, Coretime.FM
+			-> Copyright, EinsLIVE
+			-> Copyright, Rautemusik.FM - Oriental
+			-> Copyright, Top 100 Station
+			-> Copyright, Dubstep.FM
+			-> Copyright, Anarchy of Sound
+			-> Copyright, Rautemusik.FM - 12Punks
+			-> Copyright, DUBLOVERS.FM
+			-> Copyright, Rockradio.com - Power Metal
+			-> Copyright, DEFJAY - Rn'B
+			-> Copyright, Horror FM - Dubstep
+			-> Copyright, oriental-high.rautemusik.fm
+
+    -> Login Musik:
+        -> "Ed Sheeran - I See Fire (Kygo Remix)"
+        -> "hero.mp3" -> Copyright 2015 EA Games
+        -> "mus_savehouse" -> Copyright 2015 EA Games
+        -> "_3d_ambience_loginscreen" -> Copyright 2015  Avatar Creations
+
+    -> Diverse Musik:
+        -> Moxxis Musik: Copyright <?> 2K Games, Borderlands 2
+
+
+-> Modelle und Texturen:
+    -> HDW201 - Copyright 2007 - NCSoft Entertainment
+    -> Info Pickup: made by [GER]PLASMA for iLife
+    -> Firework modell: made by [GER]PLASMA for iLife
+    -> Sniper: <unknow> made by <unknow>
+    -> Office: Copyright SA-MP (<?>)
+    -> Blitzer: Copyright 2015 made by Gunvarrel for iLife (
+    -> Beta Bullet & Beta Jester: Copyright Jur1z, gtainside.com
+	-> Shisha Model: made by "Rasheed" - Converted to GTA:SA by Fachspace/Fachpersonal
+
+-> Bilder
+    -> Icons: iconfinder.com, google.com
+	-> Logo: made by Fachpersonal/Fachspace exclusively for iLife
+	-> Diverse Item Icons: made by Fachpersonal/Fachspace exclusively for iLife
+    -> icomoon Free Icons
+    -> Font Awesome Icons
+        -> Radar: GTA Wiki
+        -> Hud Elements: Gunvarrel, Noneatme, Google
+            -> Tachometer V2: Images Copyright Bugbear Entertainment, Flatout 2
+
+    -> Textures:
+        -> 3D Total Textures Library
+        -> Game Files
+            -> Oni, Copyright Bungie Entertainment
+            -> Team Fortress, Valve
+            -> Ammu Nation Sign, Copyright Rockstar Games
+        -> Paintings:
+            -> Google Images
+            -> All Rights goes to their respective Owners
+            -> "Exteel" Paintings made by Gunvarrel, used for Hall of Games
+                -> Copyright goes to Painting Owners
+
+    -> Doneastys:
+        -> Copyright, Doneasty, 2015 -> Made for iLife
+
+    -> Business & Prestige Images:
+        -> Copyright 2015, made by Noneatme & Gunvarrel
+
+    -> Nametags: Copyright <?> Valve Entertainment, DotA 2
+
+    -> Shops:
+        -> ?
+
+    -> Radial Menu
+        -> Copyright 2014-2015, Noneatme made for iLife
+    -> DX-GUI:
+        -> Copyright 2014-2015, made by Danny (ReWrite) for iLife
+
+-> Fonts:
+    -> dafont.com  for personal and/or non-commercial purpose.
+    -> Font Libary (~150.000)
+    -> Google Font API
+
+-> Shader
+    -> Shader_Insanity made by Ren472
+    -> Shader_Scroll_Sign: wiki.mtasa.com
+    -> Drugshader: Made by S@moke
+    -> Motion Shader: wiki.mtasa.com
+    -> Video Shader: <?> ReWrite
+    -> Shader Scrolltex: Edited by Gunvarrel
+
+-> Traintracks:
+    -> Copyright, Rockstar Games
+    -> Re-Used by Jusonex for: Server-Trains
+
+-> Maps:
+    -> All Maps Copyright 2015 -> iLife Team and Mappers
+    -> Zaxon, Gunvarrel, Noneatme, Saphiron, Ameniapower and everybody included
+
+-> Scripte und Teil von Scripten
+    -> Serverseitige Züge made by Jusonex
+    -> iLife Core:
+        -> ReWrite, Audifire, Noneatme
+
+    -> Special Thanks To:
+        -> Samy / Fachpersonal  -> Scripte & Grafische Gestaltung
+        -> Jusonex:             -> MTA Funktionen, Haus Interiors, Diverse Hilfe
+        -> MTA-SA.org           -> Serverwerbung und Vorstellung
+
+-->
+-> All rights belong to their respective owners

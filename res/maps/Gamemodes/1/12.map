@@ -1,0 +1,8 @@
+<map edf:definitions="editor_main">
+    <object id="object (vgsSairportland06) (1)" breakable="true" interior="0" alpha="0" model="8171" doublesided="false" scale="1" dimension="0" posX="1354.9" posY="2099.7" posZ="20.9" rotX="0" rotY="90" rotZ="270"></object>
+    <object id="object (vgsSairportland06) (2)" breakable="true" interior="0" alpha="0" model="8171" doublesided="false" scale="1" dimension="0" posX="1296.9" posY="2167.3999" posZ="20.9" rotX="0" rotY="90" rotZ="180"></object>
+    <object id="object (vgsSairportland06) (3)" breakable="true" interior="0" alpha="0" model="8171" doublesided="false" scale="1" dimension="0" posX="1362.1" posY="2220.1001" posZ="32.4" rotX="0" rotY="90" rotZ="89.995"></object>
+    <object id="object (vgsSairportland06) (4)" breakable="true" interior="0" alpha="0" model="8171" doublesided="false" scale="1" dimension="0" posX="1415.7" posY="2156.6001" posZ="32.4" rotX="0" rotY="90" rotZ="359.995"></object>
+    <object id="object (vgsSairportland06) (5)" breakable="true" interior="0" alpha="0" model="8171" doublesided="false" scale="1" dimension="0" posX="1329.9" posY="2199.6001" posZ="20.9" rotX="0" rotY="90" rotZ="89.995"></object>
+    <object id="object (vgsSairportland06) (6)" breakable="true" interior="0" alpha="0" model="8171" doublesided="false" scale="1" dimension="0" posX="1397.6" posY="2130.5" posZ="20.9" rotX="0" rotY="90" rotZ="359.995"></object>
+</map>

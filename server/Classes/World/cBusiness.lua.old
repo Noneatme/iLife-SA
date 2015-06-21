@@ -1,0 +1,470 @@
+-- #######################################
+-- ## Project: MTA iLife				##
+-- ## Name: Business.lua			##
+-- ## Author: Noneatme					##
+-- ## Version: 1.0						##
+-- ## License: See top Folder			##
+-- #######################################
+
+-- FUNCTIONS / METHODS --
+
+local cFunc = {};		-- Local Functions 
+local cSetting = {};	-- Local Settings
+
+Businesses = {};
+Business = {};
+Business.__index = Business;
+
+BusinessObjects = {}
+
+--[[
+
+]]
+
+-- ///////////////////////////////
+-- ///// New 				//////
+-- ///// Returns: Object	//////
+-- ///////////////////////////////
+
+function Business:New(...)
+	local obj = setmetatable({}, {__index = self});
+	if obj.Constructor then
+		obj:Constructor(...);
+	end
+	return obj;
+end
+
+-- ///////////////////////////////
+-- ///// SetSetting 		//////
+-- ///// Returns: void		//////
+-- ///////////////////////////////
+
+function Business:SetSetting(uSetting, sVal)
+	self.Settings[uSetting] = sVal;
+	self.pickup:setData(uSetting, sVal);
+	
+	self:Update();
+end
+
+-- ///////////////////////////////
+-- ///// GetSetting 		//////
+-- ///// Returns: void		//////
+-- ///////////////////////////////
+
+function Business:GetSetting(uSetting)
+	if(self.Settings[uSetting]) then
+		return self.Settings[uSetting];
+	end
+	
+	return false;
+end
+
+-- ///////////////////////////////
+-- ///// LoadSettings 		//////
+-- ///// Returns: void		//////
+-- ///////////////////////////////
+
+function Business:LoadSettings()
+	if(self.Settings) then
+		self.Settings 	= fromJSON(self.Settings);
+		if not(self.Settings) or (#self.Settings < #self.defaultSettings) then
+			self.Settings = self.defaultSettings;
+		end
+		
+		for index, s in pairs(self.Settings) do
+			self.pickup:setData("json:"..index, s);
+		end
+	else
+		self.Settings = self.defaultSettings;
+	end
+end
+
+-- ///////////////////////////////
+-- ///// HasUserPermissionToBiz///
+-- ///// Returns: void		//////
+-- ///////////////////////////////
+
+function Business:HasUserPermissionToBiz(uPlayer)
+	if(type(uPlayer) ~= "string") then
+		if(uPlayer:getID() == self.iOwnerID) then
+			return 1
+		end
+		
+		if(self.Settings["permissions"]) then
+			for index, b in pairs(self.Settings["permissions"]) do
+				if(string.lower(index) == string.lower(getPlayerName(uPlayer))) then
+					return 2;
+				end
+			end
+		end
+	else
+		if(self.Settings["permissions"]) then
+			for index, b in pairs(self.Settings["permissions"]) do
+				if(string.lower(index) == string.lower(uPlayer)) then
+					return 2;
+				end
+			end
+		end
+	end
+	
+	return false;
+end
+
+-- ///////////////////////////////
+-- ///// AddUserToPerm		//////
+-- ///// Returns: void		//////
+-- ///////////////////////////////
+
+function Business:AddUserToPerm(uPlayer)
+	if(self.Settings["permissions"]) then
+		self.Settings["permissions"][uPlayer.Name] = true;
+		self:Update(true)
+		outputServerLog("User: "..uPlayer.Name.." added to Biz: "..self.sTitle)
+		
+		return true;
+	end
+end
+
+-- ///////////////////////////////
+-- ///// RemoveUserFromPerm	//////
+-- ///// Returns: void		//////
+-- ///////////////////////////////
+
+function Business:RemoveUserFromPerm(uPlayer)
+	local newTBL = {}
+	for index, b in pairs(self.Settings["permissions"]) do
+		
+		if((uPlayer) and (index == uPlayer.Name)) or (uPlayer == index) then
+			-- Nix
+		else
+			newTBL[index] = b;
+		end
+	end
+	
+	self.Settings["permissions"] = newTBL;
+	self:Update(true);
+
+	outputServerLog("User: "..(uPlayer.Name or uPlayer).." removed from Biz: "..self.sTitle)
+
+	return true;
+end
+
+-- ///////////////////////////////
+-- ///// UpdatePlayerGUI 	//////
+-- ///// Returns: void		//////
+-- ///////////////////////////////
+
+function Business:UpdatePlayerGUI(uPlayer)
+	return triggerClientEvent(uPlayer, "onClientBizUpdate", uPlayer, self.iID, self.iCost, self.OwnerName, self.sTitle, self.sDescription, self.Settings)
+end
+
+-- ///////////////////////////////
+-- ///// DepotMoney		 	//////
+-- ///// Returns: void		//////
+-- ///////////////////////////////
+
+function Business:DepotMoney(iMoney, sGrund)
+	self:SetSetting("saldo", tonumber(self:GetSetting("saldo"))+iMoney);
+	self:Update(true);
+	outputServerLog("Biz Depot Money: $"..iMoney..", "..sGrund.."("..self.sTitle..")")
+
+	return true;
+end
+
+-- ///////////////////////////////
+-- ///// WithdrawMoney		 //////
+-- ///// Returns: void		//////
+-- ///////////////////////////////
+
+function Business:WithdrawMoney(iMoney, sGrund)
+	if(tonumber(self:GetSetting("saldo")) >= iMoney) then
+		self:SetSetting("saldo", tonumber(self:GetSetting("saldo"))-iMoney);
+		self:Update(true);
+		outputServerLog("Biz Withdraw Money: $"..iMoney..", "..sGrund.."("..self.sTitle..")")
+		return true;
+	else
+		outputServerLog("Can't Biz Withdraw Money: $"..iMoney..", "..sGrund.."("..self.sTitle..")")
+		return false;
+	end
+end
+-- ///////////////////////////////
+-- ///// DoEinzahlen	 	//////
+-- ///// Returns: void		//////
+-- ///////////////////////////////
+
+function Business:DoEinzahlen(uPlayer, iGeld)
+	if(self:HasUserPermissionToBiz(uPlayer) == 1) or (self:HasUserPermissionToBiz(uPlayer) == 2) then
+		if(iGeld <= uPlayer:getMoney()) then
+			local sucess = self:DepotMoney(iGeld, "Eingezahlt von "..getPlayerName(uPlayer));
+			if(sucess) then
+				uPlayer:showInfoBox("sucess", "Du hast Erfolgreich $"..iGeld.." eingezahlt!")
+				uPlayer:addMoney(-iGeld);
+				self:UpdatePlayerGUI(uPlayer);
+				
+				logger:OutputPlayerLog(uPlayer, "Zahlte ein auf Biz", self.sTitle, "$"..iGeld)
+	
+			end
+		else
+			uPlayer:showInfoBox("error", "Soviel Geld hast du nicht auf der Hand!");
+		end
+	else
+		uPlayer:showInfoBox("error", "Du hast keine Rechte f\uer diese Funktion!");
+	end
+end
+
+-- ///////////////////////////////
+-- ///// DoAuszahlen	 	//////
+-- ///// Returns: void		//////
+-- ///////////////////////////////
+
+function Business:DoAuszahlen(uPlayer, iGeld)
+	if(self:HasUserPermissionToBiz(uPlayer) == 1) then
+		if(iGeld <= tonumber(self:GetSetting("saldo"))) then
+			local sucess = self:WithdrawMoney(iGeld, "Ausgezahlt von "..getPlayerName(uPlayer));
+			if(sucess) then
+				uPlayer:showInfoBox("sucess", "Du hast Erfolgreich $"..iGeld.." ausgezahlt!")
+				uPlayer:addMoney(iGeld);
+				logger:OutputPlayerLog(uPlayer, "Zahlte aus vom Biz", self.sTitle, "$"..iGeld)
+	
+				self:UpdatePlayerGUI(uPlayer);
+			end
+		else
+			uPlayer:showInfoBox("error", "Soviel Geld ist nicht vorhanden!");
+		end
+	else
+		uPlayer:showInfoBox("error", "Du hast keine Rechte f\uer diese Funktion!");
+	end
+end
+-- ///////////////////////////////
+-- ///// GivePermissions 	//////
+-- ///// Returns: void		//////
+-- ///////////////////////////////
+
+function Business:GivePermissions(uPlayer, sPlayer)
+	if(self:HasUserPermissionToBiz(uPlayer) == 1) then
+		if(getPlayerFromName(sPlayer)) then
+			sPlayer = getPlayerFromName(sPlayer)
+			if(sPlayer.LoggedIn) then
+				if(self:HasUserPermissionToBiz(sPlayer) == 1) then
+					uPlayer:showInfoBox("error", "Du bist schon im Business!")
+				elseif(self:HasUserPermissionToBiz(sPlayer) == 2) then
+					uPlayer:showInfoBox("error", "Der Spieler ist bereits im Business!")
+				else
+					local sucess = self:AddUserToPerm(sPlayer)
+					if(sucess) then
+						uPlayer:showInfoBox("sucess", "Benutzer hat nun einzahlrechte!")
+						sPlayer:showInfoBox("info", "Du wurdest von "..getPlayerName(uPlayer).." aus dem Biz: "..self.sTitle.." geworfen!");
+						self:UpdatePlayerGUI(uPlayer);
+					else
+						uPlayer:showInfoBox("error", "Fehler bei der Verarbeitung!\nBitte Admin kontaktieren")
+					end
+				end
+			end
+		else
+			uPlayer:showInfoBox("error", "Der Spieler ist nicht Online!")
+		end
+	else
+		uPlayer:showInfoBox("error", "Du hast keine Rechte f\uer diese Funktion!");
+	end
+end
+
+
+-- ///////////////////////////////
+-- ///// RemovePermissions 	//////
+-- ///// Returns: void		//////
+-- ///////////////////////////////
+
+function Business:RemovePermissions(uPlayer, sPlayer)
+	if(self:HasUserPermissionToBiz(uPlayer) == 1) then
+		if(self:HasUserPermissionToBiz(sPlayer) == 2) then
+			local sucess = self:RemoveUserFromPerm(sPlayer);
+			if(sucess) then
+				if(getPlayerFromName(sPlayer)) then
+					getPlayerFromName(sPlayer):showInfoBox("info", "Du wurdest von "..getPlayerName(uPlayer).." aus dem Biz: "..self.sTitle.." geworfen!");
+				end
+				uPlayer:showInfoBox("sucess", "Spieler wurde aus dem Business geworfen!");
+				self:UpdatePlayerGUI(uPlayer);
+			else
+				uPlayer:showInfoBox("error", "Fehler! Der Spieler ist warscheinlich nicht in deinem Biz.");
+			end
+		else
+			uPlayer:showInfoBox("error", "Der Spieler ist nicht in deinem Business!");
+		end
+	else
+		uPlayer:showInfoBox("error", "Du hast keine Rechte f\uer diese Funktion!");
+	end
+end
+
+-- ///////////////////////////////
+-- ///// update		 		//////
+-- ///// Returns: void		//////
+-- ///////////////////////////////
+
+function Business:Update(bSave)
+	if(bSave) then
+		CDatabase:getInstance():exec("UPDATE business SET OwnerID = '"..self.iOwnerID.."', Description = '"..self.sDescription.."', JSONSettings = '"..toJSON(self.Settings).."' WHERE ID = '"..self.iID.."';")
+	end
+	
+	self.pickup:setData("Title", self.sTitle);
+	self.pickup:setData("Cost", self.iCost);
+	self.pickup:setData("Type", self.iType);
+	self.pickup:setData("ChainName", self.sChainName);
+	
+	if(self.iOwnerID ~= 0) then
+		self.OwnerName = PlayerNames[self.iOwnerID];
+		self.pickup:setData("OwnerName", self.OwnerName)
+	else
+		self.pickup:setData("OwnerName", "Niemand");
+	end
+end
+
+-- ///////////////////////////////
+-- ///// Buy		 		//////
+-- ///// Returns: void		//////
+-- ///////////////////////////////
+
+function Business:Buy(uPlayer)
+	if(uPlayer.LoggedIn) then
+		if(self.iOwnerID == 0) then
+		
+		for k,v in pairs(Businesses) do
+			if (uPlayer:getID() == v.iOwnerID) then
+				uPlayer:showInfoBox("error", "Du  besitzt bereits ein Business!")
+				return false
+			end
+		end
+			if(uPlayer:getMoney() >= self.iCost) then
+				self.iOwnerID	= uPlayer:getID();
+				self:Update(true);
+				
+				uPlayer:addMoney(-self.iCost);
+				uPlayer:showInfoBox("sucess", "Business gekauft!");
+
+				Achievements[136]:playerAchieved(uPlayer)
+			--	outputChatBox(getPlayerName(uPlayer).." ist nun Besitzer vom Business: "..self.sTitle.."!", getRootElement(), 0, 125, 0);
+				
+			else
+				uPlayer:showInfoBox("error", "Du hast nicht soviel Geld auf der Hand!")
+			end
+		else
+			uPlayer:showInfoBox("error", "Das Business ist bereits gekauft!")
+		end
+	end
+end
+
+-- ///////////////////////////////
+-- ///// Sell		 		//////
+-- ///// Returns: void		//////
+-- ///////////////////////////////
+
+function Business:Sell(uPlayer)
+	if(uPlayer.LoggedIn) then
+		if(self.iOwnerID == uPlayer:getID()) then
+			self.iOwnerID 	= 0;
+			self.Settings["permissions"] = {}
+
+			self:Update(true);
+			
+			uPlayer:addMoney(math.floor(self.iCost/2));
+			uPlayer:showInfoBox("sucess", "Du hast dein Business verkauft. Alle Leute wurden aus dem Biz entfernt.");
+		else
+			uPlayer:showInfoBox("error", "Das Business gehoert dir nicht!")
+		end
+	end
+end
+-- ///////////////////////////////
+-- ///// PickupHit	 		//////
+-- ///// Returns: void		//////
+-- ///////////////////////////////
+
+function Business:PickupHit(uPlayer)
+	if(uPlayer) and (getElementType(uPlayer) == "player") then
+		local iID = self.iOwnerID;
+
+		if(iID ~= 0) then
+			if(PlayerNames[iID]) then
+				iID = PlayerNames[iID];
+			end
+		end
+
+		triggerClientEvent(uPlayer, "onClientBusinessOpen", uPlayer, self.iID, self.iCost, iID, self.sTitle, self.sDescription, self.Settings, self.sChainName);
+	end
+end
+
+
+-- ///////////////////////////////
+-- ///// Constructor 		//////
+-- ///// Returns: void		//////
+-- ///////////////////////////////
+
+function Business:Constructor(iID, iX, iY, iZ, iType, iOwnerID, iCost, sTitle, sDescription, tblSettings, iChain)
+	-- Klassenvariablen --
+	--[[
+		Types:
+		1 - Privatunternehmen
+		2 - Gescriptete Unternehmen
+		
+	]]
+	
+	self.defaultSettings = 
+	{
+		["saldo"]       = 0,
+		["permissions"] = {},
+	}
+	
+	self.iID 			= iID;
+	self.pos 			= {iX, iY, iZ}
+	self.iType			= iType;
+	self.iChain			= iChain;
+	self.sChainName		= Chains[self.iChain].Name;
+	
+	self.iOwnerID 		= iOwnerID;
+	self.OwnerName		= "Niemand"
+	
+	if(self.iOwnerID ~= 0) then
+		self.OwnerName 	= PlayerNames[self.iOwnerID];
+	end
+	
+	self.iCost			= iCost;
+	self.sTitle			= sTitle;
+	self.sDescription 	= sDescription;
+	self.Settings		= tblSettings;
+	
+	self.pickup			= createPickup(iX, iY, iZ-0.5, 3, 1274, 50);
+	self.colShape		= createColSphere(iX, iY, iZ, 20);
+
+	enew(self.pickup, CElement)
+	enew(self.colShape, CElement)
+	
+	-- Methoden -
+	
+	self:LoadSettings()
+	self:Update();
+	
+	-- Events --
+	self.pickupHitFunc = function(...) self:PickupHit(...) end;
+
+	addEventHandler("onPickupHit", self.pickup, self.pickupHitFunc)
+	
+	-- Colshape --
+	addEventHandler("onColShapeHit", self.colShape, function(uElement)
+		if(uElement) and (getElementType(uElement) == "player") then
+			triggerClientEvent(uElement, "onBusinessColToggle", uElement, self.pickup, true)
+		end
+	end)
+	
+	addEventHandler("onColShapeLeave", self.colShape, function(uElement)
+		if(uElement) and (getElementType(uElement) == "player") then
+			triggerClientEvent(uElement, "onBusinessColToggle", uElement, self.pickup, false)
+		end
+	end)
+	--logger:OutputInfo("[CALLING] Business: Constructor");
+	
+	
+	BusinessObjects[self.iID] = self;
+	table.insert(BusinessChains[self.iChain], self.iID, self);
+	
+	Businesses[self.iID] = self
+end
+
+-- EVENT HANDLER --

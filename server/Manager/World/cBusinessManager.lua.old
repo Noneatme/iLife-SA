@@ -1,0 +1,135 @@
+-- #######################################
+-- ## Project: MTA iLife				##
+-- ## Name: BusinessManager.lua			##
+-- ## Author: Noneatme					##
+-- ## Version: 1.0						##
+-- ## License: See top Folder			##
+-- #######################################
+
+-- FUNCTIONS / METHODS --
+
+local cFunc = {};		-- Local Functions 
+local cSetting = {};	-- Local Settings
+
+BusinessManager = {};
+BusinessManager.__index = BusinessManager;
+
+addEvent("onBusinessBuy", true)
+addEvent("onBusinessSell", true)
+
+-- Settings --
+addEvent("onBusinessPermissionGive", true)
+addEvent("onBusinessPermissionRemove", true)
+
+addEvent("onBusinessGeldEinzahl", true)
+addEvent("onBusinessGeldAuszahl", true)
+
+--[[
+
+]]
+
+-- ///////////////////////////////
+-- ///// New 				//////
+-- ///// Returns: Object	//////
+-- ///////////////////////////////
+
+function BusinessManager:New(...)
+	local obj = setmetatable({}, {__index = self});
+	if obj.Constructor then
+		obj:Constructor(...);
+	end
+	return obj;
+end
+
+-- ///////////////////////////////
+-- ///// Load				//////
+-- ///// Returns: void		//////
+-- ///////////////////////////////
+
+function BusinessManager:Load()
+	local result 	= CDatabase:getInstance():query("SELECT * FROM business;")
+	local index		= 0;
+	local start		= getTickCount();
+	
+	if(result) then
+		for index2, tbl in pairs(result) do
+			index = index+1;
+
+			local ownerID = tbl["OwnerID"]
+			if(tonumber(ownerID) ~= 0) then
+			 	if not(isOwnerInTheLastMonthsActive(ownerID)) then
+					ownerID = 0;
+				end
+			end
+			self.business[index] = Business:New(tbl["ID"], tbl["PosX"], tbl["PosY"], tbl["PosZ"], tbl["Type"], ownerID, tbl["Cost"], tbl["Title"], tbl["Description"], tbl["JSONSettings"], tbl["Chain"]);
+		end
+	end
+	
+	outputServerLog("Es wurden "..index.." Businesse in "..getTickCount()-start.." MS gefunden.");
+end
+
+
+
+-- ///////////////////////////////
+-- ///// Constructor 		//////
+-- ///// Returns: void		//////
+-- ///////////////////////////////
+
+function BusinessManager:Constructor(...)
+	-- Klassenvariablen --
+	self.business = {}
+	
+	
+	-- Methoden --
+	
+	self:Load();
+	
+	self.buyFunc = function(iID)
+		if(self.business[iID]) then
+			self.business[iID]:Buy(client);
+		end
+	end
+		
+	self.sellFunc = function(iID)
+		if(self.business[iID]) then
+			self.business[iID]:Sell(client);
+		end
+	end
+	
+	self.givePemFunc = function(iID, ...)
+		if(self.business[iID]) then
+			self.business[iID]:GivePermissions(client, ...);
+		end
+	end
+	
+	self.removePemFunc = function(iID, ...)
+		if(self.business[iID]) then
+			self.business[iID]:RemovePermissions(client, ...);
+		end
+	end
+	
+	self.einzahlFunc	= function(iID, ...)
+		if(self.business[iID]) then
+			self.business[iID]:DoEinzahlen(client, ...);
+		end
+	end
+	
+	self.auszahlFunc	= function(iID, ...)
+		if(self.business[iID]) then
+			self.business[iID]:DoAuszahlen(client, ...);
+		end
+	end
+	-- Events --
+	addEventHandler("onBusinessBuy", getRootElement(), self.buyFunc)
+	addEventHandler("onBusinessSell", getRootElement(), self.sellFunc)
+	
+	addEventHandler("onBusinessPermissionGive", getRootElement(), self.givePemFunc)
+	addEventHandler("onBusinessPermissionRemove", getRootElement(), self.removePemFunc)
+	
+	addEventHandler("onBusinessGeldEinzahl", getRootElement(), self.einzahlFunc)
+	addEventHandler("onBusinessGeldAuszahl", getRootElement(), self.auszahlFunc)
+	
+	--logger:OutputInfo("[CALLING] BusinessManager: Constructor");
+end
+
+-- EVENT HANDLER --

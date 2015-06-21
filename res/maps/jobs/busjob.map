@@ -1,0 +1,24 @@
+<map edf:definitions="editor_main">
+    <object id="object (bustopm) (1)" breakable="true" interior="0" alpha="255" model="1257" doublesided="false" scale="1" dimension="0" posX="387.89999" posY="-1765.30005" posZ="5.6" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (bussign1) (1)" breakable="true" interior="0" alpha="255" model="1229" doublesided="false" scale="1" dimension="0" posX="383.89999" posY="-1767" posZ="6" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (bustopm) (2)" breakable="true" interior="0" alpha="255" model="1257" doublesided="false" scale="1" dimension="0" posX="407.5" posY="-1779.59998" posZ="5.6" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (bussign1) (2)" breakable="true" interior="0" alpha="255" model="1229" doublesided="false" scale="1" dimension="0" posX="412" posY="-1778" posZ="6" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (bussign1) (3)" breakable="true" interior="0" alpha="255" model="1229" doublesided="false" scale="1" dimension="0" posX="643.70001" posY="-1604.59998" posZ="16.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (bustopm) (3)" breakable="true" interior="0" alpha="255" model="1257" doublesided="false" scale="1" dimension="0" posX="647.09998" posY="-1608" posZ="15.6" rotX="0" rotY="0" rotZ="3"></object>
+    <object id="object (bustopm) (4)" breakable="true" interior="0" alpha="255" model="1257" doublesided="false" scale="1" dimension="0" posX="620.40002" posY="-1657.80005" posZ="16.3" rotX="0" rotY="0" rotZ="180.999"></object>
+    <object id="object (bussign1) (4)" breakable="true" interior="0" alpha="255" model="1229" doublesided="false" scale="1" dimension="0" posX="623.70001" posY="-1661.80005" posZ="16.5" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (bustopm) (5)" breakable="true" interior="0" alpha="255" model="1257" doublesided="false" scale="1" dimension="0" posX="829.90002" posY="-1336.40002" posZ="13.8" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (bussign1) (5)" breakable="true" interior="0" alpha="255" model="1229" doublesided="false" scale="1" dimension="0" posX="834.90002" posY="-1333" posZ="14.1" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (bustopm) (6)" breakable="true" interior="0" alpha="255" model="1257" doublesided="false" scale="1" dimension="0" posX="788.40002" posY="-1350.19995" posZ="13.8" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (bussign1) (6)" breakable="true" interior="0" alpha="255" model="1229" doublesided="false" scale="1" dimension="0" posX="791.29999" posY="-1355.30005" posZ="14.1" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (bussign1) (7)" breakable="true" interior="0" alpha="255" model="1229" doublesided="false" scale="1" dimension="0" posX="1312.69995" posY="-1286.69995" posZ="14.1" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (bustopm) (7)" breakable="true" interior="0" alpha="255" model="1257" doublesided="false" scale="1" dimension="0" posX="1308" posY="-1289.90002" posZ="13.8" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (bustopm) (8)" breakable="true" interior="0" alpha="255" model="1257" doublesided="false" scale="1" dimension="0" posX="1285.40002" posY="-1271.80005" posZ="13.8" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (bussign1) (8)" breakable="true" interior="0" alpha="255" model="1229" doublesided="false" scale="1" dimension="0" posX="1281.40002" posY="-1275" posZ="14.1" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (bustopm) (9)" breakable="true" interior="0" alpha="255" model="1257" doublesided="false" scale="1" dimension="0" posX="1445.69995" posY="-1289.30005" posZ="13.8" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (bussign1) (9)" breakable="true" interior="0" alpha="255" model="1229" doublesided="false" scale="1" dimension="0" posX="1449.09998" posY="-1294" posZ="14.1" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (bussign1) (10)" breakable="true" interior="0" alpha="255" model="1229" doublesided="false" scale="1" dimension="0" posX="1460.5" posY="-1258.30005" posZ="14.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (bustopm) (10)" breakable="true" interior="0" alpha="255" model="1257" doublesided="false" scale="1" dimension="0" posX="1420.40002" posY="-1684.59998" posZ="13.8" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (bussign1) (11)" breakable="true" interior="0" alpha="255" model="1229" doublesided="false" scale="1" dimension="0" posX="1423.59998" posY="-1688.30005" posZ="14.1" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (bustopm) (11)" breakable="true" interior="0" alpha="255" model="1257" doublesided="false" scale="1" dimension="0" posX="1420.5" posY="-1678.30005" posZ="13.8" rotX="0" rotY="0" rotZ="179.995"></object>
+</map>

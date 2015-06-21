@@ -1,0 +1,33 @@
+<map >
+    <vehicle id="vehicle (Police LV) (1)" paintjob="3" model="598" plate="Y0D1 ONW" interior="0" dimension="5" color="0,1,0,0" posX="1536.6999511719" posY="-1672.6999511719" posZ="13.300000190735" rotX="0" rotY="0" rotZ="0"></vehicle>
+    <vehicle id="vehicle (Police LV) (2)" paintjob="3" model="598" plate="317A EBZ" interior="0" dimension="5" posX="1536.6999511719" posY="-1666.9000244141" posZ="13.300000190735" rotX="0" rotY="0" rotZ="0"></vehicle>
+    <vehicle id="vehicle (Police LV) (3)" paintjob="3" model="598" plate="L78K BS3" interior="0" dimension="5" posX="1536.6999511719" posY="-1678.6999511719" posZ="13.300000190735" rotX="0" rotY="0" rotZ="0"></vehicle>
+    <vehicle id="vehicle (Police Ranger) (1)" paintjob="3" model="599" plate="GVDS O78" interior="0" dimension="5" posX="1555.5999755859" posY="-1631.9000244141" posZ="13.800000190735" rotX="0" rotY="0" rotZ="0"></vehicle>
+    <vehicle id="vehicle (Police Ranger) (2)" paintjob="3" model="599" plate="APOS CEM" interior="0" dimension="5" posX="1558.9000244141" posY="-1632.0999755859" posZ="13.800000190735" rotX="0" rotY="0" rotZ="0"></vehicle>
+    <vehicle id="vehicle (S.W.A.T.) (1)" paintjob="3" model="601" plate="5ZQ9 PRA" interior="0" dimension="5" posX="1564.0999755859" posY="-1631.6999511719" posZ="13.300000190735" rotX="0" rotY="0" rotZ="0"></vehicle>
+    <vehicle id="vehicle (Super GT) (1)" paintjob="3" model="506" plate="S2QW ZR4" interior="0" dimension="5" posX="1535.0999755859" posY="-1611.1999511719" posZ="13.10000038147" rotX="0" rotY="0" rotZ="0"></vehicle>
+    <object id="object (BlackBag1) (1)" doublesided="false" model="1264" interior="0" dimension="5" posX="1797.3000488281" posY="-1802.3000488281" posZ="3.5" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (BlackBag1) (2)" doublesided="false" model="1264" interior="0" dimension="5" posX="1802" posY="-1802" posZ="3.5" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (BlackBag1) (3)" doublesided="false" model="1264" interior="0" dimension="5" posX="1799.6999511719" posY="-1806.9000244141" posZ="3.5" rotX="0" rotY="0" rotZ="0"></object>
+    <vehicle id="vehicle (Super GT) (2)" paintjob="3" model="506" plate="EH4G NNX" interior="0" dimension="5" posX="1524.5" posY="-1699.9000244141" posZ="13.199999809265" rotX="0" rotY="0" rotZ="180"></vehicle>
+    <vehicle id="vehicle (Bravura) (1)" paintjob="3" model="401" plate="AV4U CA8" interior="0" dimension="5" posX="1564.4000244141" posY="-1752.8000488281" posZ="13.39999961853" rotX="0" rotY="0" rotZ="0"></vehicle>
+    <vehicle id="vehicle (Stretch) (1)" paintjob="3" model="409" plate="NEJK WRE" interior="0" dimension="5" color="1,1,1,1" posX="1549.0999755859" posY="-1735" posZ="13.300000190735" rotX="0" rotY="0" rotZ="270"></vehicle>
+    <vehicle id="vehicle (Police LV) (4)" paintjob="3" model="598" plate="S0TD 03K" interior="0" dimension="5" color="0,1,0,0" posX="1539.8000488281" posY="-1735" posZ="13.300000190735" rotX="0" rotY="0" rotZ="270"></vehicle>
+    <vehicle id="vehicle (Police LV) (5)" paintjob="3" model="598" plate="B1J9 0EN" interior="0" dimension="5" color="0,1,0,0" posX="1558" posY="-1734.9000244141" posZ="13.300000190735" rotX="0" rotY="0" rotZ="270"></vehicle>
+    <object id="object (DYN_LADDER_2) (1)" doublesided="false" model="1437" interior="0" dimension="5" posX="1577.5999755859" posY="-1632" posZ="12.39999961853" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (DYN_LADDER_2) (2)" doublesided="false" model="1437" interior="0" dimension="5" posX="1582.4000244141" posY="-1651.0999755859" posZ="29" rotX="260" rotY="0" rotZ="90"></object>
+    <vehicle id="vehicle (Coach) (1)" paintjob="3" model="437" plate="0ORW NI2" interior="0" dimension="5" posX="1920" posY="-1755.4000244141" posZ="13.60000038147" rotX="0" rotY="0" rotZ="270"></vehicle>
+    <vehicle id="vehicle (Hotdog) (1)" paintjob="3" model="588" plate="YDBP OOJ" interior="0" dimension="5" posX="1887.4000244141" posY="-1610.5999755859" posZ="13.199999809265" rotX="0" rotY="0" rotZ="90"></vehicle>
+    <vehicle id="vehicle (Yankee) (1)" paintjob="3" model="456" plate="2KO0 QYE" interior="0" dimension="5" color="85,85,0,0" posX="1583" posY="-1589.8000488281" posZ="13.60000038147" rotX="0" rotY="0" rotZ="90"></vehicle>
+    <vehicle id="vehicle (Yankee) (2)" paintjob="3" model="456" plate="KUTS 7ZN" interior="0" dimension="5" color="22,85,0,0" posX="1593.8000488281" posY="-1589.8000488281" posZ="13.60000038147" rotX="0" rotY="0" rotZ="90"></vehicle>
+	<ped id="ped (1)" dimension="5" model="137" interior="0" rotZ="58.006" frozen="false" alpha="255" posX="1683.80005" posY="-1777.30005" posZ="4" rotX="0" rotY="0"></ped>
+    <ped id="ped (2)" dimension="5" model="66" interior="0" rotZ="270.003" frozen="false" alpha="255" posX="1914" posY="-1743.5" posZ="13.5" rotX="0" rotY="0"></ped>
+    <ped id="ped (3)" dimension="5" model="282" interior="0" rotZ="2.003" frozen="false" alpha="255" posX="1538.19995" posY="-1691.69995" posZ="13.6" rotX="0" rotY="0"></ped>
+    <ped id="ped (4)" dimension="5" model="284" interior="0" rotZ="78.004" frozen="false" alpha="255" posX="1539.09998" posY="-1691.19995" posZ="13.6" rotX="0" rotY="0"></ped>
+    <ped id="ped (5)" dimension="5" model="283" interior="0" rotZ="162.005" frozen="false" alpha="255" posX="1538.59998" posY="-1690.30005" posZ="13.6" rotX="0" rotY="0"></ped>
+    <object id="object (CJ_SHTROLLY) (1)" breakable="true" interior="0" alpha="255" model="1349" doublesided="false" scale="1" dimension="5" posX="1682.90002" posY="-1776.80005" posZ="3.5" rotX="0" rotY="0" rotZ="146"></object>
+    <object id="object (BlackBag1) (1)" breakable="true" interior="0" alpha="255" model="1264" doublesided="false" scale="1" dimension="5" posX="1687.40002" posY="-1777.5" posZ="3.4" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (BlackBag1) (2)" breakable="true" interior="0" alpha="255" model="1264" doublesided="false" scale="1" dimension="5" posX="1686.40002" posY="-1778.19995" posZ="3.4" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (BlackBag1) (3)" breakable="true" interior="0" alpha="255" model="1264" doublesided="false" scale="1" dimension="5" posX="1686.19995" posY="-1777.40002" posZ="3.4" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (BlackBag1) (4)" breakable="true" interior="0" alpha="255" model="1264" doublesided="false" scale="1" dimension="5" posX="1687.40002" posY="-1778.69995" posZ="3.4" rotX="0" rotY="0" rotZ="0"></object>
+</map>

@@ -1,0 +1,14 @@
+<map edf:definitions="editor_main">
+    <object id="object (bustopm) (4)" interior="0" collisions="true" alpha="255" doublesided="false" model="1257" scale="1" dimension="0" posX="1749.0996" posY="-1862.9004" posZ="13.7" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (bussign1) (1)" interior="0" collisions="true" alpha="255" doublesided="false" model="1229" scale="1" dimension="0" posX="1746.7002" posY="-1860.4004" posZ="14.1" rotX="0" rotY="0" rotZ="272"></object>
+    <object id="object (bussign1) (2)" interior="0" collisions="true" alpha="255" doublesided="false" model="1229" scale="1" dimension="0" posX="1746.7793" posY="-1860.4004" posZ="14.1" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (CJ_BLOCKER_BENCH) (1)" interior="0" collisions="true" alpha="255" doublesided="false" model="1368" scale="1" dimension="0" posX="1731" posY="-1866" posZ="13.3" rotX="0" rotY="0" rotZ="179.995"></object>
+    <object id="object (airsecbooth_SFSe) (1)" interior="0" collisions="true" alpha="255" doublesided="false" model="3881" scale="1" dimension="0" posX="1808.8896" posY="-1879.9004" posZ="14.4" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (privatesign1) (1)" interior="0" collisions="true" alpha="255" doublesided="false" model="3262" scale="1" dimension="0" posX="1812" posY="-1899.5996" posZ="12.6" rotX="0" rotY="0" rotZ="92"></object>
+    <object id="object (bollard) (3)" interior="0" collisions="true" alpha="255" doublesided="false" model="1214" scale="1" dimension="0" posX="1811.5" posY="-1883.2998" posZ="12.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (bar_barrier16) (1)" interior="0" collisions="true" alpha="255" doublesided="false" model="995" scale="1" dimension="0" posX="1811.8896" posY="-1899.2002" posZ="13.5" rotX="90" rotY="0" rotZ="90"></object>
+    <object id="object (roadworkbarrier1) (1)" interior="0" collisions="true" alpha="255" doublesided="false" model="1228" scale="1" dimension="0" posX="1811.5" posY="-1892.7002" posZ="12.8" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_SKIP_Rubbish) (1)" interior="0" collisions="true" alpha="255" doublesided="false" model="1358" scale="1" dimension="0" posX="1809.5" posY="-1893.2002" posZ="13.6" rotX="0" rotY="0" rotZ="92"></object>
+    <object id="object (BARBER_BLINDS) (3)" interior="0" alpha="255" doublesided="false" model="18084" scale="1" dimension="0" posX="1810.5" posY="-1882.7" posZ="13.5" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (desn2_tscanopy) (1)" interior="0" alpha="255" doublesided="false" model="16362" scale="1" dimension="0" posX="1779" posY="-1916.59" posZ="15.5" rotX="0" rotY="0" rotZ="0"></object>
+</map>

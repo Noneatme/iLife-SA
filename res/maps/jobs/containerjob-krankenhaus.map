@@ -1,0 +1,14 @@
+<map edf:definitions="editor_main">
+    <removeWorldObject id="removeWorldObject (TwrCrane_S_03) (1)" radius="28.892719268799" interior="0" model="1391" lodModel="0" posX="1239.86487" posY="-1256.97034" posZ="16.19035" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (TwrCrane_S_04) (1)" radius="29.489376068115" interior="0" model="1388" lodModel="0" posX="1230.25439" posY="-1266.77917" posZ="62.86055" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (fenceshit) (1)" breakable="true" interior="0" alpha="255" model="982" doublesided="false" scale="1" dimension="0" posX="1226.30005" posY="-1229.59998" posZ="24.9" rotX="0.75" rotY="0" rotZ="0"></object>
+    <object id="object (fenceshit) (4)" breakable="true" interior="0" alpha="255" model="982" doublesided="false" scale="1" dimension="0" posX="1244.59998" posY="-1229.69995" posZ="25.1" rotX="1" rotY="0" rotZ="1.239"></object>
+    <object id="object (fenceshit) (5)" breakable="true" interior="0" alpha="255" model="982" doublesided="false" scale="1" dimension="0" posX="1226.40002" posY="-1204.09998" posZ="25.1" rotX="0" rotY="0" rotZ="358.995"></object>
+    <object id="object (fenceshit) (6)" breakable="true" interior="0" alpha="255" model="982" doublesided="false" scale="1" dimension="0" posX="1244" posY="-1204.09998" posZ="25.3" rotX="0" rotY="0" rotZ="1.489"></object>
+    <object id="object (fenceshit2) (2)" breakable="true" interior="0" alpha="255" model="984" doublesided="false" scale="1" dimension="0" posX="1232.59998" posY="-1242.59998" posZ="24.7" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (fenceshit2) (3)" breakable="true" interior="0" alpha="255" model="984" doublesided="false" scale="1" dimension="0" posX="1238.40002" posY="-1242.59998" posZ="24.7" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (elecfence_BAR) (1)" breakable="true" interior="0" alpha="255" model="987" doublesided="false" scale="1" dimension="0" posX="1234.90002" posY="-1210" posZ="24.6" rotX="0" rotY="0" rotZ="358.75"></object>
+    <object id="object (elecfence_BAR) (2)" breakable="true" interior="0" alpha="255" model="987" doublesided="false" scale="1" dimension="0" posX="1226.40002" posY="-1209.80005" posZ="24.6" rotX="0" rotY="0" rotZ="358.748"></object>
+    <object id="object (elecfence_BAR) (3)" breakable="true" interior="0" alpha="255" model="987" doublesided="false" scale="1" dimension="0" posX="1226.40002" posY="-1209.80005" posZ="29.5" rotX="0" rotY="0" rotZ="358.748"></object>
+    <object id="object (elecfence_BAR) (4)" breakable="true" interior="0" alpha="255" model="987" doublesided="false" scale="1" dimension="0" posX="1234.90002" posY="-1210" posZ="29.5" rotX="0" rotY="0" rotZ="358.748"></object>
+</map>

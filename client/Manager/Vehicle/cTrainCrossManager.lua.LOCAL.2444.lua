@@ -1,0 +1,99 @@
+--[[
+	/////// //////////////////
+	/////// PROJECT: MTA iLife - German Fun Reallife Gamemode
+	/////// VERSION: 1.7.2 
+	/////// DEVELOPERS: See DEVELOPERS.md in the top folder
+	/////// LICENSE: See LICENSE.md in the top folder 
+	/////// /////////////////
+]]
+
+-- #######################################
+-- ## Project: 	HUD iLife				##
+-- ## For MTA: San Andreas				##
+-- ## Name: TrainCrossManager.lua		##
+-- ## Author: Noneatme (edit by MasterM)					##
+-- ## Version: 1.0						##
+-- ## License: See top Folder			##
+-- #######################################
+
+-- FUNCTIONS / METHODS --
+
+local cFunc = {};		-- Local Functions
+local cSetting = {};	-- Local Settings
+
+TrainCrossManager = {};
+TrainCrossManager.__index = TrainCrossManager;
+
+--[[
+
+]]
+
+-- ///////////////////////////////
+-- ///// New 				//////
+-- ///// Returns: Object	//////
+-- ///////////////////////////////
+
+function TrainCrossManager:New(...)
+	local obj = setmetatable({}, {__index = self});
+	if obj.Constructor then
+		obj:Constructor(...);
+	end
+	return obj;
+end
+
+
+
+-- ///////////////////////////////
+-- ///// Constructor 		//////
+-- ///// Returns: void		//////
+-- ///////////////////////////////
+
+function TrainCrossManager:Constructor(...)
+
+	-- Container der Gefroren ist --
+
+
+	-- Klassenvariablen --
+	self.objectID 	= 968;
+	self.radius 	= 200;
+
+	self.crosses =
+	{
+		--vom Bahnhof zum Tunnel
+		--TrainCrossing:New(self.objectID, { x1, y1, z1, rz1, x2, y2, z2, rz2}, self.radius),
+		TrainCrossing:New(self.objectID, { 1967.272, -1961.64, 13.4945, 180, 1955.83, -1949.99, 13.494, 0}, self.radius),
+		TrainCrossing:New(self.objectID, { 2194.949, -1900.089, 13.57, 90, 2206.49, -1888.82, 13.578, 270}, self.radius),
+		TrainCrossing:New(self.objectID, { 2193.80, -1739.25, 13.36, 90, 2206.51, -1725.679, 13.26, 270}, self.radius),
+		TrainCrossing:New(self.objectID, { 2205.648, -1652.1, 15.113, 74.23, 2220.45, -1642.083, 15.113, 254.64}, self.radius),
+		TrainCrossing:New(self.objectID, { 2267.99, -1489.701, 22.30, 91.576, 2282.39, -1478.615, 22.56, 271.58}, self.radius),
+		TrainCrossing:New(self.objectID, { 2281.22, -1389.90, 23.95, 91.57, 2292.95, -1378.53, 23.95, 271.18}, self.radius),
+		TrainCrossing:New(self.objectID, { 2281.201, -1155.17, 26.576, 91.1, 2292.91, -1144.48, 26.576, 271.17}, self.radius),
+
+		--[[ ALT
+		-- Vom Tunnel, LS --
+
+		TrainCrossing:New({self.objectID, 2281.3999023438, -1149.5, 26.60000038147, 0, 0, 89.989013671875}, {self.objectID, 2292.6000976563, -1149.6999511719, 26.60000038147, 0, 0, 269.99450683594}, self.radius),
+
+		TrainCrossing:New({self.objectID, 2281.5, -1384.0999755859, 23.89999961853, 0, 0, 90}, {self.objectID, 2292.69921875, -1384.099609375, 24, 0, 0, 270}, self.radius),
+		TrainCrossing:New({self.objectID, 2207.5, -1646.3000488281, 15.10000038147, 0, 0, 75.997436523438}, {self.objectID, 2218.3994140625, -1648.8994140625, 15.10000038147, 0, 0, 255.99792480469}, self.radius),
+		TrainCrossing:New({self.objectID, 2195.3000488281, -1733.5999755859, 13.199999809265, 0, 0, 90}, {self.objectID, 2206.3000488281, -1732.6999511719, 13.199999809265, 0, 0, 270}, self.radius),
+		TrainCrossing:New({self.objectID, 2194.6000976563, -1894.5, 13.60000038147, 0, 0, 90}, {self.objectID, 2206.6000976563, -1894.4000244141, 13.5, 0, 0, 270}, self.radius),
+		TrainCrossing:New({self.objectID, 1961.8000488281, -1961.6999511719, 13.60000038147, 0, 0, 180}, {self.objectID, 1961.9000244141, -1950.1999511719, 13.60000038147, 0, 0, 0}, self.radius),
+		TrainCrossing:New({self.objectID, 2269.80005, -1483.90002, 22.4, 0, 0, 75.998}, {self.objectID, 2280.6001, -1484.09998, 22.4, 0, 0, 256}, self.radius),
+
+
+		-- Docks --
+		TrainCrossing:New({self.objectID, 2257.3000488281, -2106.5, 13.60000038147, 0, 0, 135.49987792969}, {self.objectID, 2264.3000488281, -2099.5, 13.60000038147, 0, 0, 315.5}, self.radius),
+		TrainCrossing:New({self.objectID, 2272.1999511719, -2238.6000976563, 13.60000038147, 0, 0, 45.494384765625}, {self.objectID, 2279.3000488281, -2245.8000488281, 13.60000038147, 0, 0, 225.5}, self.radius),
+
+
+		--TrainCrossing:New({self.objectID, }, {self.objectID, }, self.radius),
+		]]
+	}
+
+	-- Events --
+
+	--outputDebugString("[CALLING] TrainCrossManager: Constructor");
+end
+
+-- EVENT HANDLER --

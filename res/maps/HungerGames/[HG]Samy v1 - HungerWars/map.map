@@ -1,0 +1,305 @@
+<map edf:definitions="HungerGames,editor_main">
+    <object id="object (vgsSelecfence15) (1)" interior="0" collisions="true" alpha="255" doublesided="false" model="8311" scale="1" dimension="10000" posX="1037.19995" posY="1800.30005" posZ="12.4" rotX="0" rotY="0" rotZ="2.25"></object>
+    <object id="object (vgsSelecfence14) (1)" interior="0" collisions="true" alpha="255" doublesided="false" model="8263" scale="1" dimension="10000" posX="1017.20001" posY="1743.09998" posZ="12.8" rotX="0" rotY="0" rotZ="269.5"></object>
+    <object id="object (vgsSelecfence14) (2)" interior="0" collisions="true" alpha="255" doublesided="false" model="8263" scale="1" dimension="10000" posX="1016.59998" posY="1623.19995" posZ="12.7" rotX="0" rotY="0" rotZ="269.995"></object>
+    <object id="object (vgsSelecfence14) (3)" interior="0" collisions="true" alpha="255" doublesided="false" model="8263" scale="1" dimension="10000" posX="1016.59998" posY="1503.40002" posZ="12.7" rotX="0" rotY="0" rotZ="269.995"></object>
+    <removeWorldObject id="removeWorldObject (veg_palmbig14) (1)" radius="14.408297538757" interior="0" model="645" lodModel="0" posX="983.82813" posY="1823.16406" posZ="7.39063" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (sjmpalmbig) (1)" radius="12.086935997009" interior="0" model="652" lodModel="0" posX="995.41406" posY="1817.71875" posZ="9.07031" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (sjmpalmbig) (2)" radius="12.086935997009" interior="0" model="652" lodModel="0" posX="996.09375" posY="1834.875" posZ="9.07031" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (vgntelepole1) (1)" radius="9.5603294372559" interior="0" model="3459" lodModel="0" posX="1016.75781" posY="1798.69531" posZ="17.32031" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (vgs_palm03) (1)" interior="0" collisions="true" alpha="255" doublesided="false" model="712" scale="1" dimension="10000" posX="1033.19995" posY="1688.09998" posZ="10.4" rotX="0" rotY="270" rotZ="149.944"></object>
+    <removeWorldObject id="removeWorldObject (vgs_palm03) (1)" radius="14.100514411926" interior="0" model="712" lodModel="0" posX="1025.05469" posY="1693.09375" posZ="19.15625" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (MODEL_PLANE_BIG1) (1)" interior="0" collisions="true" alpha="255" doublesided="true" model="2511" scale="7" dimension="10000" posX="1023.40002" posY="1692.69995" posZ="11.6" rotX="31.652" rotY="9.41" rotZ="17.03"></object>
+    <removeWorldObject id="removeWorldObject (vgs_roadsign02) (1)" radius="15.97039604187" interior="0" model="3514" lodModel="0" posX="1037.19531" posY="1822.02344" posZ="13.99219" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (vgsSelecfence14) (4)" interior="0" collisions="true" alpha="255" doublesided="false" model="8263" scale="1" dimension="10000" posX="1117.19995" posY="1797.19995" posZ="12.4" rotX="359.75" rotY="0" rotZ="179.745"></object>
+    <object id="object (vgsSelecfence14) (5)" interior="0" collisions="true" alpha="255" doublesided="false" model="8263" scale="1" dimension="10000" posX="1176.90002" posY="1737.09998" posZ="12.5" rotX="0" rotY="0" rotZ="89.995"></object>
+    <object id="object (vgsSelecfence14) (6)" interior="0" collisions="true" alpha="255" doublesided="false" model="8263" scale="1" dimension="10000" posX="1176.90002" posY="1617.19995" posZ="12.5" rotX="0" rotY="0" rotZ="89.995"></object>
+    <object id="object (vgsSelecfence14) (8)" interior="0" collisions="true" alpha="255" doublesided="false" model="8263" scale="1" dimension="10000" posX="1176.90002" posY="1497.30005" posZ="12.5" rotX="0" rotY="0" rotZ="89.995"></object>
+    <object id="object (vgsSelecfence14) (9)" interior="0" collisions="true" alpha="255" doublesided="false" model="8263" scale="1" dimension="10000" posX="1176.90002" posY="1377.40002" posZ="12.5" rotX="0" rotY="0" rotZ="89.995"></object>
+    <object id="object (vgsSelecfence14) (10)" interior="0" collisions="true" alpha="255" doublesided="false" model="8263" scale="1" dimension="10000" posX="1176.90002" posY="1257.5" posZ="12.5" rotX="0" rotY="0" rotZ="89.995"></object>
+    <object id="object (vgsSelecfence14) (12)" interior="0" collisions="true" alpha="255" doublesided="false" model="8263" scale="1" dimension="10000" posX="1117.09998" posY="1197.80005" posZ="12.5" rotX="0" rotY="0" rotZ="359.995"></object>
+    <object id="object (DYN_MESH_1) (1)" interior="0" collisions="true" alpha="255" doublesided="false" model="1411" scale="1" dimension="10000" posX="1172" posY="1223.80005" posZ="14.2" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (DYN_MESH_1) (2)" interior="0" collisions="true" alpha="255" doublesided="false" model="1411" scale="1" dimension="10000" posX="1166.80005" posY="1223.80005" posZ="14.2" rotX="0" rotY="0" rotZ="179.995"></object>
+    <object id="object (DYN_MESH_1) (3)" interior="0" collisions="true" alpha="255" doublesided="false" model="1411" scale="1" dimension="10000" posX="1161.5" posY="1223.80005" posZ="14.2" rotX="0" rotY="0" rotZ="179.995"></object>
+    <removeWorldObject id="removeWorldObject (vgSbikeschl02) (1)" radius="15.246662139893" interior="0" model="8229" lodModel="0" posX="1142.03125" posY="1362.5" posZ="12.48438" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (Gen_doorINT04) (1)" interior="0" collisions="true" alpha="255" doublesided="false" model="1502" scale="1" dimension="10000" posX="1168" posY="1363.09998" posZ="9.8" rotX="0" rotY="0" rotZ="0"></object>
+    <vehicle id="vehicle (Cargo Trailer 1) (1)" paintjob="3" interior="0" alpha="255" model="435" plate="SLY7JAB" dimension="10000" color="245,245,245,245,245,245,0,0,0,0,0,0" posX="1153" posY="1210.5" posZ="11.5" rotX="0" rotY="0" rotZ="0"></vehicle>
+    <vehicle id="vehicle (Cargo Trailer 1) (2)" paintjob="3" interior="0" alpha="255" model="435" plate="6O2LXGV" dimension="10000" color="245,245,245,245,245,245,0,0,0,0,0,0" posX="1149.30005" posY="1210.5" posZ="11.5" rotX="0" rotY="0" rotZ="0"></vehicle>
+    <vehicle id="vehicle (Cargo Trailer 1) (3)" paintjob="3" interior="0" alpha="255" model="435" plate="6TL3MYD" dimension="10000" color="245,245,245,245,245,245,0,0,0,0,0,0" posX="1145.5" posY="1210.59998" posZ="11.5" rotX="0" rotY="0" rotZ="0"></vehicle>
+    <vehicle id="vehicle (Cargo Trailer 1) (4)" paintjob="3" interior="0" alpha="255" model="435" plate="0URGTYF" dimension="10000" color="245,245,245,245,245,245,0,0,0,0,0,0" posX="1141.80005" posY="1210.59998" posZ="11.5" rotX="0" rotY="0" rotZ="0"></vehicle>
+    <vehicle id="vehicle (Cargo Trailer 1) (5)" paintjob="3" interior="0" alpha="255" model="435" plate="L8SEGSP" dimension="10000" color="245,245,245,245,245,245,0,0,0,0,0,0" posX="1138" posY="1210.69995" posZ="11.5" rotX="0" rotY="0" rotZ="0"></vehicle>
+    <vehicle id="vehicle (Cargo Trailer 1) (6)" paintjob="3" interior="0" alpha="255" model="435" plate="P1MA682" dimension="10000" color="245,245,245,245,245,245,0,0,0,0,0,0" posX="1133.69995" posY="1210.69995" posZ="11.5" rotX="0" rotY="0" rotZ="0"></vehicle>
+    <vehicle id="vehicle (Cargo Trailer 1) (7)" paintjob="3" interior="0" alpha="255" model="435" plate="HNGKX2D" dimension="10000" color="245,245,245,245,245,245,0,0,0,0,0,0" posX="1129.90002" posY="1210.80005" posZ="11.5" rotX="0" rotY="0" rotZ="0"></vehicle>
+    <vehicle id="vehicle (Cargo Trailer 1) (8)" paintjob="3" interior="0" alpha="255" model="435" plate="KW2XYG2" dimension="10000" color="245,245,245,245,245,245,0,0,0,0,0,0" posX="1126.19995" posY="1210.80005" posZ="11.5" rotX="0" rotY="0" rotZ="0"></vehicle>
+    <vehicle id="vehicle (Cargo Trailer 1) (9)" paintjob="3" interior="0" alpha="255" model="435" plate="CVSDX4K" dimension="10000" color="245,245,245,245,245,245,0,0,0,0,0,0" posX="1122.40002" posY="1210.90002" posZ="11.5" rotX="0" rotY="0" rotZ="0"></vehicle>
+    <vehicle id="vehicle (Cargo Trailer 1) (10)" paintjob="3" interior="0" alpha="255" model="435" plate="CVQOLD2" dimension="10000" color="245,245,245,245,245,245,0,0,0,0,0,0" posX="1118.69995" posY="1210.90002" posZ="11.5" rotX="0" rotY="0" rotZ="0"></vehicle>
+    <vehicle id="vehicle (Cargo Trailer 1) (11)" paintjob="3" interior="0" alpha="255" model="435" plate="QQL8LGJ" dimension="10000" color="245,245,245,245,245,245,0,0,0,0,0,0" posX="1114.59998" posY="1211" posZ="11.5" rotX="0" rotY="0" rotZ="0"></vehicle>
+    <vehicle id="vehicle (Cargo Trailer 1) (12)" paintjob="3" interior="0" alpha="255" model="435" plate="ADP1CQZ" dimension="10000" color="245,245,245,245,245,245,0,0,0,0,0,0" posX="1109.19995" posY="1211" posZ="11.5" rotX="0" rotY="0" rotZ="0"></vehicle>
+    <vehicle id="vehicle (Cargo Trailer 1) (13)" paintjob="3" interior="0" alpha="255" model="435" plate="QK3ECCO" dimension="10000" color="245,245,245,245,245,245,0,0,0,0,0,0" posX="1104.69995" posY="1211.09998" posZ="11.5" rotX="0" rotY="0" rotZ="0"></vehicle>
+    <vehicle id="vehicle (Cargo Trailer 1) (14)" paintjob="3" interior="0" alpha="255" model="435" plate="BFXM3DL" dimension="10000" color="245,245,245,245,245,245,0,0,0,0,0,0" posX="1101.5" posY="1211.30005" posZ="11.5" rotX="0" rotY="0" rotZ="0"></vehicle>
+    <object id="object (CARRIER_LIFT1_SFSE) (1)" interior="0" collisions="true" alpha="255" doublesided="false" model="3115" scale="1" dimension="10000" posX="1139.80005" posY="1271.90002" posZ="17.3" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (vgsSstairs03_lvs) (1)" interior="0" collisions="true" alpha="255" doublesided="false" model="8613" scale="1" dimension="10000" posX="1132.90002" posY="1258.5" posZ="14.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fencesmallb) (1)" interior="0" collisions="true" alpha="255" doublesided="false" model="970" scale="1" dimension="10000" posX="1131.40002" posY="1281" posZ="18.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fencesmallb) (2)" interior="0" collisions="true" alpha="255" doublesided="false" model="970" scale="1" dimension="10000" posX="1135.5" posY="1281" posZ="18.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fencesmallb) (3)" interior="0" collisions="true" alpha="255" doublesided="false" model="970" scale="1" dimension="10000" posX="1139.59998" posY="1281" posZ="18.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fencesmallb) (5)" interior="0" collisions="true" alpha="255" doublesided="false" model="970" scale="1" dimension="10000" posX="1143.69995" posY="1281" posZ="18.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fencesmallb) (6)" interior="0" collisions="true" alpha="255" doublesided="false" model="970" scale="1" dimension="10000" posX="1147.80005" posY="1281" posZ="18.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fencesmallb) (7)" interior="0" collisions="true" alpha="255" doublesided="false" model="970" scale="1" dimension="10000" posX="1150.09998" posY="1278.90002" posZ="18.2" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (fencesmallb) (8)" interior="0" collisions="true" alpha="255" doublesided="false" model="970" scale="1" dimension="10000" posX="1150.09998" posY="1274.80005" posZ="18.2" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (fencesmallb) (9)" interior="0" collisions="true" alpha="255" doublesided="false" model="970" scale="1" dimension="10000" posX="1150.09998" posY="1270.69995" posZ="18.2" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (fencesmallb) (10)" interior="0" collisions="true" alpha="255" doublesided="false" model="970" scale="1" dimension="10000" posX="1150.09998" posY="1266.59998" posZ="18.2" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (samsite_SFXRF) (1)" interior="0" collisions="true" alpha="255" doublesided="false" model="3884" scale="1" dimension="10000" posX="1148.80005" posY="1279.69995" posZ="17.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (samsite_SFXRF) (2)" interior="0" collisions="true" alpha="255" doublesided="false" model="3884" scale="1" dimension="10000" posX="1130.59998" posY="1279.80005" posZ="17.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (shbbyhswall13_lvs) (1)" interior="0" collisions="true" alpha="255" doublesided="false" model="9131" scale="1" dimension="10000" posX="1149.90002" posY="1280.90002" posZ="16.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (shbbyhswall13_lvs) (2)" interior="0" collisions="true" alpha="255" doublesided="false" model="9131" scale="1" dimension="10000" posX="1149.90002" posY="1280.90002" posZ="14" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (shbbyhswall13_lvs) (4)" interior="0" collisions="true" alpha="255" doublesided="false" model="9131" scale="1" dimension="10000" posX="1149.90002" posY="1280.90002" posZ="11.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (shbbyhswall13_lvs) (5)" interior="0" collisions="true" alpha="255" doublesided="false" model="9131" scale="1" dimension="10000" posX="1149.90002" posY="1280.90002" posZ="9.7" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (shbbyhswall13_lvs) (6)" interior="0" collisions="true" alpha="255" doublesided="false" model="9131" scale="1" dimension="10000" posX="1129.69995" posY="1280.90002" posZ="16.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (shbbyhswall13_lvs) (7)" interior="0" collisions="true" alpha="255" doublesided="false" model="9131" scale="1" dimension="10000" posX="1129.69995" posY="1280.90002" posZ="14" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (shbbyhswall13_lvs) (8)" interior="0" collisions="true" alpha="255" doublesided="false" model="9131" scale="1" dimension="10000" posX="1129.69995" posY="1280.90002" posZ="11.7" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (shbbyhswall13_lvs) (9)" interior="0" collisions="true" alpha="255" doublesided="false" model="9131" scale="1" dimension="10000" posX="1129.69995" posY="1280.90002" posZ="9.5" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (vgsSelecfence14) (11)" interior="0" collisions="true" alpha="255" doublesided="false" model="8263" scale="1" dimension="10000" posX="1117.09998" posY="1382.59998" posZ="12.5" rotX="0" rotY="0" rotZ="359.995"></object>
+    <object id="object (vgsSelecfence14) (13)" interior="0" collisions="true" alpha="255" doublesided="false" model="8263" scale="1" dimension="10000" posX="1016.59998" posY="1383.5" posZ="12.7" rotX="0" rotY="0" rotZ="269.995"></object>
+    <removeWorldObject id="removeWorldObject (bustopm) (1)" radius="5.9420709609985" interior="0" model="1257" lodModel="0" posX="1015.69281" posY="1414.13989" posZ="10.89472" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (icescart_prop) (1)" radius="3.9974093437195" interior="0" model="1341" lodModel="0" posX="1030.85559" posY="1363.34766" posZ="10.5373" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (airsecbooth_SFSe) (1)" interior="0" collisions="true" alpha="255" doublesided="false" model="3881" scale="1" dimension="10000" posX="1020.20001" posY="1387.40002" posZ="13.2" rotX="0" rotY="0" rotZ="180"></object>
+    <ped id="ped (2)" dimension="10000" model="288" interior="0" rotZ="270.001" frozen="false" alpha="255" posX="1022.20001" posY="1389" posZ="12.3" rotX="0" rotY="0"></ped>
+    <object id="object (lasdkrtgrp2) (1)" interior="0" collisions="true" alpha="255" doublesided="false" model="3574" scale="1" dimension="10000" posX="1048.19995" posY="1377.59998" posZ="12.4" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (lasdkrtgrp2) (2)" interior="0" collisions="true" alpha="255" doublesided="false" model="3574" scale="1" dimension="10000" posX="1030.09998" posY="1377.59998" posZ="12.4" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_MESH_1) (4)" interior="0" collisions="true" alpha="255" doublesided="false" model="1411" scale="1" dimension="10000" posX="1054.40002" posY="1382.19995" posZ="13.7" rotX="0" rotY="0" rotZ="179.995"></object>
+    <object id="object (DYN_MESH_1) (5)" interior="0" collisions="true" alpha="255" doublesided="false" model="1411" scale="1" dimension="10000" posX="1049.19995" posY="1382.19995" posZ="13.7" rotX="0" rotY="0" rotZ="179.995"></object>
+    <object id="object (DYN_MESH_1) (6)" interior="0" collisions="true" alpha="255" doublesided="false" model="1411" scale="1" dimension="10000" posX="1044" posY="1382.19995" posZ="13.7" rotX="0" rotY="0" rotZ="179.995"></object>
+    <object id="object (DYN_MESH_1) (7)" interior="0" collisions="true" alpha="255" doublesided="false" model="1411" scale="1" dimension="10000" posX="1038.80005" posY="1382.19995" posZ="13.7" rotX="0" rotY="0" rotZ="179.995"></object>
+    <object id="object (DYN_MESH_1) (8)" interior="0" collisions="true" alpha="255" doublesided="false" model="1411" scale="1" dimension="10000" posX="1033.59998" posY="1382.19995" posZ="13.7" rotX="0" rotY="0" rotZ="179.995"></object>
+    <object id="object (DYN_MESH_1) (9)" interior="0" collisions="true" alpha="255" doublesided="false" model="1411" scale="1" dimension="10000" posX="1028.40002" posY="1382.19995" posZ="13.7" rotX="0" rotY="0" rotZ="179.995"></object>
+    <object id="object (bar_barrier12) (1)" interior="0" collisions="true" alpha="255" doublesided="false" model="990" scale="1" dimension="10000" posX="1026.19995" posY="1381.59998" posZ="13.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (bar_barrier12) (2)" interior="0" collisions="true" alpha="255" doublesided="false" model="990" scale="1" dimension="10000" posX="1036.19995" posY="1381.59998" posZ="13.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (bar_barrier12) (3)" interior="0" collisions="true" alpha="255" doublesided="false" model="990" scale="1" dimension="10000" posX="1046.19995" posY="1381.59998" posZ="13.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (bar_barrier12) (4)" interior="0" collisions="true" alpha="255" doublesided="false" model="990" scale="1" dimension="10000" posX="1052.19995" posY="1381.59998" posZ="13.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_MESH_1) (10)" interior="0" collisions="true" alpha="255" doublesided="false" model="1411" scale="1" dimension="10000" posX="1021" posY="1382.59998" posZ="13.7" rotX="0" rotY="0" rotZ="179.995"></object>
+    <object id="object (DYN_MESH_1) (11)" interior="0" collisions="true" alpha="255" doublesided="false" model="1411" scale="1" dimension="10000" posX="1019.79999" posY="1395.30005" posZ="12.7" rotX="0" rotY="0" rotZ="179.995"></object>
+    <object id="object (DYN_MESH_1) (12)" interior="0" collisions="true" alpha="255" doublesided="false" model="1411" scale="1" dimension="10000" posX="1022.09998" posY="1392.80005" posZ="12.7" rotX="0" rotY="0" rotZ="89.995"></object>
+    <removeWorldObject id="removeWorldObject (CJ_PHONE_KIOSK2) (1)" radius="3.6421322822571" interior="0" model="1346" lodModel="0" posX="1112.21875" posY="1382.59375" posZ="11.17188" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <vehicle id="vehicle (Patriot) (1)" paintjob="3" interior="0" alpha="255" model="470" plate="AKLLHSS" dimension="10000" color="95,10,21,0,0,0,0,0,0,0,0,0" posX="1158.90002" posY="1373.90002" posZ="10.6" rotX="0" rotY="0" rotZ="34"></vehicle>
+    <vehicle id="vehicle (Patriot) (2)" paintjob="3" interior="0" alpha="255" model="470" plate="L9MN3J5" dimension="10000" color="95,10,21,0,0,0,0,0,0,0,0,0" posX="1151.59998" posY="1371.90002" posZ="10.6" rotX="0" rotY="0" rotZ="347.997"></vehicle>
+    <ped id="ped (3)" dimension="10000" model="287" interior="0" rotZ="0.003" frozen="false" alpha="255" posX="1162.40002" posY="1373.5" posZ="10.7" rotX="0" rotY="0"></ped>
+    <ped id="ped (4)" dimension="10000" model="287" interior="0" rotZ="324.753" frozen="false" alpha="255" posX="1153" posY="1375.19995" posZ="10.7" rotX="0" rotY="0"></ped>
+    <ped id="ped (5)" dimension="10000" model="287" interior="0" rotZ="320.753" frozen="false" alpha="255" posX="1159.19995" posY="1376.59998" posZ="10.7" rotX="0" rotY="0"></ped>
+    <ped id="ped (6)" dimension="10000" model="287" interior="0" rotZ="312.754" frozen="false" alpha="255" posX="1154.19995" posY="1372.09998" posZ="10.7" rotX="0" rotY="0"></ped>
+    <removeWorldObject id="removeWorldObject (sm_des_josh_lrg1) (1)" radius="5.4136996269226" interior="0" model="674" lodModel="0" posX="1157.28125" posY="1388.08594" posZ="9.72656" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (tikitorch01_lvs) (1)" interior="0" collisions="true" alpha="255" doublesided="false" model="3461" scale="1" dimension="10000" posX="1025.90002" posY="1695.40002" posZ="8.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (tikitorch01_lvs) (2)" interior="0" collisions="true" alpha="255" doublesided="false" model="3461" scale="1" dimension="10000" posX="1023.79999" posY="1693.90002" posZ="8.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (tikitorch01_lvs) (3)" interior="0" collisions="true" alpha="255" doublesided="false" model="3461" scale="1" dimension="10000" posX="1028.80005" posY="1690.69995" posZ="8.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (tikitorch01_lvs) (4)" interior="0" collisions="true" alpha="255" doublesided="false" model="3461" scale="1" dimension="10000" posX="1027.40002" posY="1695.09998" posZ="8.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (tikitorch01_lvs) (5)" interior="0" collisions="true" alpha="255" doublesided="false" model="3461" scale="1" dimension="10000" posX="1021.29999" posY="1693.80005" posZ="8.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (tikitorch01_lvs) (6)" interior="0" collisions="true" alpha="255" doublesided="false" model="3461" scale="1" dimension="10000" posX="1021.2998" posY="1693.7998" posZ="8.2" rotX="0" rotY="0" rotZ="0"></object>
+    <removeWorldObject id="removeWorldObject (veg_palm04) (1)" radius="22.657041549683" interior="0" model="620" lodModel="0" posX="1047.49219" posY="1633.39063" posZ="5.92188" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <vehicle id="vehicle (Sanchez) (1)" paintjob="3" interior="0" alpha="255" model="468" plate="L9NZU1G" dimension="10000" color="215,142,16,215,142,16,0,0,0,0,0,0" posX="1093.90002" posY="1689.5" posZ="10.7" rotX="0" rotY="0" rotZ="0"></vehicle>
+    <vehicle id="vehicle (Sanchez) (2)" paintjob="3" interior="0" alpha="255" model="468" plate="X0BSV1W" dimension="10000" color="132,4,16,132,4,16,0,0,0,0,0,0" posX="1093.90002" posY="1412.30005" posZ="11.3" rotX="0" rotY="0" rotZ="0"></vehicle>
+    <vehicle id="vehicle (Hunter) (1)" paintjob="3" interior="0" alpha="255" model="425" plate="HQNJ35Y" dimension="10000" color="95,10,21,0,0,0,0,0,0,0,0,0" posX="1072.19995" posY="1830.30005" posZ="11.7" rotX="0" rotY="0" rotZ="292"></vehicle>
+    <vehicle id="vehicle (Patriot) (3)" paintjob="3" interior="0" alpha="255" model="470" plate="YEJGXDQ" dimension="10000" color="95,10,21,0,0,0,0,0,0,0,0,0" posX="1022" posY="1831.59998" posZ="10.9" rotX="0" rotY="0" rotZ="0"></vehicle>
+    <vehicle id="vehicle (Patriot) (4)" paintjob="3" interior="0" alpha="255" model="470" plate="4QNHDXU" dimension="10000" color="95,10,21,0,0,0,0,0,0,0,0,0" posX="1032.59998" posY="1830.69995" posZ="10.9" rotX="0" rotY="0" rotZ="338"></vehicle>
+    <vehicle id="vehicle (Patriot) (5)" paintjob="3" interior="0" alpha="255" model="470" plate="X0BZ7IS" dimension="10000" color="95,10,21,0,0,0,0,0,0,0,0,0" posX="1039.30005" posY="1830.80005" posZ="10.9" rotX="0" rotY="0" rotZ="6"></vehicle>
+    <vehicle id="vehicle (Patriot) (6)" paintjob="3" interior="0" alpha="255" model="470" plate="J5O7X47" dimension="10000" color="95,10,21,0,0,0,0,0,0,0,0,0" posX="1046.5" posY="1830.80005" posZ="10.9" rotX="0" rotY="0" rotZ="343.999"></vehicle>
+    <vehicle id="vehicle (Patriot) (7)" paintjob="3" interior="0" alpha="255" model="470" plate="YMZN518" dimension="10000" color="95,10,21,0,0,0,0,0,0,0,0,0" posX="1054.40002" posY="1832.40002" posZ="10.9" rotX="0" rotY="0" rotZ="7.998"></vehicle>
+    <ped id="ped (7)" dimension="10000" model="287" interior="0" rotZ="194.002" frozen="false" alpha="255" posX="1026.80005" posY="1825.59998" posZ="10.8" rotX="0" rotY="0"></ped>
+    <ped id="ped (8)" dimension="10000" model="287" interior="0" rotZ="204.002" frozen="false" alpha="255" posX="1030.30005" posY="1827.09998" posZ="10.8" rotX="0" rotY="0"></ped>
+    <ped id="ped (9)" dimension="10000" model="287" interior="0" rotZ="164" frozen="false" alpha="255" posX="1035.69995" posY="1824" posZ="10.8" rotX="0" rotY="0"></ped>
+    <ped id="ped (10)" dimension="10000" model="287" interior="0" rotZ="132" frozen="false" alpha="255" posX="1037.90002" posY="1829" posZ="10.8" rotX="0" rotY="0"></ped>
+    <ped id="ped (11)" dimension="10000" model="287" interior="0" rotZ="222" frozen="false" alpha="255" posX="1022.5" posY="1828.69995" posZ="10.8" rotX="0" rotY="0"></ped>
+    <ped id="ped (12)" dimension="10000" model="287" interior="0" rotZ="156" frozen="false" alpha="255" posX="1046.09998" posY="1827.5" posZ="10.8" rotX="0" rotY="0"></ped>
+    <ped id="ped (13)" dimension="10000" model="287" interior="0" rotZ="172" frozen="false" alpha="255" posX="1065.40002" posY="1826.69995" posZ="10.8" rotX="0" rotY="0"></ped>
+    <ped id="ped (14)" dimension="10000" model="287" interior="0" rotZ="198.002" frozen="false" alpha="255" posX="1066.80005" posY="1827.30005" posZ="10.8" rotX="0" rotY="0"></ped>
+    <object id="object (venefountain02) (6)" interior="0" collisions="true" alpha="255" doublesided="false" model="6965" scale="1" dimension="10000" posX="1069.30005" posY="1767" posZ="13.5" rotX="0" rotY="0" rotZ="0"></object>
+    <chest id="chest (18)" posX="1071.5" posY="1772.59998" posZ="9.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (19)" alpha="255" interior="0" posX="1071.80005" posY="1769.59998" posZ="9.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (20)" alpha="255" interior="0" posX="1033.09998" posY="1699.69995" posZ="9.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (21)" alpha="255" interior="0" posX="1072.7998" posY="1765" posZ="9.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (22)" alpha="255" interior="0" posX="1070.09998" posY="1761.90002" posZ="9.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (23)" alpha="255" interior="0" posX="1066.69995" posY="1762.80005" posZ="9.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (24)" alpha="255" interior="0" posX="1064.80005" posY="1765.90002" posZ="9.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (25)" alpha="255" interior="0" posX="1065.19995" posY="1769" posZ="9.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (26)" alpha="255" interior="0" posX="1069.09998" posY="1772.5" posZ="9.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (27)" alpha="255" interior="0" posX="1065.90002" posY="1772.09998" posZ="9.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (28)" alpha="255" interior="0" posX="1119.69922" posY="1778.2998" posZ="9.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (29)" alpha="255" interior="0" posX="1120.19995" posY="1771.19995" posZ="9.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (30)" alpha="255" interior="0" posX="1153.39941" posY="1724.39941" posZ="9.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (31)" alpha="255" interior="0" posX="1125.30005" posY="1664.5" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (32)" alpha="255" interior="0" posX="1128.09961" posY="1592.2998" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (33)" alpha="255" interior="0" posX="1150.7998" posY="1542.5" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (34)" alpha="255" interior="0" posX="1150.5" posY="1507.89941" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (35)" alpha="255" interior="0" posX="1133.69922" posY="1473.5" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (36)" alpha="255" interior="0" posX="1097.40002" posY="1453.80005" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (37)" alpha="255" interior="0" posX="1094.89941" posY="1453.89941" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (38)" alpha="255" interior="0" posX="1100.09998" posY="1453.69995" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (39)" alpha="255" interior="0" posX="1070.90002" posY="1464.19995" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (40)" alpha="255" interior="0" posX="1046.80005" posY="1499.69995" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (41)" alpha="255" interior="0" posX="1041.7998" posY="1538.59961" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (42)" alpha="255" interior="0" posX="1048.09998" posY="1562.19995" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (43)" alpha="255" interior="0" posX="1068.19922" posY="1592.7998" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (44)" alpha="255" interior="0" posX="1085.09998" posY="1603.19995" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (45)" alpha="255" interior="0" posX="1087.7998" posY="1603.19922" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (46)" alpha="255" interior="0" posX="1091.80005" posY="1604" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (47)" alpha="255" interior="0" posX="1092.90002" posY="1598.40002" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (48)" alpha="255" interior="0" posX="1095.80005" posY="1599" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (49)" alpha="255" interior="0" posX="1099.5" posY="1599.69995" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (50)" alpha="255" interior="0" posX="1103.7998" posY="1598.5" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (51)" alpha="255" interior="0" posX="1105.2998" posY="1456" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (52)" alpha="255" interior="0" posX="1102.09998" posY="1455.69995" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (53)" alpha="255" interior="0" posX="1097.09998" posY="1455.30005" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (54)" alpha="255" interior="0" posX="1093.59998" posY="1455" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (55)" alpha="255" interior="0" posX="1089.59998" posY="1454.69995" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (56)" alpha="255" interior="0" posX="1086.09961" posY="1454.39941" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (57)" alpha="255" interior="0" posX="1099.19922" posY="1388.2998" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (58)" alpha="255" interior="0" posX="1020.39941" posY="1398.2998" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (59)" alpha="255" interior="0" posX="1174" posY="1437.19995" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (60)" alpha="255" interior="0" posX="1145.59961" posY="1492.59961" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (61)" alpha="255" interior="0" posX="1152.59961" posY="1533.09961" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <spawnpoint id="spawnpoint (2)" posX="1038.40002" posY="1799" posZ="10.8" rotX="0" rotY="0" rotZ="180"></spawnpoint>
+    <spawnpoint id="spawnpoint (3)" alpha="255" interior="0" posX="1039.09998" posY="1799.09998" posZ="10.8" rotX="0" rotY="358" rotZ="187.995"></spawnpoint>
+    <spawnpoint id="spawnpoint (4)" alpha="255" interior="0" posX="1040" posY="1799" posZ="10.8" rotX="0" rotY="357.995" rotZ="181.993"></spawnpoint>
+    <spawnpoint id="spawnpoint (5)" alpha="255" interior="0" posX="1040.69995" posY="1799.09998" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (6)" alpha="255" interior="0" posX="1041.5" posY="1799.19995" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (7)" alpha="255" interior="0" posX="1042.40002" posY="1799.19995" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (8)" alpha="255" interior="0" posX="1043.30005" posY="1799.09998" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (9)" alpha="255" interior="0" posX="1044.30005" posY="1799.09998" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (10)" alpha="255" interior="0" posX="1045.19995" posY="1799.09998" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (11)" alpha="255" interior="0" posX="1046.19995" posY="1799.19995" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (12)" alpha="255" interior="0" posX="1047.19995" posY="1799.19995" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (13)" alpha="255" interior="0" posX="1047.19922" posY="1799.19922" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (14)" alpha="255" interior="0" posX="1048.30005" posY="1799.19995" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (15)" alpha="255" interior="0" posX="1049.40002" posY="1799.09998" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (16)" alpha="255" interior="0" posX="1050.5" posY="1799.09998" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (17)" alpha="255" interior="0" posX="1051.5" posY="1799.09998" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (18)" alpha="255" interior="0" posX="1052.69995" posY="1799.09998" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (19)" alpha="255" interior="0" posX="1053.69995" posY="1799" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (20)" alpha="255" interior="0" posX="1054.90002" posY="1799" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (21)" alpha="255" interior="0" posX="1055.90002" posY="1799" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (22)" alpha="255" interior="0" posX="1055.80005" posY="1800.59998" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (23)" alpha="255" interior="0" posX="1055.09998" posY="1800.5" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (24)" alpha="255" interior="0" posX="1054.30005" posY="1800.40002" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (25)" alpha="255" interior="0" posX="1053.40002" posY="1800.5" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (26)" alpha="255" interior="0" posX="1052.5" posY="1800.59998" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (27)" alpha="255" interior="0" posX="1051.69995" posY="1800.5" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (28)" alpha="255" interior="0" posX="1051.09998" posY="1800.5" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (29)" alpha="255" interior="0" posX="1050.40002" posY="1800.40002" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (30)" alpha="255" interior="0" posX="1049.59998" posY="1800.5" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (31)" alpha="255" interior="0" posX="1048.59998" posY="1800.5" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (32)" alpha="255" interior="0" posX="1047.59998" posY="1800.80005" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (33)" alpha="255" interior="0" posX="1046.80005" posY="1800.90002" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (34)" alpha="255" interior="0" posX="1045.90002" posY="1800.90002" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (35)" alpha="255" interior="0" posX="1045.09998" posY="1800.80005" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (36)" alpha="255" interior="0" posX="1044.30005" posY="1800.69995" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (37)" alpha="255" interior="0" posX="1043.40002" posY="1800.59998" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (38)" alpha="255" interior="0" posX="1042.5" posY="1800.5" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (39)" alpha="255" interior="0" posX="1041.5" posY="1800.40002" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (40)" alpha="255" interior="0" posX="1040.5" posY="1800.30005" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (41)" alpha="255" interior="0" posX="1039.69995" posY="1800.19995" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (42)" alpha="255" interior="0" posX="1039.09998" posY="1800.09998" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (43)" alpha="255" interior="0" posX="1038.59998" posY="1800.09998" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (44)" alpha="255" interior="0" posX="1038.59961" posY="1800.09961" posZ="10.8" rotX="0" rotY="357.99" rotZ="181.989"></spawnpoint>
+    <chest id="chest (37)" alpha="255" interior="0" posX="1094.80005" posY="1449.80005" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (37)" alpha="255" interior="0" posX="1097.09998" posY="1449.40002" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (37)" alpha="255" interior="0" posX="1100.09998" posY="1449.90002" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (37)" alpha="255" interior="0" posX="1074.59998" posY="1461.40002" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (37)" alpha="255" interior="0" posX="1072.30005" posY="1461.5" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (37)" alpha="255" interior="0" posX="1045.80005" posY="1501.59998" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (37)" alpha="255" interior="0" posX="1047.40002" posY="1497.40002" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (41)" alpha="255" interior="0" posX="1041.80005" posY="1536.30005" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (41)" alpha="255" interior="0" posX="1042.5" posY="1541.19995" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (41)" alpha="255" interior="0" posX="1044.80005" posY="1559.90002" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (41)" alpha="255" interior="0" posX="1047.19995" posY="1565.19995" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (43)" alpha="255" interior="0" posX="1066.09998" posY="1591.5" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (43)" alpha="255" interior="0" posX="1070.80005" posY="1594.40002" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (45)" alpha="255" interior="0" posX="1087.30005" posY="1607.19995" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (45)" alpha="255" interior="0" posX="1084.59998" posY="1606.80005" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (45)" alpha="255" interior="0" posX="1090.5" posY="1607.59998" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (32)" alpha="255" interior="0" posX="1126.30005" posY="1593.5" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (32)" alpha="255" interior="0" posX="1130.09998" posY="1590.90002" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (32)" alpha="255" interior="0" posX="1132" posY="1593.80005" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (32)" alpha="255" interior="0" posX="1129" posY="1596.30005" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (32)" alpha="255" interior="0" posX="1129" posY="1596.2998" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (33)" alpha="255" interior="0" posX="1151.69995" posY="1545.19995" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (33)" alpha="255" interior="0" posX="1152" posY="1539.69995" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (33)" alpha="255" interior="0" posX="1155" posY="1542.90002" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (33)" alpha="255" interior="0" posX="1155.5" posY="1546.19995" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (34)" alpha="255" interior="0" posX="1152.5" posY="1509.09998" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (34)" alpha="255" interior="0" posX="1152.09998" posY="1505.5" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (34)" alpha="255" interior="0" posX="1155.40002" posY="1506.80005" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (35)" alpha="255" interior="0" posX="1137.30005" posY="1472.40002" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (35)" alpha="255" interior="0" posX="1136.40002" posY="1469.5" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (35)" alpha="255" interior="0" posX="1136.39941" posY="1469.5" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (50)" alpha="255" interior="0" posX="1104.09998" posY="1602" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (50)" alpha="255" interior="0" posX="1099.90002" posY="1602.40002" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (50)" alpha="255" interior="0" posX="1096.19995" posY="1602.80005" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (50)" alpha="255" interior="0" posX="1092.69995" posY="1603.09998" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (50)" alpha="255" interior="0" posX="1153" posY="1535" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (50)" alpha="255" interior="0" posX="1153.5" posY="1531.40002" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (60)" alpha="255" interior="0" posX="1144" posY="1490" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (60)" alpha="255" interior="0" posX="1146.90002" posY="1494.69995" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (51)" alpha="255" interior="0" posX="1105.59998" posY="1453.5" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (51)" alpha="255" interior="0" posX="1102.59998" posY="1453.09998" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (51)" alpha="255" interior="0" posX="1097.09998" posY="1452.5" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (51)" alpha="255" interior="0" posX="1093.09998" posY="1452" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (51)" alpha="255" interior="0" posX="1089.09998" posY="1451.5" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (51)" alpha="255" interior="0" posX="1084.90002" posY="1451" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (56)" alpha="255" interior="0" posX="1054.90002" posY="1480.80005" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (56)" alpha="255" interior="0" posX="1053.30005" posY="1484.40002" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (56)" alpha="255" interior="0" posX="1051.5" posY="1488.30005" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (56)" alpha="255" interior="0" posX="1048.5" posY="1492.69995" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (56)" alpha="255" interior="0" posX="1044.90002" posY="1497.90002" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (56)" alpha="255" interior="0" posX="1041.69995" posY="1525.90002" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (56)" alpha="255" interior="0" posX="1042.40002" posY="1529.59998" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (56)" alpha="255" interior="0" posX="1041.90002" posY="1535.30005" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (56)" alpha="255" interior="0" posX="1042.80005" posY="1540" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (56)" alpha="255" interior="0" posX="1044.19995" posY="1547.59998" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (56)" alpha="255" interior="0" posX="1046.69995" posY="1561.09998" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (56)" alpha="255" interior="0" posX="1051.69995" posY="1573.09998" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (56)" alpha="255" interior="0" posX="1056.40002" posY="1580.59998" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (56)" alpha="255" interior="0" posX="1062.19995" posY="1588.69995" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (56)" alpha="255" interior="0" posX="1073.30005" posY="1597.59998" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (61)" alpha="255" interior="0" posX="1151.5" posY="1547.09998" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (61)" alpha="255" interior="0" posX="1151.19995" posY="1548.59998" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (61)" alpha="255" interior="0" posX="1146.19995" posY="1563" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (61)" alpha="255" interior="0" posX="1141.19995" posY="1575.80005" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (61)" alpha="255" interior="0" posX="1128.90002" posY="1593.19995" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (28)" alpha="255" interior="0" posX="1120.5" posY="1783.40002" posZ="9.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (28)" alpha="255" interior="0" posX="1120.40002" posY="1791.09998" posZ="9.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (28)" alpha="255" interior="0" posX="1126.59998" posY="1785.69995" posZ="9.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (28)" alpha="255" interior="0" posX="1124.40002" posY="1779.30005" posZ="9.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (28)" alpha="255" interior="0" posX="1124.59998" posY="1771.40002" posZ="9.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (28)" alpha="255" interior="0" posX="1122.40002" posY="1762.09998" posZ="9.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (30)" alpha="255" interior="0" posX="1159" posY="1718" posZ="9.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (30)" alpha="255" interior="0" posX="1162.59998" posY="1709.90002" posZ="9.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (30)" alpha="255" interior="0" posX="1169.90002" posY="1707.90002" posZ="9.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (30)" alpha="255" interior="0" posX="1172.5" posY="1691.59998" posZ="9.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (30)" alpha="255" interior="0" posX="1164.69995" posY="1688.19995" posZ="9.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (30)" alpha="255" interior="0" posX="1166.69995" posY="1693.30005" posZ="9.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (20)" alpha="255" interior="0" posX="1031" posY="1698.40002" posZ="9.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (20)" alpha="255" interior="0" posX="1026.90002" posY="1699.69995" posZ="9.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (20)" alpha="255" interior="0" posX="1029" posY="1694.80005" posZ="9.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (20)" alpha="255" interior="0" posX="1033" posY="1694.09998" posZ="9.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (20)" alpha="255" interior="0" posX="1029.19995" posY="1685.5" posZ="9.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (20)" alpha="255" interior="0" posX="1023.40002" posY="1687.19995" posZ="9.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (20)" alpha="255" interior="0" posX="1024.59998" posY="1689.40002" posZ="9.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (31)" alpha="255" interior="0" posX="1154.69995" posY="1664.19995" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (31)" alpha="255" interior="0" posX="1172.90002" posY="1615.30005" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (31)" alpha="255" interior="0" posX="1157.69995" posY="1594.19995" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (31)" alpha="255" interior="0" posX="1137" posY="1614.19995" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (31)" alpha="255" interior="0" posX="1078.90002" posY="1657.19995" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (31)" alpha="255" interior="0" posX="1060.90002" posY="1614.90002" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (31)" alpha="255" interior="0" posX="1053.59998" posY="1664.59998" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (31)" alpha="255" interior="0" posX="1036.09998" posY="1639.90002" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (31)" alpha="255" interior="0" posX="1023.5" posY="1600.40002" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (31)" alpha="255" interior="0" posX="1022.79999" posY="1510.80005" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (31)" alpha="255" interior="0" posX="1023.59998" posY="1446.59998" posZ="4.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (57)" alpha="255" interior="0" posX="1100.90002" posY="1388.80005" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (57)" alpha="255" interior="0" posX="1097.19995" posY="1388.69995" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (57)" alpha="255" interior="0" posX="1098.5" posY="1392.69995" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (57)" alpha="255" interior="0" posX="1101.09998" posY="1391.80005" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (57)" alpha="255" interior="0" posX="1095.80005" posY="1392.5" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (58)" alpha="255" interior="0" posX="1020.79999" posY="1403.09998" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (58)" alpha="255" interior="0" posX="1018.79999" posY="1407.90002" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (58)" alpha="255" interior="0" posX="1020" posY="1411.69995" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (58)" alpha="255" interior="0" posX="1019.09998" posY="1416.40002" posZ="11.4" rotX="0" rotY="0" rotZ="0"></chest>
+</map>

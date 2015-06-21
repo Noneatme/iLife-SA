@@ -1,0 +1,54 @@
+<map edf:definitions="HungerGamesEDF,editor_main">
+    <chest id="chest (1)" posX="118.6" posY="1930.19995" posZ="18" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (2)" alpha="255" interior="0" posX="161.39941" posY="1932.69922" posZ="24.5" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (3)" alpha="255" interior="0" posX="103.8" posY="1900.80005" posZ="24.5" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (4)" alpha="255" interior="0" posX="107.4" posY="1900" posZ="17.4" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (5)" alpha="255" interior="0" posX="112.1" posY="1812.80005" posZ="32.9" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (6)" alpha="255" interior="0" posX="213" posY="1809.80005" posZ="20.9" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (7)" alpha="255" interior="0" posX="261.20001" posY="1806.80005" posZ="24.5" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (8)" alpha="255" interior="0" posX="281.39999" posY="1834.09998" posZ="16.6" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (9)" alpha="255" interior="0" posX="270.2998" posY="1893.7998" posZ="16.6" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (10)" alpha="255" interior="0" posX="231.7" posY="1931.5" posZ="16.6" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (12)" alpha="255" interior="0" posX="232.60001" posY="1933.90002" posZ="24.5" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (13)" alpha="255" interior="0" posX="163.8" posY="1936.19995" posZ="17.5" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (14)" alpha="255" interior="0" posX="155.8" posY="1903.30005" posZ="17.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (15)" alpha="255" interior="0" posX="142.60001" posY="1875.40002" posZ="16.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (16)" alpha="255" interior="0" posX="203.60001" posY="1873.30005" posZ="12.1" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (17)" alpha="255" interior="0" posX="223.3" posY="1870" posZ="12.1" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (18)" alpha="255" interior="0" posX="211.8" posY="1854.80005" posZ="12" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (19)" alpha="255" interior="0" posX="224.3" posY="1853.80005" posZ="11.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (20)" alpha="255" interior="0" posX="219" posY="1876.90002" posZ="16.5" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (21)" alpha="255" interior="0" posX="143.8" posY="1895.09998" posZ="17.3" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (22)" alpha="255" interior="0" posX="112.3" posY="1875.09998" posZ="16.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (23)" alpha="255" interior="0" posX="117.89941" posY="1869.7998" posZ="16.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (24)" alpha="255" interior="0" posX="165.3" posY="1848.90002" posZ="24.5" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (25)" alpha="255" interior="0" posX="207.39999" posY="1827.40002" posZ="16.6" rotX="0" rotY="0" rotZ="0"></chest>
+    <spawnpoint id="spawnpoint (1)" posX="234.10001" posY="1936.40002" posZ="33.9" rotX="0" rotY="0" rotZ="170"></spawnpoint>
+    <spawnpoint id="spawnpoint (2)" alpha="255" interior="0" posX="103.5" posY="1902.09998" posZ="25.5" rotX="0" rotY="0" rotZ="249.997"></spawnpoint>
+    <spawnpoint id="spawnpoint (3)" alpha="255" interior="0" posX="120.8" posY="1937.30005" posZ="19.1" rotX="0" rotY="0" rotZ="349.994"></spawnpoint>
+    <spawnpoint id="spawnpoint (4)" alpha="255" interior="0" posX="261.70001" posY="1806.59998" posZ="33.9" rotX="0" rotY="0" rotZ="249.994"></spawnpoint>
+    <spawnpoint id="spawnpoint (5)" alpha="255" interior="0" posX="159.89999" posY="1933.09998" posZ="33.9" rotX="0" rotY="0" rotZ="249.994"></spawnpoint>
+    <spawnpoint id="spawnpoint (6)" alpha="255" interior="0" posX="102" posY="1901.30005" posZ="33.9" rotX="0" rotY="0" rotZ="249.994"></spawnpoint>
+    <spawnpoint id="spawnpoint (7)" alpha="255" interior="0" posX="164" posY="1849.69995" posZ="33.9" rotX="0" rotY="0" rotZ="249.994"></spawnpoint>
+    <spawnpoint id="spawnpoint (8)" alpha="255" interior="0" posX="211.7" posY="1806.59998" posZ="17.6" rotX="0" rotY="0" rotZ="179.994"></spawnpoint>
+    <spawnpoint id="spawnpoint (9)" alpha="255" interior="0" posX="266.7998" posY="1897.2998" posZ="33.9" rotX="0" rotY="0" rotZ="179.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (10)" alpha="255" interior="0" posX="113.2" posY="1815.59998" posZ="25.5" rotX="0" rotY="0" rotZ="179.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (11)" posX="233.10001" posY="1840.90002" posZ="17.6" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (12)" alpha="255" interior="0" posX="177.10001" posY="1840.90002" posZ="17.6" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (13)" alpha="255" interior="0" posX="153.7" posY="1845.69995" posZ="17.6" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (14)" alpha="255" interior="0" posX="279.10001" posY="1826" posZ="17.6" rotX="0" rotY="0" rotZ="190"></spawnpoint>
+    <spawnpoint id="spawnpoint (15)" alpha="255" interior="0" posX="172" posY="1834.80005" posZ="17.6" rotX="0" rotY="0" rotZ="99.998"></spawnpoint>
+    <spawnpoint id="spawnpoint (16)" alpha="255" interior="0" posX="193.7" posY="1931.30005" posZ="17.6" rotX="0" rotY="0" rotZ="99.998"></spawnpoint>
+    <spawnpoint id="spawnpoint (17)" alpha="255" interior="0" posX="223" posY="1931.5" posZ="17.6" rotX="0" rotY="0" rotZ="269.992"></spawnpoint>
+    <spawnpoint id="spawnpoint (18)" alpha="255" interior="0" posX="241.2" posY="1860" posZ="17.9" rotX="0" rotY="0" rotZ="109.989"></spawnpoint>
+    <spawnpoint id="spawnpoint (19)" alpha="255" interior="0" posX="236.3" posY="1872.40002" posZ="11.4" rotX="0" rotY="0" rotZ="109.984"></spawnpoint>
+    <object id="object (meshfence1_LAn) (1)" breakable="true" interior="0" alpha="255" model="4100" doublesided="false" scale="0" dimension="10000" posX="238.5" posY="1872.09998" posZ="12.2" rotX="0" rotY="0" rotZ="50"></object>
+    <object id="object (tall_fence) (1)" breakable="true" interior="0" alpha="255" model="974" doublesided="false" scale="0" dimension="10000"dimension="10000" posX="267.70001" posY="1885.40002" posZ="16.6" rotX="90" rotY="0" rotZ="0"></object>
+    <object id="object (tall_fence) (3)" breakable="true" interior="0" alpha="255" model="974" doublesided="false" scale="0" dimension="10000" posX="267.70001" posY="1879.90002" posZ="16.6" rotX="90" rotY="0" rotZ="0"></object>
+    <object id="object (tall_fence) (4)" breakable="true" interior="0" alpha="255" model="974" doublesided="false" scale="0" dimension="10000" posX="274.39999" posY="1879.90002" posZ="16.6" rotX="90" rotY="0" rotZ="0"></object>
+    <object id="object (tall_fence) (5)" breakable="true" interior="0" alpha="255" model="974" doublesided="false" scale="0" dimension="10000" posX="274.39999" posY="1885.40002" posZ="16.6" rotX="90" rotY="0" rotZ="0"></object>
+    <chest id="chest (9)" alpha="255" interior="0" posX="265.29999" posY="1887.09998" posZ="15" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (9)" alpha="255" interior="0" posX="272.10001" posY="1887.30005" posZ="15" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (9)" alpha="255" interior="0" posX="272.10001" posY="1881.5" posZ="15" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (9)" alpha="255" interior="0" posX="265.29999" posY="1881.19995" posZ="15" rotX="0" rotY="0" rotZ="0"></chest>
+</map>

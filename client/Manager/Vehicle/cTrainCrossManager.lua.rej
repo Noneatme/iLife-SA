@@ -1,0 +1,9 @@
+diff a/client/Manager/Vehicle/cTrainCrossManager.lua b/client/Manager/Vehicle/cTrainCrossManager.lua	(rejected hunks)
+@@ -46,7 +46,6 @@
+ 
+ 	-- Klassenvariablen --
+ 	self.objectID 	= 968;
+-	self.radius 	= 200;
+ 	self.radius 	= 130;
+ 
+ 	self.crosses =

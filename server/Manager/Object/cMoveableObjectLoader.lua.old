@@ -1,0 +1,340 @@
+-- #######################################
+-- ## Project: MTA iLife				##
+-- ## Name: MoveableObjectLoader.lua			##
+-- ## Author: Noneatme					##
+-- ## Version: 1.0						##
+-- ## License: See top Folder			##
+-- #######################################
+
+-- FUNCTIONS / METHODS --
+
+local cFunc = {};		-- Local Functions
+local cSetting = {};	-- Local Settings
+
+MoveableObjectLoader = {};
+MoveableObjectLoader.__index = MoveableObjectLoader;
+
+--[[
+
+]]
+
+-- ///////////////////////////////
+-- ///// New 				//////
+-- ///// Returns: Object	//////
+-- ///////////////////////////////
+
+function MoveableObjectLoader:New(...)
+	local obj = setmetatable({}, {__index = self});
+	if obj.Constructor then
+		obj:Constructor(...);
+	end
+	return obj;
+end
+
+-- ///////////////////////////////
+-- ///// HasUserPermissions	//////
+-- ///// Returns: void		//////
+-- ///////////////////////////////
+
+function MoveableObjectLoader:HasUserPermissions(iUser, iOwner, tblTenands)
+	if(tonumber(iUser) == tonumber(iOwner)) then
+		return true;
+	else
+		return false;
+	end
+
+	return true;
+end
+
+-- ///////////////////////////////
+-- ///// IsInFactionRange	//////
+-- ///// Returns: void		//////
+-- ///////////////////////////////
+
+function MoveableObjectLoader:IsInFactionRange(uObject)
+	for ID, Faction in pairs(Factions) do
+		if(Faction.Distanz > 0) then
+			local x1, y1, z1 = getElementPosition(uObject);
+			local x2, y2, z2 = getElementPosition(Faction.FactionColshape);
+
+			if(getDistanceBetweenPoints3D(x1, y1, z1, x2, y2, z2) <= Faction.Distanz) then
+				return true;
+			end
+		end
+	end
+	return false;
+end
+
+-- ///////////////////////////////
+-- ///// StartLoadingObjects//////
+-- ///// Returns: void		//////
+-- ///////////////////////////////
+
+function MoveableObjectLoader:StartLoadingObjects()
+
+	self.query1 	= CDatabase:getInstance():query("SELECT * FROM House_Objects;");
+	self.query2		= CDatabase:getInstance():query("SELECT * FROM Houses;");
+
+	outputDebugString("Lade Objekte! Limit: 500 MS, Objekte: " ..#self.query1..", Haeuser: "..#self.query2);
+
+
+	self.data = {}
+	self.startTick = getTickCount();
+
+	self.lastIndex = 1;
+	self.deleted 			= 0;
+	self.datObjects 		= {}
+	self.dontDeleteObjects 	= {}
+
+	self.lastObject 		= 0;
+
+	self:MoveObjectsToTimeout();
+
+
+end
+
+-- ///////////////////////////////
+-- ///// LoadObjectsToTimeout/////
+-- ///// Returns: void		//////
+-- ///////////////////////////////
+
+function MoveableObjectLoader:MoveObjectsToTimeout()
+
+	for i = self.lastIndex, #self.query1, 1 do
+		self:LoadObjectRow(i)
+
+
+		if(self.lastIndex >= #self.query1-1) and not(self.done) then
+			self.done = true;
+
+			for index, object in pairs(self.datObjects) do
+				if(self.dontDeleteObjects[index] ~= true) then
+				--	self.deleted = self.deleted+1;
+				--	object:Delete();
+				end
+			end
+
+			outputDebugString("Es wurden "..#self.query1.. " Bewegbare Objekt gefunden! Davon geloescht: "..self.deleted)
+		end
+		
+		if(getTickCount()-self.startTick > 500) then
+
+			setTimer( function()
+				self:MoveObjectsToTimeout()
+			end, 200, 1)
+
+			if(self.lastIndex > self.lastObject+500) then
+				self.lastObject = self.lastIndex;
+				outputDebugString(self.lastIndex.." Objekte geladen...");
+			end
+
+			self.startTick = getTickCount()+500;
+			self.lastIndex = i;
+			break;
+		end
+
+
+	end
+
+end
+
+-- ///////////////////////////////
+-- ///// LoadObjectRow 		//////
+-- ///// Returns: void		//////
+-- ///////////////////////////////
+
+function MoveableObjectLoader:LoadObjectRow(i)
+	if not(self.objectLoading[i]) then
+		self.objectLoading[i] = true;
+		local v = self.query1[i];
+
+
+		local x, y, z = tonumber(gettok(v["Position"], 1, "|")), tonumber(gettok(v["Position"], 2, "|")), tonumber(gettok(v["Position"], 3, "|"));
+		local rx, ry, rz = tonumber(gettok(v["Rotation"], 1, "|")), tonumber(gettok(v["Rotation"], 2, "|")), tonumber(gettok(v["Rotation"], 3, "|"));
+
+		local interior 	= tonumber(v["Interior"])
+		local dim		= tonumber(v["Dimension"])
+
+		local sonstiges	= v["Sonstiges"];
+		local extras	= v["Extra"];
+
+		self.datObjects[i] = MoveableObject:New(v["Modell"], x, y, z, rx, ry, rz, nil, v["Owner"], true, tonumber(v["ID"]), false, interior, dim, v["Werteattribut"]).uObject;
+		self.dontDeleteObjects[i] = true;
+
+		local x1, y1, z1 = x, y, z
+
+--[[
+		for v2, index in pairs(self.query2) do
+			if(dim == 0) then
+				local x2, y2, z2 = tonumber(gettok(index["Koords"], 3, "|")), tonumber(gettok(index["Koords"], 4, "|")), tonumber(gettok(index["Koords"], 5, "|"));
+				if(getDistanceBetweenPoints3D(x1, y1, z1, x2, y2, z2) <= tonumber(index["Objektdistanz"])) and (tonumber(index["Owner"]) ~= 0) and (self:HasUserPermissions(tonumber(index["Owner"]), tonumber(v["Owner"]))) or (self:IsInFactionRange(self.datObjects[i])) then
+					self.dontDeleteObjects[i] = true;
+				end
+
+				-- Fraktionshaus --
+				local x2, y2, z2 = tonumber(gettok(index["Koords"], 3, "|")), tonumber(gettok(index["Koords"], 4, "|")), tonumber(gettok(index["Koords"], 5, "|"));
+
+				if(tonumber(index["Faction"]) == tonumber(v["Owner"])) then
+					if(getDistanceBetweenPoints3D(x1, y1, z1, x2, y2, z2) <= 60) then
+						self.dontDeleteObjects[i] = true;
+					end
+				end
+
+			else
+
+				local owner = tonumber(index["Owner"])
+]]
+				--if--[[(tonumber(index["Interior"]) == House_Interiors[tonumber(v["Interior"])]) and ]](10000+tonumber(index["ID"]) == tonumber(v["Dimension"])) and (self:HasUserPermissions(owner, v["Owner"])) then
+				--[[	self.dontDeleteObjects[i] = true;
+				else	
+					-- Fraktionsinterior
+					if(tonumber(index["ID"]) == 0) then
+						if(tonumber(index["Faction"]) ~= 0) then
+							self.dontDeleteObjects[i] = true;
+						else
+							self.dontDeleteObjects[i] = false;
+						end
+					end
+				end
+
+			end
+		end]]
+
+	end
+end
+
+-- ///////////////////////////////
+-- ///// LoadObjects 		//////
+-- ///// Returns: void		//////
+-- ///////////////////////////////
+
+--[[
+function MoveableObjectLoader:LoadObjects()
+local qh 				= CDatabase:getInstance():query("SELECT * FROM House_Objects;");
+local qh2 				= CDatabase:getInstance():query("SELECT * FROM Houses;");
+
+
+local deleted 			= 0;
+
+local datObjects 		= {}
+local dontDeleteObjects = {}
+local lastresume = getTickCount()
+
+local current_objects	= 0
+local last_current_objects = 0;
+outputDebugString("Lade Haus Objekte! Das kann eine Weile dauern!");
+
+for i, v in pairs(qh) do
+
+current_objects = current_objects+1;
+self.current_objects = v["ID"]
+local x, y, z = tonumber(gettok(v["Position"], 1, "|")), tonumber(gettok(v["Position"], 2, "|")), tonumber(gettok(v["Position"], 3, "|"));
+local rx, ry, rz = tonumber(gettok(v["Rotation"], 1, "|")), tonumber(gettok(v["Rotation"], 2, "|")), tonumber(gettok(v["Rotation"], 3, "|"));
+
+local interior 	= tonumber(v["Interior"])
+local dim		= tonumber(v["Dimension"])
+
+local sonstiges	= v["Sonstiges"];
+local extras	= v["Extra"];
+
+datObjects[i] = MoveableObject:New(v["Modell"], x, y, z, rx, ry, rz, nil, v["Owner"], true, tonumber(v["ID"]), false, interior, dim, v["Werteattribut"]).uObject;
+
+local x1, y1, z1 = x, y, z
+
+if(dim == 0) then
+for v2, index in pairs(qh2) do
+local x2, y2, z2 = tonumber(gettok(index["Koords"], 3, "|")), tonumber(gettok(index["Koords"], 4, "|")), tonumber(gettok(index["Koords"], 5, "|"));
+if(getDistanceBetweenPoints3D(x1, y1, z1, x2, y2, z2) <= tonumber(index["Objektdistanz"])) and (tonumber(index["Owner"]) ~= 0) and (self:HasUserPermissions(tonumber(index["Owner"]), tonumber(v["Owner"]))) or (self:IsInFactionRange(datObjects[i])) then
+dontDeleteObjects[i] = true;
+end
+
+-- Fraktionshaus --
+local x2, y2, z2 = tonumber(gettok(index["Koords"], 3, "|")), tonumber(gettok(index["Koords"], 4, "|")), tonumber(gettok(index["Koords"], 5, "|"));
+
+if(tonumber(index["Faction"]) == tonumber(v["Owner"])) then
+if(getDistanceBetweenPoints3D(x1, y1, z1, x2, y2, z2) <= 60) then
+dontDeleteObjects[i] = true;
+end
+end
+end
+else
+-- Haus
+for v2, index in pairs(qh2) do
+local owner = tonumber(index["Owner"])
+
+if]]--[[(tonumber(index["Interior"]) == House_Interiors[tonumber(v["Interior"])]) and ]]--[[(10000+tonumber(index["ID"]) == tonumber(v["Dimension"])) and (self:HasUserPermissions(owner, v["Owner"])) then
+dontDeleteObjects[i] = true;
+else
+if(tonumber(index["ID"]) == 0) then
+dontDeleteObjects[i] = true;
+end
+end
+end
+end
+
+
+
+-- Coroutine
+if (getTickCount() > lastresume+200) then
+coroutine.yield()
+lastresume = getTickCount()
+if(last_current_objects+200 < current_objects) then
+last_current_objects = current_objects
+outputDebugString(current_objects.." Objekte geladen...");
+end
+end
+end
+
+for index, object in pairs(datObjects) do
+if(dontDeleteObjects[index] ~= true) then
+deleted = deleted+1;
+object:Delete();
+end
+end
+
+outputDebugString("Es wurden "..#qh.. " Bewegbare Objekt gefunden! Davon geloescht: "..deleted)
+self.created = true;
+end
+]]
+
+-- ///////////////////////////////
+-- ///// Constructor 		//////
+-- ///// Returns: void		//////
+-- ///////////////////////////////
+
+function MoveableObjectLoader:Constructor(...)
+	-- Klassenvariablen --
+
+	--[[
+	self.loadObjectsFunc	= function() self:LoadObjects() end;
+
+	self.loopThread = coroutine.create(self.loadObjectsFunc)
+	]]
+	self.current_objects = 0;
+
+	self.lastIndex = 1;
+
+	self.objectLoading = {}
+
+	self:StartLoadingObjects();
+-- Methoden --
+--self:LoadObjects()
+
+
+
+--[[
+coroutine.resume(self.loopThread);
+self.timer = setTimer(function()
+coroutine.resume(self.loopThread)
+outputDebugString(coroutine.status(self.loopThread))
+
+if(self.created == true) then
+killTimer(self.timer);
+end
+end, 400, 0)]]
+-- Events --
+
+--logger:OutputInfo("[CALLING] MoveableObjectLoader: Constructor");
+end
+
+-- EVENT HANDLER --

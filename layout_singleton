@@ -1,0 +1,33 @@
+-- #######################################
+-- ## Project: 		 iLife				##
+-- ## For MTA: San Andreas				##
+-- ## Name: Script.lua		        	##
+-- ## Author: Noneatme(Gunvarrel)		##
+-- ## Version: 1.0						##
+-- ## License: See top Folder			##
+-- ## Date: March 2015                  ##
+-- #######################################
+
+Script = inherit(cSingleton);
+
+--[[
+
+]]
+
+
+-- ///////////////////////////////
+-- ///// Constructor 		//////
+-- ///// Returns: void		//////
+-- ///////////////////////////////
+
+function Script:constructor(...)
+    -- Klassenvariablen --
+
+
+    -- Funktionen --
+
+
+    -- Events --
+end
+
+-- EVENT HANDLER --

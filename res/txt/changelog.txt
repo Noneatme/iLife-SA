@@ -1,0 +1,97 @@
+1.2.9:
+    -> Neues Registerfenster
+    -> Neues Registersystem
+        -> Recruiter ist nun angegeben
+
+    -> Fahrzeugdreck im low-ram modus ist nun standartmäßig zu Performancezwecken deaktiviert
+
+    -> Telefonnummern ueberarbeitet:
+        -> Alte Nummern Bleiben
+        -> Neue Nummern sind im folgenden Format:
+            xxx-xx-xxxx
+
+
+-> Loginsounds wiederhergestellt
+-> Todessound wiederhergestellt
+-> Music bei Moxxys funktioniert wieder
+
+  -> Aeenderungen an der Spielwelt
+  	-> neue Tor-Permission: automatic-vehicle (Tor bewegt sich nur, wenn User im Fahrzeug sitzt)
+    -> Prestige 'Stadthalle' verschoben, da im Weg
+  	-> PD-Tore ueberarbeitet
+  	-> alte Maps entfernt, da diese nicht mehr zeitgemaeß oder eben einfach haesslich waren
+  		-> LSPD-Base, Stadthalle, Bahnhof, Zugschienen-Deko (Schranken, Haeuser, Zaeune), Kranjob (Bahnhof), verschiedenste Leitplanken, Flugzeugtraeger(Carrier SF), das Ding am Trockendock (SF)
+  	-> neue Maps eingefuegt
+  		-> LSPD-Base, Stadthalle, Bahnhof, Kranjob (Bahnhof), Busdepot am Flughafen
+
+-> Scoreboard veraendert
+
+  -> Aenderungen am Zugsystem
+    -> Leitplanken an Bahnschienen wurden durch richtige Schranken ersetzt (und man hoert die Warnglocke 2x so weit)
+    -> Zuege werden nun komplett serverseitig erstellt und ueberwacht
+    -> die Geschwindigkeit des Zuges wird nun wieder ueberwacht (er sollte jetzt nicht mehr mit Top-Speed durch Idlewood fahren ;))
+    -> es fahren nun zwei Personenzuege und ein Gueterzug durch SA
+    -> Haltestellen und Haltepunkte fuer Zuege eingefuegt
+    -> Bugs bitte sofort ordentlich erklaert in den Bugtracker (am besten unter Fahrzeuge) schreiben
+
+  -> Aenderungen an Jobs
+    -> erarbeitetes Geld vom Truckerjob wird in den Statistiken gutgeschrieben
+    -> den Truckjob kann man nun nurnoch mit Anhaenger erledigen (es kommt ein Fehler, wenn man ohne Anhaenger in einen Marker faehrt)
+    -> neue Routen und neuer Startpunkt beim Busjob
+    -> Kranjob am Bahnhof minimal umgestaltet
+    -> Fließbandarbeiter (nicht implementierter Job) wurde nun deaktiviert, bis ihn irgendjemand scriptet (also nie)
+    -> Kranjob - Krankenhaus und Truckerjob (Flint County) werden nun in dem Jobmarker der Stadthalle vermerkt
+    -> Helijob ist jetzt in der Hauptdimension
+    -> mehr Statistiken unter "Jobs" einsehbar
+      -> verladene Container des Kranjobs
+      -> abgelieferte Ware fuer die Truckerjobs, den Helijob und den Flugjob
+      -> befoerderte Personen beim Busjob
+
+-> Loginfix bei DEFINE_DEBUG
+   -> GUIS kann man nun nurnoch öffnen wenn man sich eingeloggt hat
+   -> Asservatenkammer des LSPD's hinzugefügt
+   -> Entnommene Items gehen in diese Kammer
+  -> Aenderungen am Wettersystem
+    -> verbuggte Wetter-IDs entfernt (inkl. gelber LV-Himmel)
+    -> Meeresspiegel steigt nun nicht mehr, dafuer das Wasser im LS-Kanal
+
+   -> Items koennen im LSPD angesehen werden
+  -> Aenderungen an GUIs
+    -> Bizinfo oeffnet sich nun nicht mehr, wenn man in einem Auto sitzt
+    -> neues Tankstellen-GUI
+    -> Payday-GUI
+      -> zeigt nun bei Steuersummen die verschiedenen Summanden an (z.B. alle Fahrzeuge der Fahrzeugsteuer mit deren Einzelsteuer)
+      -> Haussteuer wird nun mit dem Preis eines Hauses / 1000 berechnet
+      -> filtert alle 0-Zeilen bzw. inaktive Steuersaetze (z.B. Fraktionseinkommen bei Zivis)
+      -> Fenster passt sich an die Laenge der Summanden an, aber wird nicht groesser als der Bildschirm
+
+
+   -> Clientseitigen ItemManager hinzugefuegt
+
+
+-> Werbemanager neu geschrieben
+   -> Doneastys entfernt (Muss komplett neugemacht werden)
+   -> Werbungen koennen per CoreConfig nun deaktiviert werden
+
+   -> Serverstats an der Stadthalle hinzugefuegt
+
+
+-> Loginrewards hinzugefuegt:
+   -> Man erhaelt nun diverse Belohnungen wenn man sich jeden Tag einloggt
+   -> Bessere Rewards ab Tag
+      -> 1, 3, 7 -> 7 Maximal
+      -> Nach einloggen nach 48 Stunden wird der Counter wieder auf 1 gesetzt
+
+      -> Viele Items und Geld moeglich zu Gewinnen
+
+      
+  -> Aenderungen am Fahrzeugsystem
+    -> Fahrzeugklassen eingefuegt
+    -> Spritverbrauch, Tankgroesse sind jetzt fuer jede Kategorie variabel
+    -> Fahrzeuge tanken nun deren Sprit (Super, Super+, Diesel, Kerosin)
+    -> Fahhraeder verbrauchen keinen Sprit mehr und koennen auch nicht getankt werden
+    -> Steuern beim Payday werden nun infividuell berechnet und angezeigt (s.h. Aenderungen am Payday)
+    -> TODO: anderen Start-Typ fuer Flugzeuge und Helis hinzufuegen
+
+
+    -> WARUM werden Items gelöscht, wenn es Fehler bei der Benutzung gibt?

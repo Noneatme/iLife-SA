@@ -1,0 +1,5 @@
+<map edf:definitions="editor_main">
+    <object id="object (sfcopdr) (1)" breakable="true" interior="0" alpha="255" model="10184" doublesided="false" scale="0.69999998807907" dimension="0" posX="2521.8999" posY="-1272.90002" posZ="35.6" rotX="0" rotY="0" rotZ="359.5"></object>
+	<object id="object (laepetrol1a) (1)" breakable="true" interior="0" alpha="255" model="5409" doublesided="false" scale="1" dimension="0" posX="1918.9" posY="-1776.3" posZ="17.1" rotX="0" rotY="0" rotZ="0"></object>
+    <removeWorldObject id="removeWorldObject (laepetrol1a) (1)" radius="31.043" interior="0" model="5409" lodModel="5535" posX="1918.852" posY="-1776.328" posZ="16.97656" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+</map>

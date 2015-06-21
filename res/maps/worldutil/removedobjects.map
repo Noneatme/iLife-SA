@@ -1,0 +1,7 @@
+<map edf:definitions="editor_main">
+	<removeWorldObject id="removeWorldObject (laeChicanoTr1) (1)" radius="99.25022" interior="0" model="5449" lodModel="0" posX="2124.891" posY="-1023.359" posZ="53.6875" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+	<!-- Millitary Base -->
+	<removeWorldObject id="removeWorldObject (gate_autoL) (1)" radius="7.4280729" interior="0" model="986" lodModel="0" posX="2497.2119" posY="2769.7842" posZ="12.39259" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (gate_autoR) (1)" radius="7.3802581" interior="0" model="985" lodModel="0" posX="2497.2419" posY="2777.0112" posZ="11.14916" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+
+</map>

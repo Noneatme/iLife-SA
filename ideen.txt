@@ -1,0 +1,33 @@
+- /pickall
+
+- Garagentore in Garage             - DONE
+- Admins können Objekte bewegen     - DONE
+- 3D RADIO                          - DONE
+
+
+-- BUGTREACKER: ---
+    - Drogennpreise: Erhöhen
+
+    -> Gangarenen: Waffen / Drogen pro Ganggebiet / Alles Mögliche
+    -> Geldtransporter der PDLer:
+        -> Aus der Arsenatenkammer nommen
+        -> Items der Arsenatenkammer in Geld umwandeln
+
+    -> PD Walkie Talkie:
+    -> Wantedanzeige neben dem Nametag
+
+    -> Inselmap einfügen
+    -> Fraktionsobjekte deR SAT und PDler nur für die jeweiligen FRaktionen benutzbar machen
+    -> AFK im Knast entfernen
+
+    -> Holztreppen der SAT in den Normalen Außenobjekteshop einfügen
+    -> Bug fixen, beim Abladen des WT's einsteigen
+
+    -> Per CMD Knastzeit ändern
+        -> Ab Rank 3 beim PC
+        -> Ab Rank 1 bei SpF
+    -> Radialconfig im Auto DEaktrivieren
+
+    -> Motoradshop:
+        -> Sandchez, FCR, Freeway
+        

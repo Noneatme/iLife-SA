@@ -1,0 +1,162 @@
+<map edf:definitions="HungerGames,editor_main">
+    <removeWorldObject id="removeWorldObject (plantbox13) (1)" radius="58.812503814697" interior="0" model="7104" lodModel="7170" posX="2706.45313" posY="2762.91406" posZ="13.25" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (plantbox1) (1)" radius="13.771275520325" interior="0" model="7025" lodModel="7171" posX="2627.22656" posY="2850.50781" posZ="13.25" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (plantbox12) (1)" radius="45.303153991699" interior="0" model="7102" lodModel="7169" posX="2514.58594" posY="2822.95313" posZ="13.25" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (vgngatesecurity) (1)" radius="25.680471420288" interior="0" model="7023" lodModel="0" posX="2501.51563" posY="2781.28906" posZ="9.82031" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (vgsplntground) (1)" radius="82.376121520996" interior="0" model="7095" lodModel="0" posX="2545.54688" posY="2751.38281" posZ="11.96094" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (Streetlamp2) (1)" radius="4.9518890380859" interior="0" model="1231" lodModel="0" posX="2546.00928" posY="2764.31299" posZ="10.67801" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (Streetlamp2) (2)" radius="4.9518890380859" interior="0" model="1231" lodModel="0" posX="2563.7439" posY="2764.41309" posZ="11.05359" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (Streetlamp2) (3)" radius="4.9518890380859" interior="0" model="1231" lodModel="0" posX="2546.13159" posY="2742.82764" posZ="12.06166" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (Streetlamp2) (4)" radius="4.9518890380859" interior="0" model="1231" lodModel="0" posX="2563.90894" posY="2742.61865" posZ="11.53117" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (Streetlamp2) (5)" radius="4.9518890380859" interior="0" model="1231" lodModel="0" posX="2528.90747" posY="2764.80957" posZ="15.42933" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (Streetlamp2) (6)" radius="4.9518890380859" interior="0" model="1231" lodModel="0" posX="2528.96973" posY="2742.8833" posZ="11.10369" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (Streetlamp2) (8)" radius="4.9518890380859" interior="0" model="1231" lodModel="0" posX="2529.11035" posY="2724.60449" posZ="15.39826" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (sm_veg_tree6) (1)" radius="11.084518432617" interior="0" model="700" lodModel="0" posX="2555.75781" posY="2724.69531" posZ="10.08594" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (ringwalls) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="13607" doublesided="false" scale="1" dimension="0" posX="2539.7998" posY="2761.7998" posZ="13.4" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (kmb_container_blue) (1)" breakable="true" interior="0" alpha="255" model="2932" doublesided="false" scale="1" dimension="0" posX="2519.19995" posY="2708.3999" posZ="11.4" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (kmb_container_blue) (2)" breakable="true" interior="0" alpha="255" model="2932" doublesided="false" scale="1" dimension="0" posX="2516" posY="2708.3999" posZ="11.4" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (kmb_container_red) (1)" breakable="true" interior="0" alpha="255" model="2934" doublesided="false" scale="1" dimension="0" posX="2517.3999" posY="2705.80005" posZ="14.3" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (kmb_container_yel) (1)" breakable="true" interior="0" alpha="255" model="2935" doublesided="false" scale="1" dimension="0" posX="2517.30005" posY="2702.3999" posZ="11.3" rotX="0" rotY="0" rotZ="270"></object>
+	<removeWorldObject id="removeWorldObject (sm_veg_tree6) (2)" radius="11.084518432617" interior="0" model="700" lodModel="0" posX="2538.50781" posY="2796.86719" posZ="10.09375" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (sm_veg_tree6) (3)" radius="11.084518432617" interior="0" model="700" lodModel="0" posX="2552.17188" posY="2796.86719" posZ="10.5625" rotX="0" rotY="0" rotZ="0"></removeWorldObject>  
+    <spawnpoint id="spawnpoint (1)" posX="2501.69995" posY="2766.69995" posZ="10.9" rotX="0" rotY="0" rotZ="260.5" ></spawnpoint>
+    <spawnpoint id="spawnpoint (2)" posX="2512.69995" posY="2788.8999" posZ="10.9" rotX="0" rotY="0" rotZ="222.25" ></spawnpoint>
+    <spawnpoint id="spawnpoint (3)" alpha="255" interior="0" posX="2502.80005" posY="2771.80005" posZ="10.9" rotX="0" rotY="0" rotZ="252.497" ></spawnpoint>
+    <spawnpoint id="spawnpoint (4)" rotZ="217.995" alpha="255" interior="0" posX="2516.3999" posY="2792.1001" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (5)" rotZ="209.991" alpha="255" interior="0" posX="2520.5" posY="2794.8999" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (6)" rotZ="246.493" alpha="255" interior="0" posX="2504.3999" posY="2776.5" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (7)" rotZ="236.489" alpha="255" interior="0" posX="2506.6001" posY="2781" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (8)" rotZ="234.486" alpha="255" interior="0" posX="2509.30005" posY="2785.1001" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (9)" rotZ="199.987" alpha="255" interior="0" posX="2525.19995" posY="2797.19995" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (10)" rotZ="195.984" alpha="255" interior="0" posX="2529.8999" posY="2798.8999" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (11)" rotZ="185.98" alpha="255" interior="0" posX="2534.6001" posY="2799.80005" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (12)" rotZ="177.973" alpha="255" interior="0" posX="2539.69922" posY="2800.19922" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (13)" rotZ="171.973" alpha="255" interior="0" posX="2544.8999" posY="2799.8999" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (14)" rotZ="167.469" alpha="255" interior="0" posX="2549.69995" posY="2798.8999" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (15)" rotZ="159.465" alpha="255" interior="0" posX="2554.30005" posY="2797.30005" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (16)" rotZ="149.461" alpha="255" interior="0" posX="2558.8999" posY="2795.1001" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (17)" rotZ="141.458" alpha="255" interior="0" posX="2563.1001" posY="2792.30005" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (18)" rotZ="137.454" alpha="255" interior="0" posX="2566.8999" posY="2789" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (19)" rotZ="120.7" alpha="255" interior="0" posX="2570.19995" posY="2785.19995" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (20)" rotZ="118.695" alpha="255" interior="0" posX="2573" posY="2781" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (21)" rotZ="112.691" alpha="255" interior="0" posX="2575.19995" posY="2776.5" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (22)" rotZ="102.687" alpha="255" interior="0" posX="2576.80005" posY="2771.80005" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (23)" rotZ="98.683" alpha="255" interior="0" posX="2577.80005" posY="2766.80005" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (24)" rotZ="85.679" alpha="255" interior="0" posX="2578.1001" posY="2761.69995" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (25)" rotZ="80.177" alpha="255" interior="0" posX="2577.80005" posY="2756.80005" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (26)" rotZ="78.173" alpha="255" interior="0" posX="2577.8999" posY="2756.8999" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (27)" rotZ="76.168" alpha="255" interior="0" posX="2576.80005" posY="2751.8999" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (28)" rotZ="67.413" alpha="255" interior="0" posX="2575.19995" posY="2747.19995" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (29)" rotZ="60.662" alpha="255" interior="0" posX="2573" posY="2742.69995" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (30)" rotZ="52.411" alpha="255" interior="0" posX="2570.19995" posY="2738.5" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (31)" rotZ="44.66" alpha="255" interior="0" posX="2566.8999" posY="2734.69995" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (32)" rotZ="32.659" alpha="255" interior="0" posX="2563.19995" posY="2731.3999" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (36)" rotZ="26.657" alpha="255" interior="0" posX="2558.8999" posY="2728.6001" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (37)" rotZ="20.653" alpha="255" interior="0" posX="2554.5" posY="2726.3999" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (38)" rotZ="14.149" alpha="255" interior="0" posX="2549.80005" posY="2724.80005" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (39)" rotZ="6.645" alpha="255" interior="0" posX="2544.8999" posY="2723.80005" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (40)" rotZ="356.641" alpha="255" interior="0" posX="2539.80005" posY="2723.5" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (41)" rotZ="354.638" alpha="255" interior="0" posX="2535" posY="2723.80005" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (42)" rotZ="343.383" alpha="255" interior="0" posX="2529.8999" posY="2724.80005" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (43)" rotZ="340.383" alpha="255" interior="0" posX="2525.19995" posY="2726.3999" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (44)" rotZ="331.378" alpha="255" interior="0" posX="2520.69995" posY="2728.6001" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (45)" rotZ="319.375" alpha="255" interior="0" posX="2516.5" posY="2731.30005" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (46)" rotZ="315.373" alpha="255" interior="0" posX="2512.69995" posY="2734.6001" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (47)" rotZ="309.368" alpha="255" interior="0" posX="2509.5" posY="2738.3999" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (48)" rotZ="299.364" alpha="255" interior="0" posX="2506.6001" posY="2742.6001" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (49)" rotZ="293.861" alpha="255" interior="0" posX="2504.3999" posY="2747.1001" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (50)" rotZ="288.357" alpha="255" interior="0" posX="2502.80005" posY="2751.80005" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (51)" rotZ="278.353" alpha="255" interior="0" posX="2501.80005" posY="2756.80005" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (52)" rotZ="268.1" alpha="255" interior="0" posX="2501.5" posY="2761.80005" posZ="10.9" rotX="0" rotY="0"></spawnpoint>
+    <chest id="chest (19)" posX="2533.5" posY="2760.19995" posZ="9.9" rotX="0" rotY="0" rotZ="310"></chest>
+    <chest id="chest (20)" alpha="255" interior="0" posX="2538.80005" posY="2768.1001" posZ="9.9" rotX="0" rotY="0" rotZ="30"></chest>
+    <chest id="chest (21)" alpha="255" interior="0" posX="2530.6001" posY="2766.1001" posZ="9.9" rotX="0" rotY="0" rotZ="20"></chest>
+    <chest id="chest (22)" alpha="255" interior="0" posX="2544.19995" posY="2757.1001" posZ="9.9" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (23)" alpha="255" interior="0" posX="2536.19995" posY="2762.3999" posZ="9.9" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (25)" alpha="255" interior="0" posX="2541.8999" posY="2761.30005" posZ="9.9" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (26)" alpha="255" interior="0" posX="2536" posY="2766.30005" posZ="9.9" rotX="0" rotY="0" rotZ="60"></chest>
+    <chest id="chest (27)" alpha="255" interior="0" posX="2537.5" posY="2754.6001" posZ="9.9" rotX="0" rotY="0" rotZ="350"></chest>
+    <chest id="chest (28)" alpha="255" interior="0" posX="2540.3999" posY="2770.80005" posZ="9.9" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (29)" alpha="255" interior="0" posX="2540.19995" posY="2755.8999" posZ="9.9" rotX="0" rotY="0" rotZ="330"></chest>
+    <chest id="chest (30)" alpha="255" interior="0" posX="2546.1001" posY="2764.19995" posZ="9.9" rotX="0" rotY="0" rotZ="32"></chest>
+    <chest id="chest (31)" alpha="255" interior="0" posX="2528.6001" posY="2763" posZ="9.9" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (32)" alpha="255" interior="0" posX="2539.30005" posY="2764.1001" posZ="9.9" rotX="0" rotY="0" rotZ="320"></chest>
+    <chest id="chest (33)" alpha="255" interior="0" posX="2539.3999" posY="2759.19995" posZ="9.9" rotX="0" rotY="0" rotZ="20"></chest>
+    <chest id="chest (34)" alpha="255" interior="0" posX="2547.69995" posY="2761.3999" posZ="9.9" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (35)" alpha="255" interior="0" posX="2542.1001" posY="2767.1001" posZ="9.9" rotX="0" rotY="0" rotZ="30"></chest>
+    <chest id="chest (36)" alpha="255" interior="0" posX="2529.6001" posY="2758.3999" posZ="9.9" rotX="0" rotY="0" rotZ="30"></chest>
+    <chest id="chest (37)" alpha="255" interior="0" posX="2533.3999" posY="2755.1001" posZ="9.9" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (38)" alpha="255" interior="0" posX="2532" posY="2764.30005" posZ="9.9" rotX="0" rotY="0" rotZ="316"></chest>
+    <chest id="chest (39)" alpha="255" interior="0" posX="2536.89941" posY="2757.19922" posZ="9.9" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (40)" alpha="255" interior="0" posX="2535" posY="2768.6001" posZ="9.9" rotX="0" rotY="0" rotZ="300"></chest>
+    <chest id="chest (41)" alpha="255" interior="0" posX="2531.80005" posY="2758" posZ="9.9" rotX="0" rotY="0" rotZ="310"></chest>
+    <chest id="chest (42)" alpha="255" interior="0" posX="2545" posY="2767.3999" posZ="9.9" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (43)" alpha="255" interior="0" posX="2540.69995" posY="2752.8999" posZ="9.9" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (44)" posX="2614.80005" posY="2806.5" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (45)" posX="2612.1001" posY="2806.69995" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (46)" posX="2541.3999" posY="2848.6001" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (47)" posX="2541.3999" posY="2846.69995" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (48)" posX="2563.80005" posY="2848.5" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (49)" posX="2563.69995" posY="2846.69995" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (50)" posX="2569.19995" posY="2848" posZ="13.3" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (51)" posX="2589.5" posY="2848" posZ="13.3" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (52)" posX="2598.5" posY="2805.8999" posZ="13.3" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (53)" posX="2615.19995" posY="2848.80005" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (54)" posX="2569.3999" posY="2810.80005" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (55)" posX="2551.5" posY="2813.8999" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (56)" posX="2540.8999" posY="2805.5" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (57)" posX="2626.80005" posY="2840.19995" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (58)" posX="2618.1001" posY="2844.80005" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (59)" posX="2615.6001" posY="2852.3999" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (60)" posX="2678.8999" posY="2844.80005" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (61)" posX="2674.5" posY="2844.8999" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (62)" posX="2693.80005" posY="2845.5" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (63)" posX="2592.3999" posY="2682.69995" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (64)" posX="2596.8999" posY="2682.8999" posZ="16.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (65)" posX="2592" posY="2720.30005" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (66)" posX="2587.3999" posY="2720.1001" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (67)" posX="2672.69995" posY="2696" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (68)" posX="2672.6001" posY="2712.69995" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (69)" posX="2658.3999" posY="2698.69995" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (70)" posX="2648.5" posY="2744.30005" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (71)" posX="2649.1001" posY="2775.30005" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (72)" posX="2614.8999" posY="2784" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (73)" posX="2596.6001" posY="2802.1001" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (74)" posX="2618" posY="2803.6001" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (75)" posX="2627.80005" posY="2804.80005" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (76)" posX="2671.6001" posY="2799.5" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (77)" posX="2629.5" posY="2711.8999" posZ="35.5" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (78)" posX="2629.30005" posY="2732.30005" posZ="35.5" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (79)" posX="2607.8999" posY="2711.19995" posZ="35.5" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (80)" posX="2607.8999" posY="2732.19995" posZ="35.5" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (81)" posX="2630.30005" posY="2726" posZ="22.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (82)" posX="2630.8999" posY="2713.1001" posZ="24.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (83)" posX="2641.6001" posY="2745" posZ="22.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (84)" posX="2606.5" posY="2730" posZ="22.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (85)" posX="2612.5" posY="2738.3999" posZ="22.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (86)" posX="2587.1001" posY="2724.19995" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (87)" posX="2556.3999" posY="2705.3999" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (88)" posX="2512.8999" posY="2705.5" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (89)" posX="2540.5" posY="2851.6001" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (90)" posX="2592.8999" posY="2796.8999" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (91)" posX="2543.3999" posY="2839.1001" posZ="13.3" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (92)" posX="2543.69995" posY="2821.19995" posZ="13.3" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (93)" posX="2503.30005" posY="2853.3999" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (94)" posX="2652.3999" posY="2754.5" posZ="18.3" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (95)" posX="2655.19995" posY="2744.6001" posZ="18.3" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (96)" posX="2654.69995" posY="2709.6001" posZ="18.3" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (97)" posX="2597.69995" posY="2714.8999" posZ="24.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (98)" posX="2681.8999" posY="2718.80005" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (99)" posX="2709.5" posY="2692.19995" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (100)" posX="2703.6001" posY="2798.19995" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (101)" posX="2714.19995" posY="2805.1001" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (102)" posX="2716.80005" posY="2842.30005" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (103)" posX="2748.3999" posY="2667.69995" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (104)" posX="2697" posY="2747.19995" posZ="9.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (105)" posX="2597.30005" posY="2637.8999" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (106)" posX="2499.80005" posY="2689.30005" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (107)" posX="2556.6001" posY="2701.6001" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (108)" posX="2557" posY="2683.80005" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (109)" posX="2576.69995" posY="2642.5" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (110)" posX="2602.6001" posY="2683.69995" posZ="9.8" rotX="0" rotY="0" rotZ="0"></chest>
+</map>

@@ -1,0 +1,18 @@
+<map edf:definitions="editor_main">
+    <object id="object (vegasNbball1) (1)" interior="0" alpha="255" doublesided="false" model="6959" scale="1" dimension="0" posX="1457.59998" posY="-593.70001" posZ="90" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (vegasNbball1) (3)" interior="0" alpha="255" doublesided="false" model="6959" scale="1" dimension="0" posX="1437" posY="-593.70001" posZ="69.3" rotX="0" rotY="90" rotZ="0"></object>
+    <object id="object (vegasNbball1) (4)" interior="0" alpha="255" doublesided="false" model="6959" scale="1" dimension="0" posX="1457.59998" posY="-573.79999" posZ="69.969" rotX="90" rotY="0" rotZ="0"></object>
+    <object id="object (vegasNbball1) (5)" interior="0" alpha="255" doublesided="false" model="6959" scale="1" dimension="0" posX="1478.30005" posY="-593.70001" posZ="69.3" rotX="0" rotY="90" rotZ="0"></object>
+    <object id="object (DockBarr1_LA) (1)" interior="0" alpha="255" doublesided="false" model="3578" scale="1" dimension="0" posX="1453.90002" posY="-609.70001" posZ="90.7" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DockBarr1_LA) (2)" interior="0" alpha="255" doublesided="false" model="3578" scale="1" dimension="0" posX="1437.5" posY="-605" posZ="90.7" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (DockBarr1_LA) (3)" interior="0" alpha="255" doublesided="false" model="3578" scale="1" dimension="0" posX="1437.5" posY="-594.70001" posZ="90.7" rotX="0" rotY="0" rotZ="269.995"></object>
+    <object id="object (DockBarr1_LA) (4)" interior="0" alpha="255" doublesided="false" model="3578" scale="1" dimension="0" posX="1437.5" posY="-584.40002" posZ="90.7" rotX="0" rotY="0" rotZ="269.995"></object>
+    <object id="object (DockBarr1_LA) (5)" interior="0" alpha="255" doublesided="false" model="3578" scale="1" dimension="0" posX="1437.5" posY="-578.90002" posZ="90.7" rotX="0" rotY="0" rotZ="269.995"></object>
+    <object id="object (DockBarr1_LA) (6)" interior="0" alpha="255" doublesided="false" model="3578" scale="1" dimension="0" posX="1442.90002" posY="-574.40002" posZ="90.7" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (DockBarr1_LA) (7)" interior="0" alpha="255" doublesided="false" model="3578" scale="1" dimension="0" posX="1453.19995" posY="-574.40002" posZ="90.7" rotX="0" rotY="0" rotZ="179.995"></object>
+    <object id="object (DockBarr1_LA) (8)" interior="0" alpha="255" doublesided="false" model="3578" scale="1" dimension="0" posX="1463.5" posY="-574.40002" posZ="90.7" rotX="0" rotY="0" rotZ="179.995"></object>
+    <object id="object (DockBarr1_LA) (9)" interior="0" alpha="255" doublesided="false" model="3578" scale="1" dimension="0" posX="1473.09998" posY="-574.40002" posZ="90.7" rotX="0" rotY="0" rotZ="179.995"></object>
+    <object id="object (DockBarr1_LA) (10)" interior="0" alpha="255" doublesided="false" model="3578" scale="1" dimension="0" posX="1477.59998" posY="-579.79999" posZ="90.7" rotX="0" rotY="0" rotZ="269.995"></object>
+    <object id="object (DockBarr1_LA) (11)" interior="0" alpha="255" doublesided="false" model="3578" scale="1" dimension="0" posX="1477.59998" posY="-590.09998" posZ="90.7" rotX="0" rotY="0" rotZ="269.995"></object>
+    <object id="object (DockBarr1_LA) (12)" interior="0" alpha="255" doublesided="false" model="3578" scale="1" dimension="0" posX="1477.59998" posY="-600.40002" posZ="90.7" rotX="0" rotY="0" rotZ="269.995"></object>
+</map>

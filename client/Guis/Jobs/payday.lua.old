@@ -1,0 +1,52 @@
+﻿sX,sY = guiGetScreenSize()
+
+Payday = {
+["Window"] = false,
+["List"] = {}
+}
+
+Payday["Window"] = new(CDxWindow, "Payday", 310, 250, true, false, "Center|Top")
+
+Payday["List"][1] = new(CDxList, 10, 10, 290, 200, tocolor(125,125,125,200), Payday["Window"])
+Payday["List"][1]:addColumn("Name")
+Payday["List"][1]:addColumn("Betrag")
+
+Payday["Window"]:add(Payday["List"][1])
+
+Payday["Window"]:setReadOnly(true)
+
+function destroyPayday()
+	Payday["Window"]:hide()
+end
+
+function showPayday(tblValues)
+	
+	Payday["List"][1]:clearRows()
+	outputConsole("Payday:")
+	outputConsole("____________________________")
+	Payday["List"][1]:addRow("Grundeinkommen|"..tostring(tblValues["BasicIncome"]).." $")
+	outputConsole("Grundeinkommen: "..tostring(tblValues["BasicIncome"]))
+	Payday["List"][1]:addRow("Fraktionseinkommen|"..tostring(tblValues["FactionIncome"]).." $")
+	outputConsole("Fraktionseinkommen: "..tostring(tblValues["FactionIncome"]))
+	Payday["List"][1]:addRow("Zinsen|"..tostring(math.floor(tblValues["Interest"])).." $")
+	outputConsole("Zinsen: "..tostring(tblValues["Interest"]))
+	Payday["List"][1]:addRow("Grundstücksteuer|"..tostring(tblValues["HouseTaxes"]).." $")
+	outputConsole("Grundstücksteuer: "..tostring(tblValues["HouseTaxes"]))
+	Payday["List"][1]:addRow("Fahrzeugsteuer|"..tostring(tblValues["VehicleTaxes"]).." $")
+	outputConsole("Fahrzeugsteuer: "..tostring(tblValues["VehicleTaxes"]))
+	outputConsole("____________________________")
+	Payday["List"][1]:addRow("________________|_________________")
+	Payday["List"][1]:addRow("Gesamt|"..tostring(tblValues["Sum"]).." $")
+	outputConsole("Gesamt: "..tostring(tblValues["Sum"]))
+	
+	if (not (isTimer(Payday["Timer"])) ) then
+		Payday["Window"]:show()
+		Payday["Timer"] = setTimer(destroyPayday, 15000, 1)
+	else
+		killTimer(Payday["Timer"])
+		Payday["Window"]:show()
+		Payday["Timer"] = setTimer(destroyPayday, 15000, 1)
+	end
+end
+addEvent("PaydayShow", true)
+addEventHandler("PaydayShow", getLocalPlayer(), showPayday)

@@ -1,0 +1,249 @@
+<map edf:definitions="HungerGames,editor_main">
+    <object id="object (bit) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="13657" doublesided="false" scale="1" dimension="10000" posX="-1899.35156" posY="943.83984" posZ="-71.99832" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (bit) (2)" breakable="true" interior="0" collisions="true" alpha="255" model="13657" doublesided="false" scale="1" dimension="10000" posX="-1827.18164" posY="943.77051" posZ="-66.30794" rotX="179.857" rotY="0" rotZ="179.879"></object>
+    <object id="object (8screen) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="13630" doublesided="false" scale="1" dimension="10000" posX="-1823.59509" posY="917.44824" posZ="-79.59835" rotX="0" rotY="0" rotZ="89.09"></object>
+    <object id="object (des_westrn11_) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="3253" doublesided="false" scale="1" dimension="10000" posX="-1865.76855" posY="977.30273" posZ="-75.2327" rotX="0" rotY="0" rotZ="39.7"></object>
+    <object id="object (conhoos4) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="3285" doublesided="false" scale="1" dimension="10000" posX="-1853.52942" posY="980.3175" posZ="-73.30347" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cuntsrod07) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="18483" doublesided="false" scale="1" dimension="10000" posX="-1850.14453" posY="962.34668" posZ="-75.19597" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sm_airstrm_sml_) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="3174" doublesided="false" scale="1" dimension="10000" posX="-1865.77466" posY="955.30725" posZ="-75.22253" rotX="0" rotY="0" rotZ="87.34"></object>
+    <object id="object (cxrf_savhus2_) (2)" breakable="true" interior="0" collisions="true" alpha="255" model="3356" doublesided="false" scale="1" dimension="10000" posX="-1848.20703" posY="946.125" posZ="-71.30148" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CE_loghut1) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="3415" doublesided="false" scale="1" dimension="10000" posX="-1860.99133" posY="988.98834" posZ="-75.2077" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (conhoos2) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="3241" doublesided="false" scale="1" dimension="10000" posX="-1841.64099" posY="977.47589" posZ="-75.3327" rotX="0" rotY="0" rotZ="89.325"></object>
+    <object id="object (cxrf_watertwr) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="3286" doublesided="false" scale="1" dimension="10000" posX="-1831.32727" posY="974.27716" posZ="-70.49365" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sw_logcover) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="3403" doublesided="false" scale="1" dimension="10000" posX="-1878.43579" posY="948.68848" posZ="-72.1743" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cw_tempbarn01) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="17058" doublesided="false" scale="1" dimension="10000" posX="-1802.86133" posY="961.93457" posZ="-75.2827" rotX="0" rotY="0" rotZ="0.231"></object>
+    <object id="object (cw2_weebarn1_01) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="17063" doublesided="false" scale="1" dimension="10000" posX="-1822.5144" posY="977.4577" posZ="-75.60772" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_OUTHOUSE) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="1452" doublesided="false" scale="1" dimension="10000" posX="-1866.36572" posY="973.17816" posZ="-74.17367" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_H_BALE2) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="1454" doublesided="false" scale="1" dimension="10000" posX="-1871.12488" posY="973.08331" posZ="-74.43449" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_H_BALE2) (2)" breakable="true" interior="0" collisions="true" alpha="255" model="1454" doublesided="false" scale="1" dimension="10000" posX="-1873.09241" posY="973.13568" posZ="-74.43449" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_H_BALE2) (3)" breakable="true" interior="0" collisions="true" alpha="255" model="1454" doublesided="false" scale="1" dimension="10000" posX="-1875.09973" posY="973.19208" posZ="-74.43449" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (d_sign01) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="3927" doublesided="false" scale="1" dimension="10000" posX="-1836.9729" posY="957.07324" posZ="-72.57122" rotX="0" rotY="0" rotZ="83.37"></object>
+    <object id="object (cxrf_Aldea) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="3410" doublesided="false" scale="1" dimension="10000" posX="-1856.70007" posY="968.82135" posZ="-74.36069" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fencesmallb) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="970" doublesided="false" scale="1" dimension="10000" posX="-1868.9646" posY="972.29639" posZ="-74.50256" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fencesmallb) (2)" breakable="true" interior="0" collisions="true" alpha="255" model="970" doublesided="false" scale="1" dimension="10000" posX="-1849.04846" posY="975.13495" posZ="-74.68121" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fencesmallb) (3)" breakable="true" interior="0" collisions="true" alpha="255" model="970" doublesided="false" scale="1" dimension="10000" posX="-1835.00903" posY="975.76819" posZ="-74.68121" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fencesmallb) (4)" breakable="true" interior="0" collisions="true" alpha="255" model="970" doublesided="false" scale="1" dimension="10000" posX="-1816.88733" posY="971.11798" posZ="-74.62105" rotX="0" rotY="0" rotZ="270.675"></object>
+    <object id="object (cxreffence) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="3275" doublesided="false" scale="1" dimension="10000" posX="-1834.21191" posY="952.2016" posZ="-74.54571" rotX="0" rotY="0" rotZ="180.9"></object>
+    <object id="object (cxreffence) (2)" breakable="true" interior="0" collisions="true" alpha="255" model="3275" doublesided="false" scale="1" dimension="10000" posX="-1823.75012" posY="952.35059" posZ="-74.48087" rotX="0" rotY="0" rotZ="180.895"></object>
+    <object id="object (sw_logs3) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="12808" doublesided="false" scale="1" dimension="10000" posX="-1901.06226" posY="958.08105" posZ="-73.46347" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sw_logs3) (2)" breakable="true" interior="0" collisions="true" alpha="255" model="12808" doublesided="false" scale="1" dimension="10000" posX="-1902.03564" posY="938.70349" posZ="-72.86629" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (veg_treea3) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="618" doublesided="false" scale="1" dimension="10000" posX="-1872.88708" posY="975.4491" posZ="-75.2327" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (veg_treea3) (2)" breakable="true" interior="0" collisions="true" alpha="255" model="618" doublesided="false" scale="1" dimension="10000" posX="-1869.32776" posY="984.61047" posZ="-75.2327" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (veg_treea3) (3)" breakable="true" interior="0" collisions="true" alpha="255" model="618" doublesided="false" scale="1" dimension="10000" posX="-1874.02026" posY="981.32385" posZ="-75.2327" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (veg_treea3) (4)" breakable="true" interior="0" collisions="true" alpha="255" model="618" doublesided="false" scale="1" dimension="10000" posX="-1868.42017" posY="948.65112" posZ="-75.2327" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (veg_treea3) (5)" breakable="true" interior="0" collisions="true" alpha="255" model="618" doublesided="false" scale="1" dimension="10000" posX="-1835.84644" posY="968.52515" posZ="-75.17253" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (veg_treea3) (6)" breakable="true" interior="0" collisions="true" alpha="255" model="618" doublesided="false" scale="1" dimension="10000" posX="-1826.62903" posY="955.57007" posZ="-75.17253" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (new_bushsm) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="647" doublesided="false" scale="1" dimension="10000" posX="-1875.0968" posY="976.10461" posZ="-73.90078" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (new_bushsm) (2)" breakable="true" interior="0" collisions="true" alpha="255" model="647" doublesided="false" scale="1" dimension="10000" posX="-1878.33386" posY="976.42389" posZ="-74.00076" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (new_bushsm) (3)" breakable="true" interior="0" collisions="true" alpha="255" model="647" doublesided="false" scale="1" dimension="10000" posX="-1882.43616" posY="975.85272" posZ="-74.00082" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (new_bushtest) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="762" doublesided="false" scale="1" dimension="10000" posX="-1878.69067" posY="936.9743" posZ="-70.20865" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (new_bushtest) (2)" breakable="true" interior="0" collisions="true" alpha="255" model="762" doublesided="false" scale="1" dimension="10000" posX="-1866.01929" posY="935.80695" posZ="-71.45868" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (new_bushtest) (3)" breakable="true" interior="0" collisions="true" alpha="255" model="762" doublesided="false" scale="1" dimension="10000" posX="-1913.77661" posY="964.27789" posZ="-70.36498" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (genVEG_bush11) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="805" doublesided="false" scale="1" dimension="10000" posX="-1888.60962" posY="969.05884" posZ="-74.08337" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (nu_plant3_ofc) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="2010" doublesided="false" scale="1" dimension="10000" posX="-1851.67944" posY="950.0498" posZ="-75.25494" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (hedge01_law) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="6046" doublesided="false" scale="1" dimension="10000" posX="-1820.28223" posY="936.34772" posZ="-74.34275" rotX="0" rotY="0" rotZ="91.31"></object>
+    <object id="object (vgsrailroad25) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="8634" doublesided="false" scale="1" dimension="10000" posX="-1812.18225" posY="939.04755" posZ="-74.59398" rotX="0" rotY="0" rotZ="91.31"></object>
+    <object id="object (vgsrailroad24) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="8632" doublesided="false" scale="1" dimension="10000" posX="-1910.35449" posY="962.3457" posZ="-74.54398" rotX="0" rotY="0" rotZ="225.016"></object>
+    <object id="object (vgsrailbuild04) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="9166" doublesided="false" scale="1" dimension="10000" posX="-1805.08691" posY="938.09277" posZ="-71.21899" rotX="0" rotY="0" rotZ="91.307"></object>
+    <object id="object (lastran1_LA02) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="3585" doublesided="false" scale="1" dimension="10000" posX="-1803.79138" posY="938.67871" posZ="-73.60281" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (lastran1_LA02) (2)" breakable="true" interior="0" collisions="true" alpha="255" model="3585" doublesided="false" scale="1" dimension="10000" posX="-1815.23572" posY="938.51514" posZ="-73.60281" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (lastran1_LA02) (3)" breakable="true" interior="0" collisions="true" alpha="255" model="3585" doublesided="false" scale="1" dimension="10000" posX="-1829.09106" posY="938.32739" posZ="-73.60281" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (ammotrn_obj) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="3066" doublesided="false" scale="1" dimension="10000" posX="-1824.33496" posY="945.59509" posZ="-74.42844" rotX="0" rotY="0" rotZ="93.295"></object>
+    <object id="object (sw_trailer02) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="12932" doublesided="false" scale="1" dimension="10000" posX="-1908.22754" posY="987.60394" posZ="-72.03593" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (RACK2) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="925" doublesided="false" scale="1" dimension="10000" posX="-1839.57031" posY="941.41437" posZ="-74.17079" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (lasdkrt05) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="3575" doublesided="false" scale="1" dimension="10000" posX="-1836.4574" posY="926.06836" posZ="-72.54101" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (lasdkrt05) (2)" breakable="true" interior="0" collisions="true" alpha="255" model="3575" doublesided="false" scale="1" dimension="10000" posX="-1849.60718" posY="926.14398" posZ="-72.54101" rotX="0" rotY="0" rotZ="270.675"></object>
+    <object id="object (las2dkwar01) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="5259" doublesided="false" scale="1" dimension="10000" posX="-1807.86499" posY="950.26208" posZ="-73.55759" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (apfuel2_SFSe) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="10814" doublesided="false" scale="1" dimension="10000" posX="-1915.94971" posY="937.33905" posZ="-73.72292" rotX="0" rotY="0" rotZ="270.675"></object>
+    <object id="object (DEAD_TREE_8) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="835" doublesided="false" scale="1" dimension="10000" posX="-1909.65344" posY="922.57404" posZ="-72.73099" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (veg_bevtree1) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="713" doublesided="false" scale="1" dimension="10000" posX="-1895.70239" posY="976.95728" posZ="-88.83424" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (des_treeline2) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="16061" doublesided="false" scale="1" dimension="10000" posX="-1822.13477" posY="990.12048" posZ="-75.92571" rotX="0" rotY="0" rotZ="268.69"></object>
+    <object id="object (CE_oldhut02) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="3418" doublesided="false" scale="1" dimension="10000" posX="-1931.56396" posY="990.94464" posZ="-73.03399" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (hillhouse10_LA) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="3613" doublesided="false" scale="1" dimension="10000" posX="-1871.24036" posY="1004.72791" posZ="-66.9809" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (odrampbit) (2)" breakable="true" interior="0" collisions="true" alpha="255" model="5816" doublesided="false" scale="1" dimension="10000" posX="-1877.81384" posY="997.50482" posZ="-69.50352" rotX="0" rotY="0" rotZ="89.325"></object>
+    <object id="object (odrampbit01) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="5817" doublesided="false" scale="1" dimension="10000" posX="-1906.17798" posY="964.6889" posZ="-70.78027" rotX="0" rotY="0" rotZ="99.965"></object>
+    <object id="object (gate_autoR) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="985" doublesided="false" scale="1" dimension="10000" posX="-1912.82471" posY="995.09961" posZ="-73.6326" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (gate_autoL) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="986" doublesided="false" scale="1" dimension="10000" posX="-1918.87476" posY="992.81995" posZ="-73.6076" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (gate_autoR) (2)" breakable="true" interior="0" collisions="true" alpha="255" model="985" doublesided="false" scale="1" dimension="10000" posX="-1923.78357" posY="996.55365" posZ="-73.7326" rotX="0" rotY="359.015" rotZ="280.6"></object>
+    <object id="object (vgnlowwall03_al) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="7212" doublesided="false" scale="1" dimension="10000" posX="-1917.30798" posY="960.54285" posZ="-73.6721" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (odrampbit03) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="5821" doublesided="false" scale="1" dimension="10000" posX="-1812.29895" posY="1007.06006" posZ="-76.11539" rotX="0" rotY="0" rotZ="268.69"></object>
+    <object id="object (Freightcrane1) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="3474" doublesided="false" scale="1" dimension="10000" posX="-1809.27148" posY="923.76465" posZ="-70.00486" rotX="0" rotY="0" rotZ="358.015"></object>
+    <object id="object (odrampbit) (3)" breakable="true" interior="0" collisions="true" alpha="255" model="5816" doublesided="false" scale="1" dimension="10000" posX="-1792.74414" posY="931.0755" posZ="-72.09147" rotX="0" rotY="0" rotZ="181.35"></object>
+    <object id="object (a51_spottower) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="3279" doublesided="false" scale="1" dimension="10000" posX="-1888.50623" posY="1011.21539" posZ="-81.7327" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (a51_spottower) (2)" breakable="true" interior="0" collisions="true" alpha="255" model="3279" doublesided="false" scale="1" dimension="10000" posX="-1877.2738" posY="922.71924" posZ="-81.9827" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sw_Silo04) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="12912" doublesided="false" scale="1" dimension="10000" posX="-1890.63965" posY="920.25391" posZ="-77.51753" rotX="0" rotY="0" rotZ="272.659"></object>
+    <object id="object (new_bushtest) (4)" breakable="true" interior="0" collisions="true" alpha="255" model="762" doublesided="false" scale="1" dimension="10000" posX="-1931.21033" posY="971.02881" posZ="-72.45865" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (new_bushtest) (5)" breakable="true" interior="0" collisions="true" alpha="255" model="762" doublesided="false" scale="1" dimension="10000" posX="-1863.10278" posY="1008.58667" posZ="-73.14259" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (kmb_container_blue) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="2932" doublesided="false" scale="1" dimension="10000" posX="-1808.99902" posY="977.41211" posZ="-74.07955" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (gunbox) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="1271" doublesided="false" scale="1" dimension="10000" posX="-1803.36646" posY="981.61523" posZ="-74.8827" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (gunbox) (2)" breakable="true" interior="0" collisions="true" alpha="255" model="1271" doublesided="false" scale="1" dimension="10000" posX="-1803.03528" posY="976.10553" posZ="-74.8827" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (crdboxes2_LAs) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="3630" doublesided="false" scale="1" dimension="10000" posX="-1794.02441" posY="979.48242" posZ="-74.06508" rotX="0" rotY="0" rotZ="280.596"></object>
+    <object id="object (sm_scrub_rock5) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="745" doublesided="false" scale="1" dimension="10000" posX="-1797.96191" posY="992.53992" posZ="-75.2327" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sm_scrb_column1) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="751" doublesided="false" scale="1" dimension="10000" posX="-1809.1731" posY="992.41443" posZ="-75.2327" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (new_bushsm) (4)" breakable="true" interior="0" collisions="true" alpha="255" model="647" doublesided="false" scale="1" dimension="10000" posX="-1808.94324" posY="987.62531" posZ="-74.15078" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (new_bushsm) (5)" breakable="true" interior="0" collisions="true" alpha="255" model="647" doublesided="false" scale="1" dimension="10000" posX="-1810.67053" posY="990.04736" posZ="-74.04049" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (new_bushsm) (6)" breakable="true" interior="0" collisions="true" alpha="255" model="647" doublesided="false" scale="1" dimension="10000" posX="-1811.26355" posY="993.0542" posZ="-74.17578" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (new_bushsm) (7)" breakable="true" interior="0" collisions="true" alpha="255" model="647" doublesided="false" scale="1" dimension="10000" posX="-1811.53442" posY="995.89478" posZ="-74.00082" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (genVEG_bush12) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="808" doublesided="false" scale="1" dimension="10000" posX="-1803.52771" posY="989.64429" posZ="-73.93076" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (kmb_container_red) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="2934" doublesided="false" scale="1" dimension="10000" posX="-1791.85596" posY="1014.25909" posZ="-73.78078" rotX="0" rotY="0" rotZ="270.676"></object>
+    <object id="object (kmb_container_red) (2)" breakable="true" interior="0" collisions="true" alpha="255" model="2934" doublesided="false" scale="1" dimension="10000" posX="-1813.16992" posY="1003.80176" posZ="-73.78078" rotX="0" rotY="0" rotZ="270.676"></object>
+    <object id="object (kmb_container_red) (3)" breakable="true" interior="0" collisions="true" alpha="255" model="2934" doublesided="false" scale="1" dimension="10000" posX="-1836.14258" posY="1010.87091" posZ="-73.78078" rotX="0" rotY="0" rotZ="161.501"></object>
+    <object id="object (kmb_container_yel) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="2935" doublesided="false" scale="1" dimension="10000" posX="-1828.50159" posY="1012.19196" posZ="-73.78078" rotX="0" rotY="0" rotZ="272.661"></object>
+    <object id="object (kmb_container_blue) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="2932" doublesided="false" scale="1" dimension="10000" posX="-1815.44238" posY="1000.63251" posZ="-73.78078" rotX="0" rotY="0" rotZ="270.676"></object>
+    <object id="object (kmb_container_yel) (2)" breakable="true" interior="0" collisions="true" alpha="255" model="2935" doublesided="false" scale="1" dimension="10000" posX="-1848.46301" posY="1004.71893" posZ="-73.78078" rotX="0" rotY="0" rotZ="270.674"></object>
+    <object id="object (kmb_container_blue) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="2932" doublesided="false" scale="1" dimension="10000" posX="-1789.828" posY="1009.16785" posZ="-73.78078" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (kmb_container_blue) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="2932" doublesided="false" scale="1" dimension="10000" posX="-1832.30762" posY="1005.27802" posZ="-73.78078" rotX="0" rotY="0" rotZ="358.011"></object>
+    <object id="object (kmb_container_red) (4)" breakable="true" interior="0" collisions="true" alpha="255" model="2934" doublesided="false" scale="1" dimension="10000" posX="-1818.50488" posY="1008.85254" posZ="-73.78078" rotX="0" rotY="0" rotZ="181.351"></object>
+    <object id="object (kmb_container_yel) (3)" breakable="true" interior="0" collisions="true" alpha="255" model="2935" doublesided="false" scale="1" dimension="10000" posX="-1820.32422" posY="1003.60156" posZ="-73.78078" rotX="0" rotY="0" rotZ="272.659"></object>
+    <object id="object (kmb_container_blue) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="2932" doublesided="false" scale="1" dimension="10000" posX="-1802.5459" posY="1003.99219" posZ="-73.78078" rotX="0" rotY="0" rotZ="358.011"></object>
+    <object id="object (kmb_container_yel) (4)" breakable="true" interior="0" collisions="true" alpha="255" model="2935" doublesided="false" scale="1" dimension="10000" posX="-1794.99329" posY="1007.12024" posZ="-73.78078" rotX="0" rotY="0" rotZ="270.67"></object>
+    <object id="object (kmb_container_red) (5)" breakable="true" interior="0" collisions="true" alpha="255" model="2934" doublesided="false" scale="1" dimension="10000" posX="-1795.84631" posY="1000.38892" posZ="-73.78078" rotX="0" rotY="0" rotZ="294.495"></object>
+    <object id="object (kmb_container_blue) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="2932" doublesided="false" scale="1" dimension="10000" posX="-1841.7002" posY="1004.70343" posZ="-73.78078" rotX="0" rotY="0" rotZ="11.906"></object>
+    <object id="object (kmb_container_blue) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="2932" doublesided="false" scale="1" dimension="10000" posX="-1808.09265" posY="1014.22882" posZ="-73.78078" rotX="0" rotY="0" rotZ="268.687"></object>
+    <object id="object (kmb_container_yel) (5)" breakable="true" interior="0" collisions="true" alpha="255" model="2935" doublesided="false" scale="1" dimension="10000" posX="-1800.9231" posY="1014.16431" posZ="-73.78078" rotX="0" rotY="0" rotZ="270.67"></object>
+    <object id="object (kmb_container_yel) (6)" breakable="true" interior="0" collisions="true" alpha="255" model="2935" doublesided="false" scale="1" dimension="10000" posX="-1815.43848" posY="1000.60352" posZ="-70.87544" rotX="0" rotY="0" rotZ="270.67"></object>
+    <object id="object (kmb_container_blue) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="2932" doublesided="false" scale="1" dimension="10000" posX="-1848.19641" posY="996.95801" posZ="-73.78078" rotX="0" rotY="0" rotZ="65.498"></object>
+    <object id="object (kmb_container_red) (6)" breakable="true" interior="0" collisions="true" alpha="255" model="2934" doublesided="false" scale="1" dimension="10000" posX="-1848.95239" posY="1012.2489" posZ="-73.78078" rotX="0" rotY="0" rotZ="187.306"></object>
+    <object id="object (kmb_container_red) (7)" breakable="true" interior="0" collisions="true" alpha="255" model="2934" doublesided="false" scale="1" dimension="10000" posX="-1856.14917" posY="999.83105" posZ="-73.78078" rotX="0" rotY="0" rotZ="161.499"></object>
+    <object id="object (kmb_container_yel) (7)" breakable="true" interior="0" collisions="true" alpha="255" model="2935" doublesided="false" scale="1" dimension="10000" posX="-1837.9043" posY="997.19824" posZ="-73.78078" rotX="0" rotY="0" rotZ="270.67"></object>
+    <object id="object (Kylie_hay1) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="14875" doublesided="false" scale="1" dimension="10000" posX="-1789.03479" posY="967.48993" posZ="-74.41495" rotX="0" rotY="0" rotZ="270.676"></object>
+    <object id="object (Kylie_hay1) (2)" breakable="true" interior="0" collisions="true" alpha="255" model="14875" doublesided="false" scale="1" dimension="10000" posX="-1789.91846" posY="967.32996" posZ="-74.41495" rotX="0" rotY="0" rotZ="92.027"></object>
+    <object id="object (Kylie_hay) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="14873" doublesided="false" scale="1" dimension="10000" posX="-1789.26477" posY="964.04449" posZ="-74.41385" rotX="0" rotY="0" rotZ="272.661"></object>
+    <object id="object (DYN_H_BALE2) (4)" breakable="true" interior="0" collisions="true" alpha="255" model="1454" doublesided="false" scale="1" dimension="10000" posX="-1795.92102" posY="955.6283" posZ="-74.43449" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_H_BALE2) (5)" breakable="true" interior="0" collisions="true" alpha="255" model="1454" doublesided="false" scale="1" dimension="10000" posX="-1790.92773" posY="955.70215" posZ="-74.43449" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_H_BALE2) (6)" breakable="true" interior="0" collisions="true" alpha="255" model="1454" doublesided="false" scale="1" dimension="10000" posX="-1793.40625" posY="955.74121" posZ="-74.43449" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (Kylie_hay) (2)" breakable="true" interior="0" collisions="true" alpha="255" model="14873" doublesided="false" scale="1" dimension="10000" posX="-1815.901" posY="968.04681" posZ="-74.35368" rotX="0" rotY="0" rotZ="359.998"></object>
+    <object id="object (Kylie_hay) (3)" breakable="true" interior="0" collisions="true" alpha="255" model="14873" doublesided="false" scale="1" dimension="10000" posX="-1803.6593" posY="956.0813" posZ="-74.41385" rotX="0" rotY="0" rotZ="182.614"></object>
+    <object id="object (DYN_H_BALE2) (7)" breakable="true" interior="0" collisions="true" alpha="255" model="1454" doublesided="false" scale="1" dimension="10000" posX="-1804.59314" posY="968.67432" posZ="-74.43449" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_H_BALE2) (8)" breakable="true" interior="0" collisions="true" alpha="255" model="1454" doublesided="false" scale="1" dimension="10000" posX="-1802.92493" posY="968.53174" posZ="-74.43449" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_H_BALE2) (9)" breakable="true" interior="0" collisions="true" alpha="255" model="1454" doublesided="false" scale="1" dimension="10000" posX="-1801.2334" posY="968.49823" posZ="-74.43449" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (carter_statue) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="14467" doublesided="false" scale="1" dimension="10000" posX="-1825.11536" posY="971.78027" posZ="-72.43874" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (carter_statue) (2)" breakable="true" interior="0" collisions="true" alpha="255" model="14467" doublesided="false" scale="1" dimension="10000" posX="-1834.83093" posY="947.69958" posZ="-72.4989" rotX="0" rotY="0" rotZ="143.637"></object>
+    <object id="object (CJ_CABLEROLL) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="933" doublesided="false" scale="1" dimension="10000" posX="-1808.12378" posY="965.58301" posZ="-71.89989" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_CABLEROLL) (2)" breakable="true" interior="0" collisions="true" alpha="255" model="933" doublesided="false" scale="1" dimension="10000" posX="-1804.06873" posY="963.80835" posZ="-71.89989" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_CABLEROLL) (3)" breakable="true" interior="0" collisions="true" alpha="255" model="933" doublesided="false" scale="1" dimension="10000" posX="-1806.00122" posY="965.49744" posZ="-71.89989" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (temp_cardbox) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="2900" doublesided="false" scale="1" dimension="10000" posX="-1811.21216" posY="958.36865" posZ="-71.89989" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (temp_cardbox) (2)" breakable="true" interior="0" collisions="true" alpha="255" model="2900" doublesided="false" scale="1" dimension="10000" posX="-1808.66211" posY="958.49512" posZ="-71.89989" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (temp_cardbox) (3)" breakable="true" interior="0" collisions="true" alpha="255" model="2900" doublesided="false" scale="1" dimension="10000" posX="-1809.77148" posY="958.48535" posZ="-71.89989" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (temp_cardbox) (4)" breakable="true" interior="0" collisions="true" alpha="255" model="2900" doublesided="false" scale="1" dimension="10000" posX="-1808.69629" posY="959.5127" posZ="-71.89989" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (temp_cardbox) (5)" breakable="true" interior="0" collisions="true" alpha="255" model="2900" doublesided="false" scale="1" dimension="10000" posX="-1809.70898" posY="959.50781" posZ="-71.89989" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (la_fuckcar1) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="3594" doublesided="false" scale="1" dimension="10000" posX="-1847.48218" posY="957.56805" posZ="-74.60152" rotX="0" rotY="0" rotZ="91.31"></object>
+    <object id="object (kickcar28) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="13591" doublesided="false" scale="1" dimension="10000" posX="-1876.64478" posY="949.26062" posZ="-74.87043" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (la_fuckcar1) (2)" breakable="true" interior="0" collisions="true" alpha="255" model="3594" doublesided="false" scale="1" dimension="10000" posX="-1860.51782" posY="948.96564" posZ="-74.60152" rotX="0" rotY="0" rotZ="332.21"></object>
+    <object id="object (CIGAR_glow) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="3045" doublesided="false" scale="1" dimension="10000" posX="-1859.53247" posY="949.7771" posZ="-74.14283" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_GAZ_2) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="1480" doublesided="false" scale="1" dimension="10000" posX="-1816.96191" posY="953.52051" posZ="-74.03468" rotX="0" rotY="0" rotZ="93.334"></object>
+    <object id="object (GlenPHouse02_LAx) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="3640" doublesided="false" scale="1" dimension="10000" posX="-1931.8313" posY="1007.96191" posZ="-70.72108" rotX="0" rotY="0" rotZ="89.324"></object>
+    <object id="object (veg_treeb1) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="617" doublesided="false" scale="1" dimension="10000" posX="-1889.09595" posY="968.8053" posZ="-63.01148" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sm_veg_tree5) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="672" doublesided="false" scale="1" dimension="10000" posX="-1926.82874" posY="997.3642" posZ="-75.2327" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (bar_gatebox01) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="967" doublesided="false" scale="1" dimension="10000" posX="-1905.8761" posY="915.88031" posZ="-75.18317" rotX="0" rotY="0" rotZ="89.324"></object>
+    <object id="object (bar_gatebox01) (2)" breakable="true" interior="0" collisions="true" alpha="255" model="967" doublesided="false" scale="1" dimension="10000" posX="-1904.40295" posY="915.87726" posZ="-75.19547" rotX="0" rotY="0" rotZ="89.324"></object>
+    <object id="object (Kylie_hay1) (3)" breakable="true" interior="0" collisions="true" alpha="255" model="14875" doublesided="false" scale="1" dimension="10000" posX="-1800.41321" posY="960.69556" posZ="-74.41495" rotX="0" rotY="0" rotZ="80.117"></object>
+    <object id="object (Kylie_hay1) (4)" breakable="true" interior="0" collisions="true" alpha="255" model="14875" doublesided="false" scale="1" dimension="10000" posX="-1802.51465" posY="960.75684" posZ="-74.41495" rotX="0" rotY="0" rotZ="266.704"></object>
+    <spawnpoint id="spawnpoint (1)" posX="-1827.19995" posY="980.5" posZ="-74.3" rotX="0" rotY="0" rotZ="220"></spawnpoint>
+    <spawnpoint id="spawnpoint (2)" posX="-1834.19995" posY="974.20001" posZ="-74.3" rotX="0" rotY="0" rotZ="186"></spawnpoint>
+    <spawnpoint id="spawnpoint (3)" alpha="255" interior="0" posX="-1849" posY="973.79999" posZ="-74.3" rotX="0" rotY="0" rotZ="185.999"></spawnpoint>
+    <spawnpoint id="spawnpoint (4)" alpha="255" interior="0" posX="-1863.19995" posY="974.29999" posZ="-74.3" rotX="0" rotY="0" rotZ="215.999"></spawnpoint>
+    <spawnpoint id="spawnpoint (5)" alpha="255" interior="0" posX="-1827" posY="973.90002" posZ="-74.3" rotX="0" rotY="0" rotZ="279.996"></spawnpoint>
+    <spawnpoint id="spawnpoint (6)" alpha="255" interior="0" posX="-1847.5" posY="950.5" posZ="-74.3" rotX="0" rotY="0" rotZ="9.992"></spawnpoint>
+    <spawnpoint id="spawnpoint (7)" alpha="255" interior="0" posX="-1855.19995" posY="950.59998" posZ="-74.3" rotX="0" rotY="0" rotZ="349.992"></spawnpoint>
+    <spawnpoint id="spawnpoint (8)" posX="-1818.80005" posY="944.40002" posZ="-74.3" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (9)" posX="-1866.80005" posY="917" posZ="-74.3" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (10)" posX="-1834.30005" posY="920.20001" posZ="-74.3" rotX="0" rotY="0" rotZ="90"></spawnpoint>
+    <spawnpoint id="spawnpoint (11)" posX="-1830.59998" posY="921.20001" posZ="-74.3" rotX="0" rotY="0" rotZ="280"></spawnpoint>
+    <spawnpoint id="spawnpoint (12)" posX="-1875.90002" posY="1014.70001" posZ="-74.3" rotX="0" rotY="0" rotZ="180"></spawnpoint>
+    <spawnpoint id="spawnpoint (13)" posX="-1927.80005" posY="1008.59998" posZ="-73.2" rotX="0" rotY="0" rotZ="260"></spawnpoint>
+    <spawnpoint id="spawnpoint (14)" posX="-1918.09998" posY="978" posZ="-74.3" rotX="0" rotY="0" rotZ="90"></spawnpoint>
+    <spawnpoint id="spawnpoint (15)" posX="-1870.30005" posY="955.20001" posZ="-74.2" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (16)" posX="-1850.09998" posY="942.70001" posZ="-74.1" rotX="0" rotY="0" rotZ="180"></spawnpoint>
+    <spawnpoint id="spawnpoint (17)" posX="-1792.30005" posY="1011.40002" posZ="-74.3" rotX="0" rotY="0" rotZ="90"></spawnpoint>
+    <spawnpoint id="spawnpoint (18)" posX="-1838.90002" posY="1012.40002" posZ="-74.3" rotX="0" rotY="0" rotZ="90"></spawnpoint>
+    <spawnpoint id="spawnpoint (19)" posX="-1834.59998" posY="1005.20001" posZ="-74.3" rotX="0" rotY="0" rotZ="90"></spawnpoint>
+    <spawnpoint id="spawnpoint (20)" posX="-1821" posY="1005.90002" posZ="-74.3" rotX="0" rotY="0" rotZ="50"></spawnpoint>
+    <spawnpoint id="spawnpoint (21)" posX="-1819.69995" posY="1001.40002" posZ="-74.3" rotX="0" rotY="0" rotZ="140"></spawnpoint>
+    <spawnpoint id="spawnpoint (22)" posX="-1789" posY="971.29999" posZ="-74.3" rotX="0" rotY="0" rotZ="90"></spawnpoint>
+    <spawnpoint id="spawnpoint (23)" posX="-1801" posY="955.40002" posZ="-74.3" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (24)" posX="-1814.5" posY="967.79999" posZ="-74.3" rotX="0" rotY="0" rotZ="180"></spawnpoint>
+    <spawnpoint id="spawnpoint (25)" posX="-1838.5" posY="953.5" posZ="-74.2" rotX="0" rotY="0" rotZ="350"></spawnpoint>
+    <spawnpoint id="spawnpoint (26)" posX="-1889.30005" posY="921" posZ="-74" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (27)" posX="-1892.30005" posY="921" posZ="-74" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (28)" posX="-1903" posY="916.79999" posZ="-74.3" rotX="0" rotY="0" rotZ="0"></spawnpoint>
+    <spawnpoint id="spawnpoint (29)" posX="-1914.30005" posY="945.5" posZ="-74" rotX="0" rotY="0" rotZ="180"></spawnpoint>
+    <spawnpoint id="spawnpoint (30)" posX="-1934.69995" posY="997.79999" posZ="-74.3" rotX="0" rotY="0" rotZ="270"></spawnpoint>
+    <spawnpoint id="spawnpoint (31)" posX="-1901.30005" posY="1010.20001" posZ="-74.3" rotX="0" rotY="0" rotZ="270"></spawnpoint>
+    <spawnpoint id="spawnpoint (32)" posX="-1857.90002" posY="995.70001" posZ="-74.3" rotX="0" rotY="0" rotZ="150"></spawnpoint>
+    <chest id="chest (1)" posX="-1790.80005" posY="1012.70001" posZ="-72.3" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (2)" posX="-1790.40002" posY="1006.70001" posZ="-72.3" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (3)" posX="-1790.30005" posY="1004.29999" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (4)" posX="-1801.90002" posY="1014" posZ="-72.3" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (5)" posX="-1799" posY="1010.5" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (6)" posX="-1802.19995" posY="996.29999" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (7)" posX="-1794.40002" posY="981.09998" posZ="-72.6" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (8)" posX="-1790" posY="992" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (9)" posX="-1815.59998" posY="975.90002" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (10)" posX="-1831.69995" posY="996.70001" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (11)" posX="-1811.30005" posY="981.70001" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (12)" posX="-1835.80005" posY="982" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (13)" posX="-1847.90002" posY="1009.70001" posZ="-72.3" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (14)" posX="-1840.80005" posY="1003.29999" posZ="-72.3" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (15)" posX="-1825.5" posY="1010" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (16)" posX="-1858.30005" posY="992.20001" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (17)" posX="-1857.5" posY="1014.20001" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (18)" posX="-1879.80005" posY="1013.59998" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (20)" posX="-1889.40002" posY="1010" posZ="-65.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (21)" posX="-1889.5" posY="1012" posZ="-65.7" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (22)" posX="-1928.09998" posY="1004" posZ="-74.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (23)" posX="-1928.09998" posY="1005.59998" posZ="-74.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (24)" posX="-1927.40002" posY="1014.90002" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (25)" posX="-1936.80005" posY="985.20001" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (26)" posX="-1937" posY="998.70001" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (27)" posX="-1868.80005" posY="974.29999" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (28)" posX="-1858.80005" posY="977.40002" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (29)" posX="-1852.69995" posY="973.79999" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (30)" posX="-1849.90002" posY="951.20001" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (31)" posX="-1865.5" posY="959.09998" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (32)" posX="-1821.19995" posY="958.90002" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (33)" posX="-1799.5" posY="961.5" posZ="-71.9" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (34)" posX="-1840" posY="969" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (35)" posX="-1821.30005" posY="968.40002" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (36)" posX="-1846.80005" posY="968.90002" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (43)" posX="-1843.30005" posY="932.29999" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (44)" posX="-1853.90002" posY="929.5" posZ="-72.5" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (45)" posX="-1842.40002" posY="928.90002" posZ="-72.5" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (46)" posX="-1829.09998" posY="926.20001" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (47)" posX="-1833.5" posY="921.90002" posZ="-72.5" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (48)" posX="-1808.59998" posY="930.29999" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (49)" posX="-1808.90002" posY="949.79999" posZ="-68.3" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (50)" posX="-1870.69995" posY="994.29999" posZ="-66" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (51)" posX="-1848.09998" posY="926.29999" posZ="-69.8" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (52)" posX="-1933.90002" posY="1012.90002" posZ="-67.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (53)" posX="-1873.09998" posY="987.09998" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (54)" posX="-1797.69995" posY="956.29999" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (55)" posX="-1807.90002" posY="967.90002" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (56)" posX="-1816.09998" posY="956.70001" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (57)" posX="-1802.90002" posY="953.29999" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <spawnpoint id="spawnpoint (33)" posX="-1794.90002" posY="953.79999" posZ="-74.3" rotX="0" rotY="0" rotZ="180"></spawnpoint>
+    <chest id="chest (58)" posX="-1876.90002" posY="922.79999" posZ="-74.3" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (59)" posX="-1900.30005" posY="923.20001" posZ="-75" rotX="0" rotY="0" rotZ="0"></chest>
+    <spawnpoint id="spawnpoint (34)" posX="-1935.40002" posY="927.20001" posZ="-74.3" rotX="0" rotY="0" rotZ="270"></spawnpoint>
+    <chest id="chest (60)" posX="-1935.5" posY="924.90002" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <spawnpoint id="spawnpoint (35)" posX="-1937.59998" posY="943.09998" posZ="-74.3" rotX="0" rotY="0" rotZ="270"></spawnpoint>
+    <chest id="chest (61)" posX="-1936.59998" posY="940.09998" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (62)" posX="-1935.59998" posY="954.90002" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <spawnpoint id="spawnpoint (36)" posX="-1936.69995" posY="961.29999" posZ="-74.3" rotX="0" rotY="0" rotZ="270"></spawnpoint>
+    <spawnpoint id="spawnpoint (37)" posX="-1930.5" posY="985.40002" posZ="-74.2" rotX="0" rotY="0" rotZ="180"></spawnpoint>
+    <spawnpoint id="spawnpoint (38)" posX="-1790.09998" posY="962.09998" posZ="-70.8" rotX="0" rotY="0" rotZ="90"></spawnpoint>
+    <spawnpoint id="spawnpoint (39)" posX="-1826.5" posY="938.40002" posZ="-73.4" rotX="0" rotY="0" rotZ="90.5"></spawnpoint>
+    <spawnpoint id="spawnpoint (40)" posX="-1813" posY="938.5" posZ="-73.4" rotX="0" rotY="0" rotZ="90"></spawnpoint>
+    <spawnpoint id="spawnpoint (41)" posX="-1801.09998" posY="938.70001" posZ="-73.4" rotX="0" rotY="0" rotZ="90"></spawnpoint>
+    <spawnpoint id="spawnpoint (42)" posX="-1788.80005" posY="934.29999" posZ="-74.3" rotX="0" rotY="0" rotZ="90"></spawnpoint>
+    <spawnpoint id="spawnpoint (43)" posX="-1789.19995" posY="925.59998" posZ="-74.3" rotX="0" rotY="0" rotZ="90"></spawnpoint>
+    <spawnpoint id="spawnpoint (44)" posX="-1916.19995" posY="942.79999" posZ="-74.3" rotX="0" rotY="0" rotZ="267.5"></spawnpoint>
+    <chest id="chest (63)" posX="-1916.09998" posY="945" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <spawnpoint id="spawnpoint (46)" posX="-1891.40002" posY="961" posZ="-74" rotX="0" rotY="0" rotZ="270"></spawnpoint>
+    <chest id="chest (65)" posX="-1881.30005" posY="969.09998" posZ="-75.1" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (66)" posX="-1882.90002" posY="948.29999" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (67)" posX="-1856.69995" posY="945" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (68)" posX="-1904.5" posY="959.90002" posZ="-75" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (69)" alpha="255" interior="0" posX="-1901" posY="959.90002" posZ="-75" rotX="0" rotY="0" rotZ="0"></chest>
+    <chest id="chest (70)" posX="-1790.30005" posY="963" posZ="-75.2" rotX="0" rotY="0" rotZ="0"></chest>
+</map>

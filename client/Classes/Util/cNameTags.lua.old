@@ -1,0 +1,196 @@
+-- #######################################
+-- ## Project: 	MTA iLife				##
+-- ## Name: Nametags.lua				##
+-- ## Author: Noneatme					##
+-- ## Version: 1.0						##
+-- ## License: See top Folder			##
+-- #######################################
+
+-- FUNCTIONS / METHODS --
+
+local cFunc = {};		-- Local Functions 
+local cSetting = {};	-- Local Settings
+
+Nametags = {};
+Nametags.__index = Nametags;
+
+local usage = "player"
+--[[
+
+]]
+
+-- ///////////////////////////////
+-- ///// New 				//////
+-- ///// Returns: Object	//////
+-- ///////////////////////////////
+
+function Nametags:New(...)
+	local obj = setmetatable({}, {__index = self});
+	if obj.Constructor then
+		obj:Constructor(...);
+	end
+	return obj;
+end
+
+-- ///////////////////////////////
+-- ///// Render				//////
+-- ///// Returns: void		//////
+-- ///////////////////////////////
+
+function Nametags:Render()
+	if(self.enabled) then
+		local x2, y2, z2 = getCameraMatrix()
+		for index, ped in pairs(getElementsByType(usage, getRootElement(), true)) do
+			setPlayerNametagShowing(ped, false)
+			if(ped ~= localPlayer) then
+				local x, y, z = getElementPosition(ped)
+
+				local r,g,b = interpolateBetween(180,180,180,0,255,0,(100-getPedArmor(ped))/100,"Linear")
+				local color = tocolor(r, g, b, 255)
+
+				if(isLineOfSightClear(x, y, z, x2, y2, z2, true, false, false, false)) then
+					local distance = getDistanceBetweenPoints3D(x2, y2, z2, x, y, z)
+
+					if(distance >= 0) and (distance < 75) then
+						z = z+getElementDistanceFromCentreOfMassToBaseOfModel(ped)
+						local sx, sy = getScreenFromWorldPosition(x, y, z);
+						local sx2, sy2
+						local sx3, sy3
+
+						if(sx and sy) then
+							sx2, sy2 = sx, sy-25-32
+							sx3, sy3 = sx, sy
+
+							-- Background
+							local width = 100
+
+							--width = (width/distance)*5
+
+							local height = width/2
+
+							local width2 = width/self.maxHealth*getElementHealth(ped)
+							local width3 = width/self.maxHealth*getElementHealth(ped)
+
+							local name;
+							if(getElementType(ped) == "player") then
+								name = getPlayerName(ped)
+
+								if not(isPedInVehicle(ped)) then
+									if(getElementData(ped, "b:highPing")) and (getElementData(ped, "b:highPing") == true) then
+										setElementAlpha(ped, 150)
+									else
+										setElementAlpha(ped, 255)
+									end
+								end
+							else
+								name = "Testdummy"
+							end
+
+							-- Background
+							dxDrawImage(sx-width/2, sy-height/2, width, height, "res/images/nametags/hud_healthbar_bg.png", 0, 0, 0, tocolor(255, 255, 255, 255))
+
+							-- Healthbar empty
+
+							dxDrawImage(sx-width/2, sy-height/2, width, height, "res/images/nametags/hud_healthbar_empty.png", 0, 0, 0, color)
+
+							local oldhealth = self.oldHealth[ped];
+
+							if(oldhealth) and (oldhealth-getElementHealth(ped) > 0) then
+								local width4 = width/self.maxHealth*oldhealth;
+
+								dxDrawImage((sx-width/2) + 10 , sy-height/2, width4-10, height, "res/images/nametags/hud_healthbar_white.png", 0, 0, 0, tocolor(255, 255, 255, 150))
+
+								if(self.reversed[ped] == true) then
+									if(self.oldHealth[ped] >= getElementHealth(ped)) then
+										self.oldHealth[ped] = self.oldHealth[ped]-1.25;
+									end
+								end
+							end
+
+
+
+							dxDrawImageSection ( sx-width/2, sy-height/2, width3-5, height, 0, 0, width2, 128, "res/images/nametags/hud_healthbar_healthfull.png", 0, 0, 0, color )
+							-- Health Number
+							if(sx3 and sy3) then
+								local hp = getElementHealth(ped)
+								local r2, g2, b2 = 255, 255, 255
+								if(hp <= 0) then
+									r2, g2, b2 = 255, 0, 0
+								else
+									hp = math.abs(hp - 0.01)
+									r2, g2, b2 = (100 - hp) * 2.55 / 2, hp * 2.55, 0
+								end
+
+								-- NAME --
+								dxDrawText((math.floor(getElementHealth(ped))*10).." / "..(self.maxHealth*10), sx-width/2, sy-(height/2), sx+width/2, sy+(height/6), color, 0.6, self.font, "center", "center")
+							end
+
+							if(sx2 and sy2) then
+								-- NAME --
+								dxDrawText(name, sx-width/2, (sy-height/2)-20, sx+width/2, (sy+height/2)-20, tocolor(255, 255, 255, 255), 1, self.font, "center", "center")
+							end
+						end
+					end
+				end
+			end
+		end
+	end
+end
+
+
+-- ///////////////////////////////
+-- ///// Constructor 		//////
+-- ///// Returns: void		//////
+-- ///////////////////////////////
+
+function Nametags:Constructor(...)
+	self.renderFunc = function() self:Render() end
+	self.pedDamageFunc = function(_, _, _, loss)
+		local player = source;
+		
+		if not(self.oldHealth[player]) then
+			self.oldHealth[player] = getElementHealth(player);
+		end
+	
+		self.reversed[player] = false;
+		if(isTimer(self.updateTimer[player])) then
+			killTimer(self.updateTimer[player])
+		else
+			self.oldHealth[player] = getElementHealth(player);
+		end
+
+
+		self.updateTimer[player] = setTimer(function()
+		--	self.oldHealth[player] = getElementHealth(player)
+			self.reversed[player] = true;
+		end, 500, 1)
+		
+	end;
+	
+	self.oldHealth 		= {};
+	self.updateTimer 	= {};
+	self.reversed 		= {};
+	
+	self.maxHealth 		= 100;
+	self.scale		 	= 0.3;
+	self.scale2 		= 0.20;
+	self.enabled		= toBoolean(config:getConfig("nametags_enabled"));
+	
+	self.font = dxCreateFont("res/fonts/chicken.ttf", 10)
+	
+	addEventHandler("onClientPreRender", getRootElement(), self.renderFunc)
+	addEventHandler("onClientPlayerDamage", getRootElement(), self.pedDamageFunc)
+
+
+	addCommandHandler("hidenametags", function()
+		self.enabled = not(self.enabled)
+
+		config:setConfig("nametags_enabled", self.enabled);
+	end)
+	setPedTargetingMarkerEnabled(false)
+	
+	--outputDebugString("[CALLING] Nametags: Constructor");
+end
+
+-- EVENT HANDLER --
+
