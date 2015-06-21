@@ -28,6 +28,8 @@ Additional Work, GUI Modifications, additional fixes and bugfixes
 
 Justus(Jusonex): Server-Side Trains
 
+sbx320: classLib
+
 And many other people from the iLife-SA Community.
 
 CHANGELOG.TXT (GERMAN:)
@@ -37,9 +39,9 @@ CHANGELOG.TXT (GERMAN:)
     -> Neues Registersystem
         -> Recruiter ist nun angegeben
 
-    -> Fahrzeugdreck im low-ram modus ist nun standartmäßig zu Performancezwecken deaktiviert
+    -> Fahrzeugdreck im low-ram modus ist nun standartmÃ¤ÃŸig zu Performancezwecken deaktiviert
 
-    -> Telefonnummern überarbeitet:
+    -> Telefonnummern Ã¼berarbeitet:
         -> Alte Nummern Bleiben
         -> Neue Nummern sind im folgenden Format:
             xxx-xx-xxxx
@@ -53,8 +55,8 @@ CHANGELOG.TXT (GERMAN:)
 
 
 -> Loginfix bei DEFINE_DEBUG
-   -> GUIS kann man nun nurnoch öffnen wenn man sich eingeloggt hat
-   -> Asservatenkammer des LSPD's hinzugefügt
+   -> GUIS kann man nun nurnoch Ã¶ffnen wenn man sich eingeloggt hat
+   -> Asservatenkammer des LSPD's hinzugefÃ¼gt
    -> Entnommene Items gehen in diese Kammer
 
    -> Items koennen im LSPD angesehen werden
@@ -122,46 +124,46 @@ Hotfixx 1.1h:
 
 - Fraktionsinventare gefixxt
 - LSPD Waffen angepasst
-- SAT Marker verändert
+- SAT Marker verÃ¤ndert
 - Waffentruck im PD Computer integriert
 - Viele Businesse und Prestiges wurden freigemacht
     - Bei inaktiven Usern
     - Bei gebannten Usern
-    - Wer sein Business / Prestige verloren hat hat Anspruch auf Schadenseratz, bitte beim Admin melden. (Nachweis wäre wunderbar)
+    - Wer sein Business / Prestige verloren hat hat Anspruch auf Schadenseratz, bitte beim Admin melden. (Nachweis wÃ¤re wunderbar)
 
-- SAT Base geändert
+- SAT Base geÃ¤ndert
     - Neue Base in LS
-- SAT Funktionen ergänz
-    - Zeitungsstände und Pizzaboxen erfüllen nun Ihren zweck
-- Ein paar neue Commands für Admins wurden hinzugefügt
+- SAT Funktionen ergÃ¤nz
+    - ZeitungsstÃ¤nde und Pizzaboxen erfÃ¼llen nun Ihren zweck
+- Ein paar neue Commands fÃ¼r Admins wurden hinzugefÃ¼gt
 
 - Bugfixxes:
-    - Flugzeuge etwas gebufft -> Wieder zurückgesetzt
+    - Flugzeuge etwas gebufft -> Wieder zurÃ¼ckgesetzt
     - Bug gefixxt, der erlaubt mehr Items aus dem Fraktionslager zu entfernen als man tragen kann
     - Waffentruckerrors gefixxt
     - Business PayNSpray Temple gefixxt
-    - Objekte werden jetzt korrekt zerstört wenn man gegenfährt
+    - Objekte werden jetzt korrekt zerstÃ¶rt wenn man gegenfÃ¤hrt
     - Rechtschreibfehler im WaffentruckGUI behoben
     - Man wird nun korrekt eingeknastet wenn man Stirbt und das Fraktionsinventar nicht vorhanden ist
-    - Absperrungen der PD'ler werden nun nach 1. Stunde automatisch gelöscht
+    - Absperrungen der PD'ler werden nun nach 1. Stunde automatisch gelÃ¶scht
 
 
 1.2:
-- Neue Häuser in Blueberry und Red Country eingefügt
+- Neue HÃ¤user in Blueberry und Red Country eingefÃ¼gt
 - Itemshop Businesse erhalten 25% des Kaufpreises in die Businesskasse
 - Neues Business:
     - Kette: iLife Furniture
         - Einkaufszentrum, Kosten: ~$650.000
         - Baumarkt         Kosten: ~$500.000
 
-- Markierungen an Mülltonen entfernt
+- Markierungen an MÃ¼lltonen entfernt
 - Werbertafelshader angepasst und neu erstellt
 - Hall of Games bearbeitet
     -> Benutzt nun keine Objekte mehr als Collision
-    -> FensterKollision und Gebäudekollision erstellt
+    -> FensterKollision und GebÃ¤udekollision erstellt
 
-- Neuen Maploader hinzugefügt
-    -> Maps können Dynamisch geladen und Entladen werden
+- Neuen Maploader hinzugefÃ¼gt
+    -> Maps kÃ¶nnen Dynamisch geladen und Entladen werden
     -> Hungergames vorzeitig entfernt, Probleme mit Maploader
     -> Bessere Performance durch Maploader
     -> Maps werden beim Spawnen gedownloaded, dauert etwas also einfach Warten!
@@ -174,36 +176,36 @@ Hotfixx 1.1h:
 NEW:
 - Waffentruckbalance angepasst
     -> Man bekommt nun weniger Waffenpakete
-- Geldautomaten und 24/7 in Dillimore hinzugefügt
-- Anti Highping hinzugefügt
+- Geldautomaten und 24/7 in Dillimore hinzugefÃ¼gt
+- Anti Highping hinzugefÃ¼gt
     -> Tritt ab einem Ping von 125 in Kraft
     -> Man merkt wenn ein Spieler High-Ping hat, indem er Durchsichtig ist
 - Diverse Hausinteriors angepasst
 - Sniper Sound gefixxt
-- Anti low-FPS hinzugefügt
+- Anti low-FPS hinzugefÃ¼gt
     -> Tritt ab einer FPS <= 15 in Kraft
 
 
 1.2.1:
 - Einen Sodaautomaten zu benutzen kostet nun $50
-    -> Geld wird dem Besitzer überwiesen
+    -> Geld wird dem Besitzer Ã¼berwiesen
 
 - Man kann nun das Fraktionsinventar betrachten wenn man noch nicht Rank 4 oder 5 ist, jedoch kann man nichts einlagern.
 
 - Newsfraktionsmarker zur Wetteranzeige gefixxt
     -> Ist nun nicht mehr neben Gunvarrel's Haus zu sehen (@Sapphiron)
 
-- Das LSPD und Gefängis Interior wird nun vom Server aus geladen
-    -> Kein Durchfallen beim Reconnecten mehr möglich
+- Das LSPD und GefÃ¤ngis Interior wird nun vom Server aus geladen
+    -> Kein Durchfallen beim Reconnecten mehr mÃ¶glich
 
-- Türen von Fraktionsfahrzeugen schließen sich nun Korrekt
+- TÃ¼ren von Fraktionsfahrzeugen schlieÃŸen sich nun Korrekt
 - Diverse Fehler von fehlenden Online-Datas behoben (e.G. Einknasten)
 
-- Man kann sich nun im Gefängnis nicht mehr ausrüsten.
+- Man kann sich nun im GefÃ¤ngnis nicht mehr ausrÃ¼sten.
 
 - Rechtschreibfehler beim Schokoriegel behoben
 
-- Kameras und Kamerafilme können nun benutzt werden
+- Kameras und Kamerafilme kÃ¶nnen nun benutzt werden
 - Rechtschreibfehler in der Muelltonne gefunden
 
 
@@ -213,33 +215,33 @@ NEW:
     -> Bei High-Ping durch Radiostreams benutzbar
 
 - Bei der SAT Zeitung wird nun der Author korrekt genannt
-- Waffentruck abgeändert
-    -> Erklärung erfolgt später
+- Waffentruck abgeÃ¤ndert
+    -> ErklÃ¤rung erfolgt spÃ¤ter
 
 - Einknastbug gefixxt, einknasten funktioniert nun perfekt
 - LSPD Gate erneuert
 
 - Maps laden nun schneller
-- Neues Scoreboard hinzugefügt
+- Neues Scoreboard hinzugefÃ¼gt
     -> Scoreboard ist nun ein HUD Element
     -> Kann verschoben und transparent werden
 
-- Handysystem erweitert, noch nicht ganz Funktionsfähig
+- Handysystem erweitert, noch nicht ganz FunktionsfÃ¤hig
 
 - Blips beim Radar werden nun nicht mehr auf der anderen Seite der Karte gezeichnet
 - Shoprobinformationen werden nun fuer alle boesen Fraktionen angezeigt
 
 - Payday-Zinsen Anzeigefehler behoben
-- Neue Schranken und Zäune bei diversen Parkplätzen und Häusern hinzugefügt
-    -> Häuserschranken öffnen sich Automatisch
+- Neue Schranken und ZÃ¤une bei diversen ParkplÃ¤tzen und HÃ¤usern hinzugefÃ¼gt
+    -> HÃ¤userschranken Ã¶ffnen sich Automatisch
     -> Berechtigungen liegen beim Hausbesitzer der Hausschranke
-    -> (Es läuft alles Vollautomatisch, keine Sorge)
+    -> (Es lÃ¤uft alles Vollautomatisch, keine Sorge)
 
 - Diverse neue Admincommands hinzugefuegt
 
 - Bugfix: Handy wird immer angezeigt
 - Bugfix: Radar verschwindet manchmal
-- Bugfix: HUD wird nicht angezeigt / Kompatiblitätsprobleme behoben
+- Bugfix: HUD wird nicht angezeigt / KompatiblitÃ¤tsprobleme behoben
 - Bugfix: Error beim Laden des Huds wenn keine Renderreihenfolge vorhanden ist
 
 - Neuer Deathscreen
@@ -247,11 +249,11 @@ NEW:
 
 -----------------------
 
-- Alkoholeffekt hinzugefügt
+- Alkoholeffekt hinzugefÃ¼gt
     -> Bei der Hall of Games 'Testbar'
 
-- Hall of Games verändert
-    - HDW201 hinzugefügt
+- Hall of Games verÃ¤ndert
+    - HDW201 hinzugefÃ¼gt
 
 - Shobrob gefixxt
 
@@ -268,16 +270,16 @@ NEW:
 - Fahrzeugmotor bei Privatfahrzeugen gefixxt
 - Hall of Games ist wieder ein Prestige (Test)
 
-- /hidenametags um die Nametags zu deaktivieren hinzugefügt
+- /hidenametags um die Nametags zu deaktivieren hinzugefÃ¼gt
 - Helikopterkamera aendert nun das Radio nicht mehr
 
-- Bei der Kamera wird nun ein .PNG Bild in dem iLife Ordner in guter Qualität gespeichert, wenn ein Bild geschossen wird
+- Bei der Kamera wird nun ein .PNG Bild in dem iLife Ordner in guter QualitÃ¤t gespeichert, wenn ein Bild geschossen wird
     -> Hud, Chat, Crosshair werden aus dem Bild automatisch entfernt
-    -> Funktioniert nur bei eingeschalteten Screenshotupload in den MTA Einstellungen! (Für SATler oder andere Personen bitte anschalten)
+    -> Funktioniert nur bei eingeschalteten Screenshotupload in den MTA Einstellungen! (FÃ¼r SATler oder andere Personen bitte anschalten)
 
-- Blitzer hinzugefügt
-    -> Können von LSPD'ler hingestellt und bearbeitet werden
-    -> Strafe wird vom Konto hinzugefügt
+- Blitzer hinzugefÃ¼gt
+    -> KÃ¶nnen von LSPD'ler hingestellt und bearbeitet werden
+    -> Strafe wird vom Konto hinzugefÃ¼gt
     -> Geld geht in die Fraktionskasse
 
 - Radarfallen gefixxt
@@ -288,12 +290,12 @@ NEW:
 
 - - - - - - - -
 - Fahrzeugmotor in die Hauptklasse ausgelagert
-    -> Unbekannte Fahrzeuge können jetzt gestartet werden
+    -> Unbekannte Fahrzeuge kÃ¶nnen jetzt gestartet werden
 
 - Motor-Start-System Performanter gemacht
 
 - Der Server startet nun schneller
-    - Laden der Autos und Häuser erfolgt nun in einem andere Threads
+    - Laden der Autos und HÃ¤user erfolgt nun in einem andere Threads
 
 - Animationen unterbrechen nun den Tazer nicht mehr
 
@@ -301,7 +303,7 @@ NEW:
     -> Weiter Funktionen der Hall of Games geplant
     -> (Deathmatch, Race!)
 
-- Helicopterkamera in Mavericks hinzugefügt (RSTRG als Beifahrer)
+- Helicopterkamera in Mavericks hinzugefÃ¼gt (RSTRG als Beifahrer)
     -> Mausrad zum Zoomen
 
 - Unerlaubte Skinmods in F8 lesbar gemacht
@@ -315,7 +317,7 @@ NEW:
 - Outputs angepasst
 
 - Script performanter gemacht (Man sollte nun 5-10 FPS mehr erhalten)
-    -> Für noch mehr Frames bitte das Entwicklergadget und das Networkmeter deaktivieren (F2)
+    -> FÃ¼r noch mehr Frames bitte das Entwicklergadget und das Networkmeter deaktivieren (F2)
 
 
 Perfekte Idee:
@@ -326,8 +328,8 @@ Perfekte Idee:
 
 -WT:
 - Andere Abgabepunkte in LS, LV, SF
--> Können Überall abgegeben werden
--> Bessere Ordnung für PDler
+-> KÃ¶nnen Ãœberall abgegeben werden
+-> Bessere Ordnung fÃ¼r PDler
 
 - Tuningsystem erneuern (Abspeicherung)
 
@@ -352,7 +354,7 @@ Perfekte Idee:
 - PD'ler Update
     -> Waffen
         -> PDler bekommen nun ab Rank 1 eine M4
-        -> Raketenwerfer für Rank 4 und 5er hinzugefügt
+        -> Raketenwerfer fÃ¼r Rank 4 und 5er hinzugefÃ¼gt
         -> M4 und Raketenwerfer machen 150% mehr Schaden in No-DM zonen
         -> Pistolen machen nun Headshots
 
@@ -362,8 +364,8 @@ Perfekte Idee:
         -> 1 Wanted     = 10 Stunde Knast
         -> 6 Wanteds    = 60 Stunden Knast
 
-    -> Shoprobs werden nun automatisch abgebrochen, da böse Fraktionen zu viel Angst vor den PD'lern haben
-    -> Waffentrucks entfernt, zu viel Spielspaß für böse Fraktionen
+    -> Shoprobs werden nun automatisch abgebrochen, da bÃ¶se Fraktionen zu viel Angst vor den PD'lern haben
+    -> Waffentrucks entfernt, zu viel SpielspaÃŸ fÃ¼r bÃ¶se Fraktionen
 
 
 
@@ -371,8 +373,8 @@ Perfekte Idee:
 
 - Protokoll:
     - No DM Zone
-    -> Jeder soll Schießen können, jedoch
-        -> Neutrale Fraktionen und Zivlisten nehmen kein Schaden und können nicht schießen
+    -> Jeder soll SchieÃŸen kÃ¶nnen, jedoch
+        -> Neutrale Fraktionen und Zivlisten nehmen kein Schaden und kÃ¶nnen nicht schieÃŸen
 
     -> Special Forces
     - Rank 1:
@@ -390,74 +392,74 @@ Perfekte Idee:
 
 -> Marktupdate:
     -> Dynamischer Markt mit Angebot und Nachfrage
-    -> Erklärbar von Zaxon
+    -> ErklÃ¤rbar von Zaxon
 
-    -> Inclusiv Inventar tragfähigkeit & Itemgewicht
+    -> Inclusiv Inventar tragfÃ¤higkeit & Itemgewicht
 
 
 
 -- TODO: --
--> Waffen Equppen verboten bei Schusswechsel für 5 Minuten
+-> Waffen Equppen verboten bei Schusswechsel fÃ¼r 5 Minuten
 
 -------------------------------
 
 
-- Geschwindigkeit aller Fahrzeuge angepasst (Übersetzung)
+- Geschwindigkeit aller Fahrzeuge angepasst (Ãœbersetzung)
     -> Betrifft auch Radarfallen
 
-- Konfigurationsdatei hinzugefügt
+- Konfigurationsdatei hinzugefÃ¼gt
     -> Ort: config.xml
     -> Einstellungen wie Blitzer, Cursorbinds, Nametags vornehmbar
-    -> Chatlog angepasst, verschlüsselung hinzugefügt
-    -> Consolenlog hinzugefügt
+    -> Chatlog angepasst, verschlÃ¼sselung hinzugefÃ¼gt
+    -> Consolenlog hinzugefÃ¼gt
 
-- 'X' auf einem Fahrzeug drücken attacht nun die Person an dem Fahrzeug
+- 'X' auf einem Fahrzeug drÃ¼cken attacht nun die Person an dem Fahrzeug
     -> Kann mit X oder Leertaste entfernt werden
     -> Geht nur auf bestimmten Fahrzeugen + Boote
 
 - Mausbug behoben
-- Ein Zug fährt nun durch SA!
+- Ein Zug fÃ¤hrt nun durch SA!
     -> Kann mit X attached werden
     -> Serverseitig Sychronisiert (Danke an Jusonex)
-    -> (Bitte nicht hinten auf den hintersten Wagon stellen, Desychronisierung möglich)
+    -> (Bitte nicht hinten auf den hintersten Wagon stellen, Desychronisierung mÃ¶glich)
 
-- Zug hält nun an Haltestellen an
-    -> Beinhaltet auch höchstgeschwindigkeitspositionen
+- Zug hÃ¤lt nun an Haltestellen an
+    -> Beinhaltet auch hÃ¶chstgeschwindigkeitspositionen
 
-- Züge entbuggt
-    -> Darunter änderungen an den verfügbaren Gleisen vorgenommen
+- ZÃ¼ge entbuggt
+    -> Darunter Ã¤nderungen an den verfÃ¼gbaren Gleisen vorgenommen
 
 - No DM Zonen sind nun wirkliche No-DM Zonen
-    -> Polizisten das Recht entzogen in No DM Zonen zu schießen, da sie es anscheinend ausnutzen
+    -> Polizisten das Recht entzogen in No DM Zonen zu schieÃŸen, da sie es anscheinend ausnutzen
 
-- Scoreboard verändert
+- Scoreboard verÃ¤ndert
     -> Zeigt nun den Ping in MS an
     -> Besser Lesbar
 
 - HUD Developmentkit kann nun nurnoch von Admins benutzt werden
     -> Wegen Drogen
 
--> Impressum, Datenschutzrecht und Quellenangaben hinzugefügt
-    -> Im Loginmenü Sichtbar
+-> Impressum, Datenschutzrecht und Quellenangaben hinzugefÃ¼gt
+    -> Im LoginmenÃ¼ Sichtbar
     -> /impressum
--> Passwortverschlüsselung verbessert
+-> PasswortverschlÃ¼sselung verbessert
     -> Neue Technik: sha512
     -> Wird beim Einloggen einmalig ersetzt
-    -> Passwörter werden außerdem gesalzen
+    -> PasswÃ¶rter werden auÃŸerdem gesalzen
 
 
--> Shoprobs geändert
+-> Shoprobs geÃ¤ndert
     -> Meldung beim 1. Erfassen deaktiviert
     -> Shoprob gefixxt
 
--> Waffentrucks und Shoprobs können nun nicht gleichzeig aktiv sein
+-> Waffentrucks und Shoprobs kÃ¶nnen nun nicht gleichzeig aktiv sein
 
 -> /hitsound ist nun eine Konfiguration
     -> Standart: deaktiviert
-    -> Verändert
+    -> VerÃ¤ndert
 
--> Drogenwurzeln hinzugefügt
-    -> Können Angefplanz werden
+-> Drogenwurzeln hinzugefÃ¼gt
+    -> KÃ¶nnen Angefplanz werden
     -> Nur auf Gras, Dirt, Sand anpflanzbar
     -> Hanfwurzel:
         -> Max. Ziehzeit:   16 Stunden
@@ -467,42 +469,42 @@ Perfekte Idee:
         -> Max. Ziehzeit:   32 Stunden
         -> Max. Ernte:      50 Gramm
 
--> im /selfmenu kann man nun sein Passwort ändern
+-> im /selfmenu kann man nun sein Passwort Ã¤ndern
     -> Man muss sein zurzeitiges Passwort angeben
 
--> Loginsounds geändert
-    -> Paar Entfernt, Paar hinzugefügt
+-> Loginsounds geÃ¤ndert
+    -> Paar Entfernt, Paar hinzugefÃ¼gt
 
--> Statistiken hinzugefügt
+-> Statistiken hinzugefÃ¼gt
     -> Geblitzt
     -> Blitzergeld
     -> Drogen Geernted
     -> Drogen weggeworfen
 
--> Drogenkäufer hinzugefügt
+-> DrogenkÃ¤ufer hinzugefÃ¼gt
     -> Befindet sich an der Sprunk Fabrik in Blueberry
-    -> Drogen für die hälfte des Preises verkaufbar
+    -> Drogen fÃ¼r die hÃ¤lfte des Preises verkaufbar
 
 -> Developmentwidget angepasst
-    -> Für Admins werte, andererseit keine Werte
+    -> FÃ¼r Admins werte, andererseit keine Werte
 
 -> Drogen verfallen nun nach 50 Stunden
     -> Und geben nun nichts mehr, wenn sie nicht Rechzeitig geerntet werden
 
--> Durchbuggen mit der "Interagier-Funktion" bei Objekten ist nun nicht mehr möglich
+-> Durchbuggen mit der "Interagier-Funktion" bei Objekten ist nun nicht mehr mÃ¶glich
 
 -> Item Wegwerfen entbuggt
 
--> Shoprob geändert
+-> Shoprob geÃ¤ndert
     -> Es kann ein Waffentruck gestartet sein um Shoprobs zu machen
     -> Beute ist nun nichtmehr durch Rammen abnehmbar (Feedback)
 
 -> Regensounds deaktiviert
-    -> Standart hinzugefügt
+    -> Standart hinzugefÃ¼gt
     -> Sollte nun kein Laggen mehr verursachen
     -> Thunder Sounds aber noch Aktiv
 
--> Neue Achievements hinzgefügt
+-> Neue Achievements hinzgefÃ¼gt
     -> Fahrzeuge, Blitzer
     -> Drogen
     -> Business, Prestige
@@ -510,7 +512,7 @@ Perfekte Idee:
 -> Fahrzeugkofferaum funktioniert nun
 -> Fahrzeug Ersatzreifen funktionieren nun
 
--> /scrambleword <Wort> um Wörter zu Verscramblen
+-> /scrambleword <Wort> um WÃ¶rter zu Verscramblen
 
 -> DxGUI hat nun einen kompletten Neuanstrich
     -> Design Neu, Sachen neu
@@ -520,7 +522,7 @@ Perfekte Idee:
 
 -> Waffentruck entbuggt
 
--> "Passwort-Vergessen" Funktion Hinzugefügt
+-> "Passwort-Vergessen" Funktion HinzugefÃ¼gt
 
 -> Tote Verbindungen werden nun durch ein System geschlossen (Bugmeldung #0008744, bugs.mtasa.com)
 
@@ -530,28 +532,28 @@ Perfekte Idee:
     -> Position wird nun richtig angezeigt
     -> Ganggebiete werden nun (fast) richtig angezeigt
 
--> PDLer bekommen nun Leben beim Ausrüsten
+-> PDLer bekommen nun Leben beim AusrÃ¼sten
 -> PD Dach ist jetzt drinne
-    -> Marker kommt später
+    -> Marker kommt spÃ¤ter
 
 -> Drogen kann man nun nicht mehr unterwasser angepflanzt werden
 
--> /ooc Chat hinzugefügt
+-> /ooc Chat hinzugefÃ¼gt
     -> Kann von Admins deaktiviert werden
     -> Kann Lokal mit /toggleooc daktiviert / aktiviert werden
-    -> Ermöglicht das Globale Reden, (Out Of Character)
+    -> ErmÃ¶glicht das Globale Reden, (Out Of Character)
     -> Spamfilter + Spamschutz
 
--> Drogenpflanzen können nun nicht mehr gemoddet werden
+-> Drogenpflanzen kÃ¶nnen nun nicht mehr gemoddet werden
 -> Hall of Games Texturen ersetzt
 
--> /airbreak für Admins hinzugefügt
+-> /airbreak fÃ¼r Admins hinzugefÃ¼gt
 
--> Lobbysystem an der Hall of Games hinzugefügt
+-> Lobbysystem an der Hall of Games hinzugefÃ¼gt
     -> Kompletter Re-Write
-    -> Momentan nur Derby Lobby verfügbar, weiter Folgen!
+    -> Momentan nur Derby Lobby verfÃ¼gbar, weiter Folgen!
 
--> Marktsystem wurde hinzugefügt
+-> Marktsystem wurde hinzugefÃ¼gt
     -> Aufrufbar mit F4
     -> Angebot und Nachfragen erstellbar
     -> Auf Anfragen und Nachfragen kommen 10% Marktzinsen
@@ -563,10 +565,10 @@ Perfekte Idee:
 -> Integration mit Businesssystem ist in Arbeit.
 
 -> Field "Temp" in der Derbyarena funktioniert nun
--> Sounds und Countdown zu den Lobbys hinzugefügt
+-> Sounds und Countdown zu den Lobbys hinzugefÃ¼gt
 -> Lobbysystem, Bugs gefixx
 
--> Derbyfield "Farm" hinzugefügt
+-> Derbyfield "Farm" hinzugefÃ¼gt
 
 -> Waffen werden nun beim Betreten einer Lobby abgenommen
 
@@ -576,43 +578,43 @@ Perfekte Idee:
 
 1.2.4:
 
--> Modloader hinzugefügt
-    -> Mods können Ingame geladen und entladen werden
-    -> Erreichbar im /self menü
-    -> Mods können auf Knopfdruck gedownloaded und ersetzt werden
+-> Modloader hinzugefÃ¼gt
+    -> Mods kÃ¶nnen Ingame geladen und entladen werden
+    -> Erreichbar im /self menÃ¼
+    -> Mods kÃ¶nnen auf Knopfdruck gedownloaded und ersetzt werden
 
--> /eject hinzugefügt
--> PD'ler können nun getazerte Personen grabben (Linksklick auf die getazerte Person in einem Auto)
+-> /eject hinzugefÃ¼gt
+-> PD'ler kÃ¶nnen nun getazerte Personen grabben (Linksklick auf die getazerte Person in einem Auto)
 
 -> sbx's classlib aktualisiert, MTA-OOP Aktiviert
 
 -> Lobbys:
     -> Personen nehmen in Lobbys nun keinen Schaden mehr
-    -> Während der Aufwärmphase ist das Fahrzeug nun unzerstörbar
+    -> WÃ¤hrend der AufwÃ¤rmphase ist das Fahrzeug nun unzerstÃ¶rbar
 
 
 -> LSPD:
-    -> Marker zu den Dächern hinzugefügt
+    -> Marker zu den DÃ¤chern hinzugefÃ¼gt
 
--> 3 neue Archievements hinzugefügt
+-> 3 neue Archievements hinzugefÃ¼gt
 -> Diverse GUI Aenderungen
 
--> Special Force hinzugefügt
-    -> Gute Fraktion, Sitz in der nähe des LSPD's
+-> Special Force hinzugefÃ¼gt
+    -> Gute Fraktion, Sitz in der nÃ¤he des LSPD's
     -> Eigener Knast, eigene Funktionen
-    -> SWAT Pickup hinzugefügt
+    -> SWAT Pickup hinzugefÃ¼gt
         -> Swat Modus aktivieren/deaktivieren
         -> Spezielle Waffen, C4 (Funktioniert noch nicht)
         -> Teargas macht kein Schaden
 
--> Neuer Pokesound hinzugefügt
-    -> Wem der alte lieber gefällt, kann Ihn in der Config.xml wieder aktivieren
+-> Neuer Pokesound hinzugefÃ¼gt
+    -> Wem der alte lieber gefÃ¤llt, kann Ihn in der Config.xml wieder aktivieren
 
 -> Lobbymap 3 ist nun nicht mehr standartmaessig vorhanden
--> Zuschauer in der Aufwärmphase erhalten nun kein Auto beim Spielstart mehr
+-> Zuschauer in der AufwÃ¤rmphase erhalten nun kein Auto beim Spielstart mehr
 
 -> Marktbug gefixt mitdem man Unhandelbare Items handeln kann
--> Tazercounter hizugefügt, ab 2. Tazerschuss kann man Grabben
+-> Tazercounter hizugefÃ¼gt, ab 2. Tazerschuss kann man Grabben
 
 
 -> Special Fore Bugfix:
@@ -620,8 +622,8 @@ Perfekte Idee:
     -> Waffenpickup Skin-Bug
     -> SWAT Modus Duty - Pickup
     -> Fraktionskasse - Offlineflucht und Jailgeld wird nun in die richtige Kasse eingezahlt
-    -> Beim Sterben verlässt man nun den SWAT modus
-    -> Die Schranke beim LSPD kann nun auch die Special Force öffnen
+    -> Beim Sterben verlÃ¤sst man nun den SWAT modus
+    -> Die Schranke beim LSPD kann nun auch die Special Force Ã¶ffnen
 
 -> F5 Anzeige behoben
 -> Fraktionshelikopter gefixxt
@@ -642,50 +644,50 @@ Perfekte Idee:
 -> LSPD Wantedcoputer addendum
 
 
--> Hüte Eingefügt!
+-> HÃ¼te EingefÃ¼gt!
     -> Bald Kaufbar
 
--> SpF können nun Durchsuchen
+-> SpF kÃ¶nnen nun Durchsuchen
 -> Auto Verkaufbug Behoben
 
 -> Filter bei F11 wird nun korrekt geschlossen
 
--> Tuningaragen Änderungen:
+-> Tuningaragen Ã„nderungen:
     -> Fahrzeugvarianten nun in der Tuninggarage kaufbar!
-    -> Adminbefehle für Fahrzeugänderung funktionieren nun
+    -> Adminbefehle fÃ¼r FahrzeugÃ¤nderung funktionieren nun
     -> Pay'n'Spray repariert nun Fahrzeuge mit Panzerung richtig
-    -> Fehlende Tuninggaragen in SF und LV als Business hinzugefügt
+    -> Fehlende Tuninggaragen in SF und LV als Business hinzugefÃ¼gt
 
     -> Der Motor von Fahrzeugen wird nun nach dem Respawnen deaktiviert
 
 -> Tuninggarage fix:
-    -> Colorpicker hinzugefügt
-    -> Kameraposition geändert
+    -> Colorpicker hinzugefÃ¼gt
+    -> Kameraposition geÃ¤ndert
 
 
--> Geschwindigkeit der Häuser und Automanager Loading Threads erhöht
--> Geschwindigkeit der Ladenzeiten der Bewegbaren Objekte nach Severrestart erhöht
--> Qualität der Werbetafeln erhöht
+-> Geschwindigkeit der HÃ¤user und Automanager Loading Threads erhÃ¶ht
+-> Geschwindigkeit der Ladenzeiten der Bewegbaren Objekte nach Severrestart erhÃ¶ht
+-> QualitÃ¤t der Werbetafeln erhÃ¶ht
 
--> Adminbefehle für Administratoren geändert
-    -> Können nun GMX's durchführen
+-> Adminbefehle fÃ¼r Administratoren geÃ¤ndert
+    -> KÃ¶nnen nun GMX's durchfÃ¼hren
 
--> Restartbefehl -> Zeit hinzugefügt
+-> Restartbefehl -> Zeit hinzugefÃ¼gt
 -> Windgeschwindigkeit gefixxt
 
 -> Man kann sich nun an Boote attachen
 
--> Tuninggarage am Airport für Helikopter hinzugefügt
--> Tuninggarage in der Verona Beach für Boote hinzugefügt
+-> Tuninggarage am Airport fÃ¼r Helikopter hinzugefÃ¼gt
+-> Tuninggarage in der Verona Beach fÃ¼r Boote hinzugefÃ¼gt
 
 
--> Komplett neue Special Force Base hinzugefügt
+-> Komplett neue Special Force Base hinzugefÃ¼gt
     -> Mit Knast und allen Schranken
-    -> Hat ungefähr 5 Minuten gedauert (Ohne Map)
+    -> Hat ungefÃ¤hr 5 Minuten gedauert (Ohne Map)
 
--> Häuser werden nun nach 4 Monate Inaktivität automatisch wieder frei gemacht
+-> HÃ¤user werden nun nach 4 Monate InaktivitÃ¤t automatisch wieder frei gemacht
     -> Dasselbe mit Prestigen und Businesse's
-    -> Außerdem mit Objekten und Interiorobjekten
+    -> AuÃŸerdem mit Objekten und Interiorobjekten
 
 -> @-Zeichen nun im dxEdit Schreibbar
 
@@ -693,32 +695,32 @@ Perfekte Idee:
 -> Markt ist nun auf der F9 Taste
 -> PD Computer ist nun auf der F4 Taste
 
--> Tuninggaragen sind nun an der Marina Beach verfügbar (Für Boote)
--> Santa Maria Beach Map von MasterM eingefügt
--> Tuninggaragemap von Martin eingefügt
+-> Tuninggaragen sind nun an der Marina Beach verfÃ¼gbar (FÃ¼r Boote)
+-> Santa Maria Beach Map von MasterM eingefÃ¼gt
+-> Tuninggaragemap von Martin eingefÃ¼gt
 
--> Respawnfehler behoben, wenn man von dem Zugführer getötet wird (Kein Respawn)
+-> Respawnfehler behoben, wenn man von dem ZugfÃ¼hrer getÃ¶tet wird (Kein Respawn)
 
 -> Stack Overflow im Inventar behoben, wenn ein Item in der Datenbank fehlte
-    -> Items könnten eventuell nicht mehr Sortiert sein
+    -> Items kÃ¶nnten eventuell nicht mehr Sortiert sein
 
--> Stellen in der SpF Base ist nun erst ab 4 Wanteds möglich
+-> Stellen in der SpF Base ist nun erst ab 4 Wanteds mÃ¶glich
 
--> Die Wahrscheinlichkeit, das Benzin zu verschütten wurde auf 25% gesenkt
+-> Die Wahrscheinlichkeit, das Benzin zu verschÃ¼tten wurde auf 25% gesenkt
 -> Hall of Games hat nun mehr "Einwohner"
     -> Zufall
 
--> Wettersystemänderungen:
+-> WettersystemÃ¤nderungen:
     -> Das Wasserlevel ist nun Dynamisch
-    -> Hängt vom Regenfall ab
-    -> Überschwemmungen hinzugefügt
+    -> HÃ¤ngt vom Regenfall ab
+    -> Ãœberschwemmungen hinzugefÃ¼gt
 
 -> Neue Infobox Sounds
 
--> Marktbug behoben, bei dem man auf Knöpfe klicken kann obwohl das Marktfenster nicht offen ist
-    -> Items wird nun beim Kaufen den Verkäufern angezeigt
+-> Marktbug behoben, bei dem man auf KnÃ¶pfe klicken kann obwohl das Marktfenster nicht offen ist
+    -> Items wird nun beim Kaufen den VerkÃ¤ufern angezeigt
 
--> Passwort Speicher funktion hinzugefügt
+-> Passwort Speicher funktion hinzugefÃ¼gt
     -> Kann in der core.xml aktiviert werden, attribut: save_password -> true
     -> Falls aktiviert, einfach auf "Login" klicken.
 
@@ -726,20 +728,20 @@ Perfekte Idee:
     -> Bei Autos
     -> Bei anderen Spielern (Samy)
 
--> Infoboxicons geändert
+-> Infoboxicons geÃ¤ndert
 
 -> Nametags erneuert
     -> Inclusive Leben und Armor
     -> Corporationsicon wird neben dem Namen angezeigt
 
--> /limit Hinzugefügt
-    -> Höchstgeschwindigkeit einstellbar
--> /tempo Hinzugefügt
-    -> Selbstständiges Fahren des Autos
+-> /limit HinzugefÃ¼gt
+    -> HÃ¶chstgeschwindigkeit einstellbar
+-> /tempo HinzugefÃ¼gt
+    -> SelbststÃ¤ndiges Fahren des Autos
 
 -> Scoreboard auf Corporationssystem angepasst
     -> Fraktion zu Corporation ersetzt
-    -> Icons und Name bei Spieler hinzugefügt
+    -> Icons und Name bei Spieler hinzugefÃ¼gt
     -> Performance verbessert
     -> Skinbilder erneuert, Komprimiert
 
@@ -747,35 +749,35 @@ Perfekte Idee:
     -> Incluive Schutzweste
     -> Icons werden neben den Nametags angezeigt
     -> Peformanceprobleme durch Nametags behoben
-    -> Design kann sich noch in der Laufzeit ändern
+    -> Design kann sich noch in der Laufzeit Ã¤ndern
         -> Anzeige beim Leben verlieren
 
--> Veränderungen am DX Gui System
+-> VerÃ¤nderungen am DX Gui System
     -> Fehler bei den Render Targets und Clicksystem behoben
 
--> Coroprationsystem hinzugefügt
+-> Coroprationsystem hinzugefÃ¼gt
     -> Das Umfangreichste Firmenverwaltungssystem in komplett MTA!
 
-    -> Jeder kann für eine gewisse Summe an Geld eine Firma / Gang erstellen. (Oberbegriff = Corporation)
-    -> Corporationsmenü befindet sich auf F10
+    -> Jeder kann fÃ¼r eine gewisse Summe an Geld eine Firma / Gang erstellen. (Oberbegriff = Corporation)
+    -> CorporationsmenÃ¼ befindet sich auf F10
         -> Alle vorhanden Corporationen werden dort angezeigt
             -> Corporationsprofil:
-                -> Gibt Informationen über die zurzeitige Corporation an
-                -> Verrät Beziehungen zu anderen Corporationen
-                -> Stellt Icon, Gründer, Gründungsdaten und Mitgleider dar
+                -> Gibt Informationen Ã¼ber die zurzeitige Corporation an
+                -> VerrÃ¤t Beziehungen zu anderen Corporationen
+                -> Stellt Icon, GrÃ¼nder, GrÃ¼ndungsdaten und Mitgleider dar
 
-    -> Corporation mit F10 außerdem erstellbar
-        -> Wahl eines dynamischen Icons möglich
-        -> Basisfarbe und Namen wählbar, später nicht änderbar
+    -> Corporation mit F10 auÃŸerdem erstellbar
+        -> Wahl eines dynamischen Icons mÃ¶glich
+        -> Basisfarbe und Namen wÃ¤hlbar, spÃ¤ter nicht Ã¤nderbar
 
-    -> Corporationsmenü auf F5, falls in einer Corporation
+    -> CorporationsmenÃ¼ auf F5, falls in einer Corporation
 
     -> Rollensystem:
         -> 7 Verschiedene Rollen: (Vom CEO, Deputy CEO und HR Manager vergebbar)
-            -> CEO: Chief Executive Officer: Gründer und einmalig in der Corporation
+            -> CEO: Chief Executive Officer: GrÃ¼nder und einmalig in der Corporation
             -> Deputy CEO: Stellv. CEO: -> Selbe Rechte wie der CEO
             -> HR Manager: Human Resources Manager -> Rechte zum Inviten, Uninviten, Rollenvergabe
-                -> Kann Außerdem Max. Spielerslots erhöhen
+                -> Kann AuÃŸerdem Max. Spielerslots erhÃ¶hen
             -> PR Manager: Public Relations Manager: -> Kann Verbindungen und Beziehungen zu anderen Corporationen verwalten, anfragen und entfernen
             -> Financial Manager: -> Erlaubt es, die Corporationskasse zu verwalten.
 
@@ -784,34 +786,34 @@ Perfekte Idee:
 -> Markt ist nun auf der F9 Taste
 -> PD Computer ist nun auf der F4 Taste
 
--> Tuninggaragen sind nun an der Marina Beach verfügbar (Für Boote)
--> Santa Maria Beach Map von MasterM eingefügt
--> Tuninggaragemap von Martin eingefügt
+-> Tuninggaragen sind nun an der Marina Beach verfÃ¼gbar (FÃ¼r Boote)
+-> Santa Maria Beach Map von MasterM eingefÃ¼gt
+-> Tuninggaragemap von Martin eingefÃ¼gt
 
--> Respawnfehler behoben, wenn man von dem Zugführer getötet wird (Kein Respawn)
+-> Respawnfehler behoben, wenn man von dem ZugfÃ¼hrer getÃ¶tet wird (Kein Respawn)
 
 -> Stack Overflow im Inventar behoben, wenn ein Item in der Datenbank fehlte
-    -> Items könnten eventuell nicht mehr Sortiert sein
+    -> Items kÃ¶nnten eventuell nicht mehr Sortiert sein
 
--> Stellen in der SpF Base ist nun erst ab 4 Wanteds möglich
+-> Stellen in der SpF Base ist nun erst ab 4 Wanteds mÃ¶glich
 
--> Die Wahrscheinlichkeit, das Benzin zu verschütten wurde auf 25% gesenkt
+-> Die Wahrscheinlichkeit, das Benzin zu verschÃ¼tten wurde auf 25% gesenkt
 -> Hall of Games hat nun mehr "Einwohner"
     -> Zufall
 
--> Wettersystemänderungen:
+-> WettersystemÃ¤nderungen:
     -> Das Wasserlevel ist nun Dynamisch
-    -> Hängt vom Regenfall ab
-    -> Überschwemmungen hinzugefügt
+    -> HÃ¤ngt vom Regenfall ab
+    -> Ãœberschwemmungen hinzugefÃ¼gt
 
--> Infoboxicons geändert
+-> Infoboxicons geÃ¤ndert
 -> Neue Infobox Sounds
-    -> Kann bei Bedarf wieder in der core.xml auf den alten plop Sound umgeändert werden
+    -> Kann bei Bedarf wieder in der core.xml auf den alten plop Sound umgeÃ¤ndert werden
 
--> Marktbug behoben, bei dem man auf Knöpfe klicken kann obwohl das Marktfenster nicht offen ist
-    -> Items wird nun beim Kaufen den Verkäufern angezeigt
+-> Marktbug behoben, bei dem man auf KnÃ¶pfe klicken kann obwohl das Marktfenster nicht offen ist
+    -> Items wird nun beim Kaufen den VerkÃ¤ufern angezeigt
 
--> Passwort Speicher funktion hinzugefügt
+-> Passwort Speicher funktion hinzugefÃ¼gt
     -> Kann in der core.xml aktiviert werden, attribut: save_password -> true
     -> Falls aktiviert, einfach auf "Login" klicken.
 
@@ -819,21 +821,21 @@ Perfekte Idee:
     -> Bei Autos
     -> Bei anderen Spielern (Samy)
 
--> Explosionen sind nun etwas größer, wenn das Auto einen vollen Tank besitzt
+-> Explosionen sind nun etwas grÃ¶ÃŸer, wenn das Auto einen vollen Tank besitzt
     -> Machen keinen Schaden
 
 -> Nametags erneuert
     -> Inclusive Leben und Armor
     -> Corporationsicon wird neben dem Namen angezeigt
 
--> /limit Hinzugefügt
-    -> Höchstgeschwindigkeit einstellbar
--> /tempo Hinzugefügt
-    -> Selbstständiges Fahren des Autos
+-> /limit HinzugefÃ¼gt
+    -> HÃ¶chstgeschwindigkeit einstellbar
+-> /tempo HinzugefÃ¼gt
+    -> SelbststÃ¤ndiges Fahren des Autos
 
 -> Scoreboard auf Corporationssystem angepasst
     -> Fraktion zu Corporation ersetzt
-    -> Icons und Name bei Spieler hinzugefügt
+    -> Icons und Name bei Spieler hinzugefÃ¼gt
     -> Performance verbessert
     -> Skinbilder erneuert, Komprimiert
 
@@ -841,77 +843,77 @@ Perfekte Idee:
     -> Incluive Schutzweste
     -> Icons werden neben den Nametags angezeigt
     -> Peformanceprobleme durch Nametags behoben
-    -> Design kann sich noch in der Laufzeit ändern
+    -> Design kann sich noch in der Laufzeit Ã¤ndern
         -> Anzeige beim Leben verlieren
 
--> Veränderungen am DX Gui System
+-> VerÃ¤nderungen am DX Gui System
     -> Fehler bei den Render Targets und Clicksystem behoben
 
--> Coroprationsystem hinzugefügt
+-> Coroprationsystem hinzugefÃ¼gt
     -> Das Umfangreichste Firmenverwaltungssystem in komplett MTA!
 
-    -> Jeder kann für eine gewisse Summe an Geld eine Firma / Gang erstellen. (Oberbegriff = Corporation)
-    -> Corporationsmenü befindet sich auf F10
+    -> Jeder kann fÃ¼r eine gewisse Summe an Geld eine Firma / Gang erstellen. (Oberbegriff = Corporation)
+    -> CorporationsmenÃ¼ befindet sich auf F10
         -> Alle vorhanden Corporationen werden dort angezeigt
             -> Corporationsprofil:
-                -> Gibt Informationen über die zurzeitige Corporation an
-                -> Verrät Beziehungen zu anderen Corporationen
-                -> Stellt Icon, Gründer, Gründungsdaten und Mitgleider dar
+                -> Gibt Informationen Ã¼ber die zurzeitige Corporation an
+                -> VerrÃ¤t Beziehungen zu anderen Corporationen
+                -> Stellt Icon, GrÃ¼nder, GrÃ¼ndungsdaten und Mitgleider dar
 
-    -> Corporation mit F10 außerdem erstellbar
-        -> Wahl eines dynamischen Icons möglich
-        -> Basisfarbe und Namen wählbar, später nicht änderbar
+    -> Corporation mit F10 auÃŸerdem erstellbar
+        -> Wahl eines dynamischen Icons mÃ¶glich
+        -> Basisfarbe und Namen wÃ¤hlbar, spÃ¤ter nicht Ã¤nderbar
 
-    -> Corporationsmenü auf F5, falls in einer Corporation
+    -> CorporationsmenÃ¼ auf F5, falls in einer Corporation
 
     -> Rollensystem:
         -> 7 Verschiedene Rollen: (Vom CEO, Deputy CEO und HR Manager vergebbar)
             -> Mann kann verschiedene Rollen gleichzeitig besitzen
 
-            -> CEO: Chief Executive Officer: Gründer und einmalig in der Corporation
+            -> CEO: Chief Executive Officer: GrÃ¼nder und einmalig in der Corporation
             -> Deputy CEO: Stellv. CEO: -> Selbe Rechte wie der CEO
             -> HR Manager: Human Resources Manager -> Rechte zum Inviten, Uninviten, Rollenvergabe
-                -> Kann Außerdem Max. Spielerslots erhöhen
+                -> Kann AuÃŸerdem Max. Spielerslots erhÃ¶hen
             -> PR Manager: Public Relations Manager: -> Kann Verbindungen und Beziehungen zu anderen Corporationen verwalten, anfragen und entfernen
             -> Financial Manager: -> Erlaubt es, die Corporationskasse zu verwalten.
             -> Storage Manager: -> Erlaubt es, das Corporationsinventar zu verwalten.
             -> Production Manager: -> Erlaubt es, die verbundenen Businesse der Corporation zu verwalten.
 
-    -> Bündnisssystem
-        -> Bündnisse bringen diverse Vorteile und Nachteile:
-            -> Freundschaftsbündniss:
-                -> Businesse von Corporationen die eine Freundschaft geschlossen haben, können nicht ihre gegenseitige Businesse angreifen.
+    -> BÃ¼ndnisssystem
+        -> BÃ¼ndnisse bringen diverse Vorteile und Nachteile:
+            -> FreundschaftsbÃ¼ndniss:
+                -> Businesse von Corporationen die eine Freundschaft geschlossen haben, kÃ¶nnen nicht ihre gegenseitige Businesse angreifen.
             -> Feindschaft:
-                -> Eine offizielle Kriegserklärung zwischen 2 Corporationen.
-                    -> Gangwars sind legal und dürfen bei Corporationen im Kriegsstatus gestartet werden.
-                -> Beschuss bei Kontakt möglich.
+                -> Eine offizielle KriegserklÃ¤rung zwischen 2 Corporationen.
+                    -> Gangwars sind legal und dÃ¼rfen bei Corporationen im Kriegsstatus gestartet werden.
+                -> Beschuss bei Kontakt mÃ¶glich.
 
-        -> Bei Bündnissen können Financial Manager andere Corporationen Geld einfacher Überweisen.
+        -> Bei BÃ¼ndnissen kÃ¶nnen Financial Manager andere Corporationen Geld einfacher Ãœberweisen.
 
-    -> Menü (F5)
+    -> MenÃ¼ (F5)
         -> Bereiche der Rollen einsehbar
         -> Human Resource Management:
             -> Erlaubt es, HR Manager User zu Inviten, Rollen zu geben und zu Uninviten.
             -> Auch Offline
         -> Public Resource Manager:
-            -> Aussehen der Corporation kann geändert werden, Motd(Moto of the Day) und Biografie änderbar.
+            -> Aussehen der Corporation kann geÃ¤ndert werden, Motd(Moto of the Day) und Biografie Ã¤nderbar.
 
         -> Finanzmanager:
-            -> Ein / Auszahlen, Geld an Verbundenen Corporationen senden möglich
+            -> Ein / Auszahlen, Geld an Verbundenen Corporationen senden mÃ¶glich
 
         -> Storage Manager:
             -> Corporationsinventar einsehbar, Items aus und Einlagern
-            -> Lager Überprüfen (Sog. Lager Einheiten, = LE)
-            -> Corporationsfahrzeuge kaufbar, können vom Storage Manager umgeparkt werden
-            -> Häuser können zu Corporationen hinzgefügt werden
-            -> Skins der Rollen können gekauft werden
+            -> Lager ÃœberprÃ¼fen (Sog. Lager Einheiten, = LE)
+            -> Corporationsfahrzeuge kaufbar, kÃ¶nnen vom Storage Manager umgeparkt werden
+            -> HÃ¤user kÃ¶nnen zu Corporationen hinzgefÃ¼gt werden
+            -> Skins der Rollen kÃ¶nnen gekauft werden
 
         -> Production Manager:
-            -> Hält die Businesse auf den neusten Stand
-            -> Kann Lager Einheiten auffüllen
+            -> HÃ¤lt die Businesse auf den neusten Stand
+            -> Kann Lager Einheiten auffÃ¼llen
             -> Kann Lager Einheiten zu den Businesse fahren
 
--> Serial Highping Ausnahmen hinzugefügt bei Spielern mit generell scheiß Internet
+-> Serial Highping Ausnahmen hinzugefÃ¼gt bei Spielern mit generell scheiÃŸ Internet
 
 -> Inventarbug gefixt, indem man bei Fraktionsinventare, Corporationsinventaren und Kofferaumen Items aus und Einlagern kann, obwohl man kein Platz mehr im Inventar hat
     -> Personalausweise sollte man trotzdem besser nicht in diese Inventare packen.
@@ -925,7 +927,7 @@ Perfekte Idee:
 -> Corporationschat
 -> Fraktionsfahrzeuge Umparken
 -> Skin setzen
--> Corporation verlassen können
+-> Corporation verlassen kÃ¶nnen
 -> Depduty nicht geben per Deputy
 
 -> Haus verkaufen -> Kein Besitzer
@@ -938,12 +940,12 @@ Perfekte Idee:
 
 -> Wortfilter im OOC Chat und imwoo normalen Chat hinzugefuegt
 -> Corporationfunktionen gehen nun:
-    -> Skin ändern
+    -> Skin Ã¤ndern
     -> Zinssatz -> Payday
     -> Lohn     -> Payday
 
 -> Fisch hinzugefuegt
-    -> Funktion fehlt noch, kommt später
+    -> Funktion fehlt noch, kommt spÃ¤ter
 
 -> Anzeigefehler in F10 Corporation View behoben
 
@@ -955,47 +957,47 @@ Perfekte Idee:
 
 -> Farmmap vorerst entfernt; Verursachte Laggen
 
--> Loadinganzeige beim klick auf Mülltonnen gefixxt
+-> Loadinganzeige beim klick auf MÃ¼lltonnen gefixxt
 
--> Payday Geändert
-    -> Corporation berücksichtigt
-    -> Fraktion berücksichtigt
+-> Payday GeÃ¤ndert
+    -> Corporation berÃ¼cksichtigt
+    -> Fraktion berÃ¼cksichtigt
     -> Grundeinkommen variiert nun
 
--> Corporatiosnänderungen:
-    -> Upgradepreise angepasst für Bizes
-    -> Abkürzung kann nun Max. 5 Zeichen lang sein
+-> CorporatiosnÃ¤nderungen:
+    -> Upgradepreise angepasst fÃ¼r Bizes
+    -> AbkÃ¼rzung kann nun Max. 5 Zeichen lang sein
     -> Aktionen werden nun geloggt
 
     -> Payday behoben
-    -> Lohn hinzugefügt
+    -> Lohn hinzugefÃ¼gt
         -> Kann vom Finanzmanager gesetzt werden
 
-    -> Steuern beim Payday der Corporation berücksichtigt
+    -> Steuern beim Payday der Corporation berÃ¼cksichtigt
 
     -> Status funktioniert nun
     -> Bei einem Status unter 40% Spawnt man mit einer Schutzweste und Messer
 
--> Interiorübergang geht jetzt Schneller
+-> InteriorÃ¼bergang geht jetzt Schneller
 -> Bug mit der Karte F11 gefixxt
 
 -> Businessupdate:
-    -> 150 Businesse hinzugefügt
-    -> Können von Corporationen gekauft werden
+    -> 150 Businesse hinzugefÃ¼gt
+    -> KÃ¶nnen von Corporationen gekauft werden
     -> Nachschub muss immer Vorhanden sein
-        -> Das Lager jedes Business kann leer gehen; immer mit Lagereinheiten auffüllen!
+        -> Das Lager jedes Business kann leer gehen; immer mit Lagereinheiten auffÃ¼llen!
     -> Standartbizes sind vorerst gelockt
 
-    -> Sollte ein Business für länger als 1 Tag leer sein, wird es enteignet
+    -> Sollte ein Business fÃ¼r lÃ¤nger als 1 Tag leer sein, wird es enteignet
 
 -> Neuer Fahrzeugshop: Truckshop
-    -> Verschiedene Trucks und Anhänger kaufbar
+    -> Verschiedene Trucks und AnhÃ¤nger kaufbar
     -> Befindet sich in LV
 
--> Marktplatz in der Fleischbergfirma hinzugefügt
-    -> Trailer können dort beladen werden
-    -> Trailer können von dort zu den Businessen gefahren werden
-    -> Trailer können zu jedem Business gefahren werden, deshalb vorsicht vor Dieben!
+-> Marktplatz in der Fleischbergfirma hinzugefÃ¼gt
+    -> Trailer kÃ¶nnen dort beladen werden
+    -> Trailer kÃ¶nnen von dort zu den Businessen gefahren werden
+    -> Trailer kÃ¶nnen zu jedem Business gefahren werden, deshalb vorsicht vor Dieben!
 
 -> Neue Items:
     -> Fisch
@@ -1007,14 +1009,14 @@ Perfekte Idee:
 
 - 1.2.6:
 
--> Low Video Memory Modus hinzugefügt
+-> Low Video Memory Modus hinzugefÃ¼gt
     -> Kann in der core.xml aktiviert werden (nach 1x. Connecten)
-    -> Rendert Rendertargets und Bilder in geringer Qualität
+    -> Rendert Rendertargets und Bilder in geringer QualitÃ¤t
     -> Ersetzt Scoreboard RT's
 
     -> Maps sortiert
-        -> Planetuningmap von <Hier Name Einfügen> hinzugefügt
-        -> Truckerjobmap von Ozan hinzugefügt
+        -> Planetuningmap von <Hier Name EinfÃ¼gen> hinzugefÃ¼gt
+        -> Truckerjobmap von Ozan hinzugefÃ¼gt
     -> Businesspreise / income angepasst
         -> Man macht nun bei Tankstellen, Ammu Nation und Einkaufszentren kein Minus mehr
 
@@ -1023,43 +1025,43 @@ Perfekte Idee:
 -> Rechtschreibfehler bei /tempo entfernt
 -> Marker an dem Corporationsmarkt sind nun Pfeile
 
--> Wortfilter änderungen:
-    -> Groß und Kleinschreibung funktioniert wieder
-    -> Redundante Wörter entfernt, darunter ass, fuck und shit
+-> Wortfilter Ã¤nderungen:
+    -> GroÃŸ und Kleinschreibung funktioniert wieder
+    -> Redundante WÃ¶rter entfernt, darunter ass, fuck und shit
 
     -> Nun auch im normalen Chat Aktiv (Nur der Zensurfilter!)
 
 -> Payday Schreibfehler behoben
 
--> Wenn man aus dem Knast kommt, kann man nun wieder Springen, GUIS Betätigen usw.
+-> Wenn man aus dem Knast kommt, kann man nun wieder Springen, GUIS BetÃ¤tigen usw.
 
--> Häuser enteignung funktioniert nun richtig bei Inaktiven Spielern
+-> HÃ¤user enteignung funktioniert nun richtig bei Inaktiven Spielern
 
 
 
 NEU:
 
--> /t Chat Funktioniert nun für Corporationen
+-> /t Chat Funktioniert nun fÃ¼r Corporationen
 
--> Radiosystem überarbeitet
-    -> Radiosender können mit /addradio <RadioURL> <RadioName> hinzugefügt werden#
-        -> Momentan nur per Command möglich, da es ein paar Probleme mit dem Copy & Paste System in dem DxGui gibt
+-> Radiosystem Ã¼berarbeitet
+    -> Radiosender kÃ¶nnen mit /addradio <RadioURL> <RadioName> hinzugefÃ¼gt werden#
+        -> Momentan nur per Command mÃ¶glich, da es ein paar Probleme mit dem Copy & Paste System in dem DxGui gibt
     -> /removeradio <RadioName> Um ein Radio zu entfernen
     -> listradios in der Console zeigt eine liste von Radios an
 
-    -> 3D Autoradios hinzugefügt
+    -> 3D Autoradios hinzugefÃ¼gt
         -> Beim Abspielen an das Auto geheftet
-        -> Wird lauter, je mehr Türen des Fahrzeuges offen sind
+        -> Wird lauter, je mehr TÃ¼ren des Fahrzeuges offen sind
 
-    -> Garagentor bei der Garage hinzugefügt
-        -> Kann mit Klick auf die Garage geöffnet werden
+    -> Garagentor bei der Garage hinzugefÃ¼gt
+        -> Kann mit Klick auf die Garage geÃ¶ffnet werden
 
 
     -> Objekt Movement angepasst:
         -> SHIFT beim Drehen rotiert nun das Objekt schneller
         -> LALT beim Drehen rotiert das Objekt nun Langsamer
 
-        -> BILD HOCH / BILD RUNTER verschiebt das Objekt in der Höhe
+        -> BILD HOCH / BILD RUNTER verschiebt das Objekt in der HÃ¶he
 
     -> Friendlist funktioniert nun
     -> Tel Nummer anzeigen Funktioniert nun
@@ -1067,41 +1069,41 @@ NEU:
 
     -> Radios Speichern sich nun
 
-    -> /pickall hinzgefügt
-        -> Hebt alle Objekte im Umkreis auf (Welche einem Gehören)
+    -> /pickall hinzgefÃ¼gt
+        -> Hebt alle Objekte im Umkreis auf (Welche einem GehÃ¶ren)
 
     -> Performance von Objekten verbessert
     -> Diverse Performancefixes beim Radio
     -> Platzierte Radios geben nun META Informationen aus
 
-    -> 2 Neue Maps hinzugefügt
+    -> 2 Neue Maps hinzugefÃ¼gt
 (UPDATE IST NOCH NICHT FERTIG, ES KOMMEN HIER NOCH SACHEN HINZU)
-Das Update ist noch nicht auf dem Live Server vorhanden. Dieser Changelog soll nur als Information über den zurzeitigen Stand dienen.
+Das Update ist noch nicht auf dem Live Server vorhanden. Dieser Changelog soll nur als Information Ã¼ber den zurzeitigen Stand dienen.
 
 
 1.2.6:
 
--> /t Chat Funktioniert nun für Corporationen
+-> /t Chat Funktioniert nun fÃ¼r Corporationen
 
--> Radiosystem überarbeitet
--> Radiosender können mit /addradio <RadioURL> <RadioName> hinzugefügt werden#
--> Momentan nur per Command möglich, da es ein paar Probleme mit dem Copy & Paste System in dem DxGui gibt
+-> Radiosystem Ã¼berarbeitet
+-> Radiosender kÃ¶nnen mit /addradio <RadioURL> <RadioName> hinzugefÃ¼gt werden#
+-> Momentan nur per Command mÃ¶glich, da es ein paar Probleme mit dem Copy & Paste System in dem DxGui gibt
 -> /removeradio <RadioName> Um ein Radio zu entfernen
 -> listradios in der Console zeigt eine liste von Radios an
 
--> 3D Autoradios hinzugefügt
+-> 3D Autoradios hinzugefÃ¼gt
 -> Beim Abspielen an das Auto geheftet
--> Wird lauter, je mehr Türen des Fahrzeuges offen sind
+-> Wird lauter, je mehr TÃ¼ren des Fahrzeuges offen sind
 
--> Garagentor bei der Garage hinzugefügt
--> Kann mit Klick auf die Garage geöffnet werden
+-> Garagentor bei der Garage hinzugefÃ¼gt
+-> Kann mit Klick auf die Garage geÃ¶ffnet werden
 
 
 -> Objekt Movement angepasst:
 -> SHIFT beim Drehen rotiert nun das Objekt schneller
 -> LALT beim Drehen rotiert das Objekt nun Langsamer
 
--> BILD HOCH / BILD RUNTER verschiebt das Objekt in der Höhe
+-> BILD HOCH / BILD RUNTER verschiebt das Objekt in der HÃ¶he
 
 -> Friendlist funktioniert nun
 -> Tel Nummer anzeigen Funktioniert nun
@@ -1109,55 +1111,55 @@ Das Update ist noch nicht auf dem Live Server vorhanden. Dieser Changelog soll n
 1.2.6_01:
 -> Radios Speichern sich nun
 
--> /pickall hinzgefügt
--> Hebt alle Objekte im Umkreis auf (Welche einem Gehören)
+-> /pickall hinzgefÃ¼gt
+-> Hebt alle Objekte im Umkreis auf (Welche einem GehÃ¶ren)
 
 -> Performance von Objekten verbessert
 -> Diverse Performancefixes beim Radio
 -> Platzierte Radios geben nun META Informationen aus
 
--> 1 Neue Map hinzugefügt
+-> 1 Neue Map hinzugefÃ¼gt
 
 
 1.2.7:
 (UPDATE IST NOCH NICHT FERTIG, ES KOMMEN HIER NOCH SACHEN HINZU)
-Das Update ist noch nicht auf dem Live Server vorhanden. Dieser Changelog soll nur als Information über den zurzeitigen Stand dienen.
+Das Update ist noch nicht auf dem Live Server vorhanden. Dieser Changelog soll nur als Information Ã¼ber den zurzeitigen Stand dienen.
 
--> Server läuft nun als 64 Bit Anwendung
+-> Server lÃ¤uft nun als 64 Bit Anwendung
 
--> /changelog für den neusten Changelog hinzugefügt
+-> /changelog fÃ¼r den neusten Changelog hinzugefÃ¼gt
     -> Output in der Console
 
 -> Fraktionsshop kann nun von Corporationen benutzt werden
--> 9 Neue Außenobjekte hinzugefügt
-    -> Hauptsächich Bäume
+-> 9 Neue AuÃŸenobjekte hinzugefÃ¼gt
+    -> HauptsÃ¤chich BÃ¤ume
 
 -> Framerate in der Hall of Games und umliegend verbessert
-    -> 2. Ebene in der Hall of Games hinzugefügt
+    -> 2. Ebene in der Hall of Games hinzugefÃ¼gt
     -> Ebenen sind nun in andere Dimensionen; Lags gefixxt
 
 -> Grafikspeichernutzung reduziert
-    -> Texturen werden nun Komprimiert; Dadurch könnte es bei Resourcenstart ein 1-2 Sekunden Freeze entstehen
+    -> Texturen werden nun Komprimiert; Dadurch kÃ¶nnte es bei Resourcenstart ein 1-2 Sekunden Freeze entstehen
 
--> Kategorie "Lizenzen und Papiere" heißt nun "Dokumente"
+-> Kategorie "Lizenzen und Papiere" heiÃŸt nun "Dokumente"
 -> GUI List Anzeigefehler behoben, kann jedoch noch etwas rumbuggen.
 
--> Neues Inventar-GUI hinzugefügt
-    -> Besser Sortiert, Übersichtlicher
-    -> Suchfunktion hinzugefügt
+-> Neues Inventar-GUI hinzugefÃ¼gt
+    -> Besser Sortiert, Ãœbersichtlicher
+    -> Suchfunktion hinzugefÃ¼gt
 
     -> Lagfrei
-    -> Unterstützt nun alle Items
+    -> UnterstÃ¼tzt nun alle Items
     -> Einfache Verwendung bei Corporation / Fraktion / Fahrzeuginventaren
 
 
     -> Items haben nun ein Gewicht
     -> Inventare haben nun ein Maximalgewicht
-        -> Überschreitung vorerst nicht möglich;
-            -> Zurzeitige überladene Inventare können keine Items mehr aufnehmen
-            -> Können jedoch alle Items benutzen und einlagern
+        -> Ãœberschreitung vorerst nicht mÃ¶glich;
+            -> Zurzeitige Ã¼berladene Inventare kÃ¶nnen keine Items mehr aufnehmen
+            -> KÃ¶nnen jedoch alle Items benutzen und einlagern
 
-            -> Fahrzeuge haben größere Inventare
+            -> Fahrzeuge haben grÃ¶ÃŸere Inventare
 
             -> Itemshops angepasst
 
@@ -1177,8 +1179,8 @@ Das Update ist noch nicht auf dem Live Server vorhanden. Dieser Changelog soll n
 -> Neues PD Dach hinzugefuegt
 -> PD Hat nun ein Leviathan
 
--> Corporationsfahrzeuge besitzen nun standartmäßig einen Kofferaum
--> Wird beim Verwandeln übernommen
+-> Corporationsfahrzeuge besitzen nun standartmÃ¤ÃŸig einen Kofferaum
+-> Wird beim Verwandeln Ã¼bernommen
 
 -> Self-Menue angepasst
 
@@ -1186,15 +1188,15 @@ Das Update ist noch nicht auf dem Live Server vorhanden. Dieser Changelog soll n
 
     -> DxGui Bugfix
 
-    -> Artefakte hinzugefügt:
-        -> Können mit einem Artefaktscanner gescannt werden
+    -> Artefakte hinzugefÃ¼gt:
+        -> KÃ¶nnen mit einem Artefaktscanner gescannt werden
             -> Kaufbar im Markt
-        -> Erlaubt es Kisten zu finden, welche zufällig auf der gesammten SA Karte spawnen
+        -> Erlaubt es Kisten zu finden, welche zufÃ¤llig auf der gesammten SA Karte spawnen
             -> Verschiedene Arten von Kisten
-            -> Feuerwerkskisten, Waffenkisten, Müllkisten, Seltene Kisten, Hüte usw.
+            -> Feuerwerkskisten, Waffenkisten, MÃ¼llkisten, Seltene Kisten, HÃ¼te usw.
 
-        -> Benötigen Aufladungen zum Scannen
-            -> 3 Aufladungen hinzugefügt:
+        -> BenÃ¶tigen Aufladungen zum Scannen
+            -> 3 Aufladungen hinzugefÃ¼gt:
                 -> Reichweite: Jeweils 100m, 250m und 500m
 
     -> Geldsack nun Benutzbar
@@ -1202,7 +1204,7 @@ Das Update ist noch nicht auf dem Live Server vorhanden. Dieser Changelog soll n
 
 1.2.7_01:
 
--> 3 Artefaktscanner hinzugefügt
+-> 3 Artefaktscanner hinzugefÃ¼gt
     -> Tier 1, 2, 3
     -> Tier 1 kann nur 100m Aufladungen benutzen
     -> Tier 2 250m
@@ -1212,7 +1214,7 @@ Das Update ist noch nicht auf dem Live Server vorhanden. Dieser Changelog soll n
 
 -> Nametags bearbeitet
 -> Hotknife ist nun Blau
--> Artefakte Preisänderung:
+-> Artefakte PreisÃ¤nderung:
     -> Level 1: $250
     -> Level 2: $750
     -> Level 3: $1350
@@ -1222,18 +1224,18 @@ Das Update ist noch nicht auf dem Live Server vorhanden. Dieser Changelog soll n
     -> Truckerjob
     -> Sonstige Errors
 
-    -> Neue Artefakte hinzugefügt:
+    -> Neue Artefakte hinzugefÃ¼gt:
         -> Scannerartefakt:
             -> Dropt Scannerloot, Aufladungen, etc.
 
 
 1.2.7_03:
 
-    -> Tankstellen Explodieren nun nicht mehr wenn man gegenfährt
+    -> Tankstellen Explodieren nun nicht mehr wenn man gegenfÃ¤hrt
 
 
     -> Drogenpaket beim Artefakt wurde etwas gebufft
-        -> Erhöhte Wahrscheinlichkeit für das Finden von mehreren Drogen
+        -> ErhÃ¶hte Wahrscheinlichkeit fÃ¼r das Finden von mehreren Drogen
         -> Magic Mushrooms runtergesetzt
 
     -> Diverse Fehler beim Truckerjob behoben
@@ -1244,7 +1246,7 @@ Das Update ist noch nicht auf dem Live Server vorhanden. Dieser Changelog soll n
 
 
 1.2.8:
-Angefangen, Datum: 23. März 2015 15:35:12
+Angefangen, Datum: 23. MÃ¤rz 2015 15:35:12
 
 
 -> Fahrzeugliste F7 ist nun nach Modellname Sortiert
@@ -1254,7 +1256,7 @@ Angefangen, Datum: 23. März 2015 15:35:12
         -> 3 Neue Tabs: Eigene Angebote, Eigene Nachfragen und Hilfe
         -> Doppelklick auf Listen bringt einem zu den Items
 
-    -> Dx Listen sind nun nicht mehr in der Höhe größer wenn der Platz nach Links noch ausreicht
+    -> Dx Listen sind nun nicht mehr in der HÃ¶he grÃ¶ÃŸer wenn der Platz nach Links noch ausreicht
     -> Inventar "Im Markt Anzeigen" Knopf Funktioniert nun
 
     -> Neue Fahrzeugladen: Motoradshop
@@ -1262,7 +1264,7 @@ Angefangen, Datum: 23. März 2015 15:35:12
         -> Fahrzeuge: FCR, Freeway, Sandchez
 
 
-    -> Diverse Maps eingefügtt:
+    -> Diverse Maps eingefÃ¼gtt:
         -> Tuningwerkstatt von Armenia
         -> Inselmap von MasterM
 
@@ -1270,10 +1272,10 @@ Angefangen, Datum: 23. März 2015 15:35:12
 
     -> Schutzweste wird nun auf dem Radar Links bei der Luft angezeigt, wenn Schutzweste vorhanden ist
 
-    -> Truckerjob Änderungen:
-        -> Trucks und Anhänger am TruckerJob sind nun für 10 Sekunden im Ghostmode
-        -> Vorgegebenes Ziel entfernt; Ziele können nun selber ausgewählt werden
-        -> Beim Abladen muss die Ware wieder zurück zum Job gefahren werden, um das Geld zu erhalten
+    -> Truckerjob Ã„nderungen:
+        -> Trucks und AnhÃ¤nger am TruckerJob sind nun fÃ¼r 10 Sekunden im Ghostmode
+        -> Vorgegebenes Ziel entfernt; Ziele kÃ¶nnen nun selber ausgewÃ¤hlt werden
+        -> Beim Abladen muss die Ware wieder zurÃ¼ck zum Job gefahren werden, um das Geld zu erhalten
 
 1.2.8_01:
 
@@ -1283,7 +1285,7 @@ Angefangen, Datum: 23. März 2015 15:35:12
         -> Exploit Entfernt
 
         -> Bank GUI Anzeigefehler behoben
-        -> Inselmap eingefügt
+        -> Inselmap eingefÃ¼gt
 
         -> SAT Reporter erhalten nun etwas mehr Geld beim Schreiben von News
         -> Mehr Einstellungen zur Framerateerhoehung in der config.xml aktiviert
