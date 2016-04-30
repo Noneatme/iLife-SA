@@ -63,7 +63,7 @@ function GateLoader:LoadGates()
 			end
 			
 			count = count+1;
-			self.gates[count] = Gate:New(rowData["GateID"], rowData["Name"], rowData["Modell"], rowData["MoveTime"], fromJSON(rowData["Position"]), fromJSON(rowData["ZielPosition"]), rowData["Misc"], rowData["Permission"], rowData["Permissions"], rowData["OpenType"], rowData["Type"], rowData["InFunction"], rowData["OutFunction"])
+			self.gates[count] = Gate:New(rowData["GateID"], rowData["Name"], rowData["Modell"], rowData["MoveTime"], fromJSON(rowData["Position"]), fromJSON(rowData["ZielPosition"]), fromJSON(rowData["Misc"]), rowData["Permission"], rowData["Permissions"], rowData["OpenType"], rowData["Type"], rowData["InFunction"], rowData["OutFunction"])
 			
 		end
 	end
