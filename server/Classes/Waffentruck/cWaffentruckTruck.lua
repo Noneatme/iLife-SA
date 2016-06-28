@@ -426,9 +426,3 @@ function cWaffentruckTruck:constructor(iFactionID, iX, iY, iZ, iRX, iRY, iRZ, iK
 end
 
 -- EVENT HANDLER --
-
-
-addCommandHandler("waft", function(tp, cmd, i)
-    local pos = tp:getPosition();
-    cWaffentruckTruck:new(nil, pos:getX()+4, pos:getY(), pos:getZ(), 0, 0, 0, tonumber(i));
-end)
