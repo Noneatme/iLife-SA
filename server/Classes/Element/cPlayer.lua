@@ -2762,7 +2762,7 @@ function CPlayer:register(name, email, password, geburtsdatum, geschlecht)
 	else
 		local salt		= self:generateSalt(password);
 		local insert1 = "INSERT INTO user (`id`, `Name`, `E-Mail`, `Password`, `Salt`, `Serial`, `Played_Time`, `Last_IP`, `Last_Logout`, `Last_Login`, `Register_Date`, `Geburtsdatum`, `Verifikation`, `Adminlevel`, `Status`, `Available_Status`, `Bonuspoints`, `Achievements`, `Statistics`) VALUES (NULL, ?, ?, ?, ?, ?, '0', ?, '0', '0', CURDATE(), ?, '0', '0', 'Obdachloser', '[ { \"Obdachloser\": true } ]', '0', '[ [ ] ]', '[ [ ] ]');"
-		local insert2 = "INSERT INTO userdata (`Name`, `Inventory`, `Phonenumber`, `Geld`, `Bankgeld`, `Fraktion`, `Rank`, `Spawnkoords`, `Skin`, `Geschlecht`, `Jailtime`, `Wanteds`, `ActiveQuests`, `FinishedQuests`) VALUES (?,  (SELECT MAX(ID) FROM `Inventory`), ?, '100', '250', '0', '0', '0|0|1338.2893066406|-1773.7534179688|13.552166938782|0', '137', ?, '0', '0', '"..toJSON({}).."', '"..toJSON({}).."');"
+		local insert2 = "INSERT INTO userdata (`Name`, `Inventory`, `Phonenumber`, `Geld`, `Bankgeld`, `Fraktion`, `Rank`, `Spawnkoords`, `Skin`, `Geschlecht`, `Jailtime`, `Wanteds`, `ActiveQuests`, `FinishedQuests`) VALUES (?,  (SELECT MAX(ID) FROM `inventory`), ?, '100', '250', '0', '0', '0|0|1338.2893066406|-1773.7534179688|13.552166938782|0', '137', ?, '0', '0', '"..toJSON({}).."', '"..toJSON({}).."');"
 
 		local phoneNumber = math.random(1, 299).."-"..math.random(1, 99).."-"..math.random(1, 1299)
 
@@ -2777,13 +2777,13 @@ function CPlayer:register(name, email, password, geburtsdatum, geschlecht)
 		end
 		]]
 
-		CDatabase:getInstance():query("INSERT INTO `Inventory` (`ID` ,`Type` ,`Categories` ,`Items` ,`Slots`)VALUES (NULL ,  '1',  ' [ { \"7\": true, \"1\": true, \"2\": true, \"4\": true, \"8\": true, \"9\":  true, \"5\": true, \"3\": true, \"6\": true } ]',  '[ {\"17\": 2 } ]',  '250');")
+		CDatabase:getInstance():query("INSERT INTO `inventory` (`ID` ,`Type` ,`Categories` ,`Items` ,`Slots`)VALUES (NULL ,  '1',  ' [ { \"7\": true, \"1\": true, \"2\": true, \"4\": true, \"8\": true, \"9\":  true, \"5\": true, \"3\": true, \"6\": true } ]',  '[ {\"17\": 2 } ]',  '250');")
 
 		--Inserten (Join?)
 		CDatabase:getInstance():query(insert1, name, email, hash("sha512", password..salt), salt, getPlayerSerial(self),getPlayerIP(self),geburtsdatum)
 		CDatabase:getInstance():query(insert2, name, phoneNumber, geschlecht)
 
-		local val = CDatabase:getInstance():query("SELECT * FROM `inventory` WHERE ID=(SELECT MAX(ID) FROM `Inventory`)")
+		local val = CDatabase:getInstance():query("SELECT * FROM `inventory` WHERE ID=(SELECT MAX(ID) FROM `inventory`)")
 		local value=val[1]
 		new (CInventory, value["ID"], value["Type"], value["Categories"], value["Items"], value["Slots"])
 

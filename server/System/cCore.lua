@@ -182,5 +182,4 @@ cCore.tServerTypes[iID]["strDB"] = "rl"
 cCore.tServerTypes[iID]["iPort"] = 3306
 cCore.tServerTypes[iID]["bDebug"] = false
 
-
 -- \\_Server Information Table_// --
