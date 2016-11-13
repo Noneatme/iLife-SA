@@ -101,8 +101,8 @@ function CIntMarker:onPortHit(theElement)
 				end
 
 				if (tonumber(self.DestInterior) ~= 0) then
-					showPlayerHudComponent ( theElement, "all", false )
-					showPlayerHudComponent ( theElement, "crosshair", true )
+					setPlayerHudComponentVisible ( theElement, "all", false )
+					setPlayerHudComponentVisible ( theElement, "crosshair", true )
 				else
 					showPlayerHudComponent ( theElement, "all", false )
 					showPlayerHudComponent ( theElement, "crosshair", true )

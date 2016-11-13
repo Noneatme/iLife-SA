@@ -178,7 +178,7 @@ function CarWashManager:Constructor(...)
 	self.carwashStopFunc	= function() self.enabled = false end;
 	self.renderFunc			= function() self:Render() end;
 
-	self.loopTimer	= setTimer(self.loopBuerstenFunc, 1000, -1);
+	self.loopTimer	= setTimer(self.loopBuerstenFunc, 1000, 0);
 
 	-- Methoden --
 	FrameTextur:New(self.schild1, "big_cock", "carwash/parken.jpg");

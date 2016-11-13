@@ -293,7 +293,7 @@ function CHouse:save()
 	else
 		iLocked = 0
 	end
-	CDatabase:getInstance():query("UPDATE Houses SET Owner=?, Locked=?, Objektdistanz=?, Faction=?, Corporation=?, Cost=? WHERE ID=?", tonumber(self.Owner), tonumber(iLocked), tonumber(self.iObjektDistanz), tonumber(self.FactionID), self.m_iCorporation, self.XtraCost, self.ID)
+	CDatabase:getInstance():query("UPDATE houses SET Owner=?, Locked=?, Objektdistanz=?, Faction=?, Corporation=?, Cost=? WHERE ID=?", tonumber(self.Owner), tonumber(iLocked), tonumber(self.iObjektDistanz), tonumber(self.FactionID), self.m_iCorporation, self.XtraCost, self.ID)
 
 	self.Cost = self.DefaultCost+self.XtraCost;
 	self:updateElements();

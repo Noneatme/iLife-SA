@@ -126,7 +126,7 @@ function TrafficLightsManager:Constructor(...)
 	self:CheckState()
 
 	-- Events --
-	self.checkStateTimer 	= setTimer(self.checkStateFunc, 60*60*1000, -1);
+	self.checkStateTimer 	= setTimer(self.checkStateFunc, 60*60*1000, 0);
 		
 	--logger:OutputInfo("[CALLING] TrafficLightsManager: Constructor");
 end

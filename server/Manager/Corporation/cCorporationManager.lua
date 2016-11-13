@@ -522,7 +522,7 @@ function cCorporationManager:constructor(...)
 
     self:changeLagerUnitPrice()
 
-    self.m_uChangeLUPTimer  = setTimer(function() self:changeLagerUnitPrice() end, 60*60*1000, -1);
+    self.m_uChangeLUPTimer  = setTimer(function() self:changeLagerUnitPrice() end, 60*60*1000, 0);
 
     self.m_tblManager       =
     {
@@ -553,7 +553,7 @@ function cCorporationManager:constructor(...)
 
     self.m_funcOnBizPayday  = function(...) self:doBizPayday(...) end
 
-    self.m_paydayTimer  = setTimer(self.m_funcOnBizPayday, 60*60*1000, -1);
+    self.m_paydayTimer  = setTimer(self.m_funcOnBizPayday, 60*60*1000, 0);
 
 --[[
     addCommandHandler("corppayday", function(uPlayer)

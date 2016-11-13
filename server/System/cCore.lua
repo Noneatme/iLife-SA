@@ -180,18 +180,7 @@ cCore.tServerTypes[iID]["strUser"] = "root"
 cCore.tServerTypes[iID]["strPass"] = ""
 cCore.tServerTypes[iID]["strDB"] = "rl"
 cCore.tServerTypes[iID]["iPort"] = 3306
-cCore.tServerTypes[iID]["bDebug"] = true
+cCore.tServerTypes[iID]["bDebug"] = false
 
-iID = #cCore.tServerTypes + 1
-cCore.tServerTypes[iID] = {}
-cCore.tServerTypes[iID]["fCheck"] = function (strIP) return true end
-cCore.tServerTypes[iID]["iDBID"] = 1
-cCore.tServerTypes[iID]["strName"] = "Noneatme"
-cCore.tServerTypes[iID]["strType"] = "mysql"
-cCore.tServerTypes[iID]["strHost"] = "127.0.0.1"
-cCore.tServerTypes[iID]["strUser"] = "root"
-cCore.tServerTypes[iID]["strPass"] = ""
-cCore.tServerTypes[iID]["strDB"] = "rl"
-cCore.tServerTypes[iID]["iPort"] = 3306
-cCore.tServerTypes[iID]["bDebug"] = true
+
 -- \\_Server Information Table_// --

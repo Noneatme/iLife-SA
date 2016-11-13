@@ -298,7 +298,7 @@ function TrainSoundManager:Constructor(...)
 	bindKey("accelerate", "down", self.triggerBrakeSound)
 
 	addEventHandler("onTrainSoundPlayClient", getRootElement(), self.trainSoundPlayFunc)
-	setTimer(self.checkSoundsFunc, 1000, -1)
+	setTimer(self.checkSoundsFunc, 1000, 0)
 	--outputDebugString("[CALLING] TrainSoundManager: Constructor");
 end
 

@@ -7,7 +7,7 @@
 	/////// /////////////////
 ]]
 
-vCSnake = {}
+CSnake = {}
 
 function CSnake:constructor(fieldRows, fieldColumns, w, Speed, Eats)
 	self.Field = {}

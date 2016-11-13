@@ -78,7 +78,7 @@ function cThread:start(iMS)
             killTimer(self.timer);
             self:stop()
         end
-    end, iMS, -1)
+    end, iMS, 0)
 end
 
 function cThread:resume()

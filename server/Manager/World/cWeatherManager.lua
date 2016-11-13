@@ -224,7 +224,8 @@ function WeatherManager:RefreshWeather(i)
       for i,v in pairs(self.tblChannelWater) do
 	      setWaterLevel(v, waterLevel, true, true)
       end
-	    setWindVelocity(wind, wind2, 0);
+	    --setWindVelocity(wind, wind2, 0);
+        
 		  setWeather(weatherID);
 	    outputDebugString("Weather Change: "..weatherID..", Rainy: "..tostring(rainy)..", Windy: "..wind);
 
@@ -376,7 +377,7 @@ function WeatherManager:constructor(...)
 	self:LoadWeekWeather();
   resetWaterLevel()
 
-	self.refreshTimer					= setTimer(self.refreshWeatherFunc, 60*60*1000, -1);
+	self.refreshTimer					= setTimer(self.refreshWeatherFunc, 60*60*1000, 0);
 
 	addEventHandler("onClientWeekweatherGet", getRootElement(), self.weekdayWeatherFunc)
 

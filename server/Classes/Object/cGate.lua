@@ -401,12 +401,12 @@ function Gate:Constructor(iID, sName, sModell, iMoveTime, tblPos, tblPosTo, tblM
 
 	-- Interior and DIM --
 	if(tblMisc["int"]) then
-		self.iInt			= tounmber(tblMisc["int"]);
+		self.iInt			= tonumber(tblMisc["int"]);
 	else
 		self.iInt			= 0;
 	end
 	if(tblMisc["dim"]) then
-		self.iDim			= tounmber(tblMisc["dim"]);
+		self.iDim			= tonumber(tblMisc["dim"]);
 	else
 		self.iDim			= 0;
 	end

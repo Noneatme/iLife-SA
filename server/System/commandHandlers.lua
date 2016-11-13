@@ -562,7 +562,7 @@ addCommandHandler("int", function (thePlayer, cmd, int)
 			end
 
 			thePlayer:setFrozen(true)
-			result = CDatabase:getInstance():query("SELECT * FROM House_Interiors WHERE ID="..tonumber(int))
+			result = CDatabase:getInstance():query("SELECT * FROM house_interiors WHERE ID="..tonumber(int))
 
 			local int = result[1]["Int"]
 			local x = result[1]["X"]
@@ -582,7 +582,7 @@ end
 
 addCommandHandler("houseremove", function(thePlayer, cmd, ID)
 	if (getElementData(thePlayer,"online")) and (thePlayer:getAdminLevel() >= 3) then
-		CDatabase:getInstance():query("DELETE FROM Houses WHERE ID=?", tonumber(ID))
+		CDatabase:getInstance():query("DELETE FROM houses WHERE ID=?", tonumber(ID))
 		if (Houses[tonumber(ID)]) then
 			destroyElement(HousePickups[tonumber(ID)]);
 		end
@@ -622,11 +622,11 @@ addCommandHandler("houseadd", function(thePlayer, cmd, int, cost, iDistance)
 		iDistance		= tonumber(iDistance) or 5;
 		cost			= tonumber(cost) or math.random(0, 1000);
 
-		CDatabase:getInstance():query("INSERT INTO Houses (`ID` , `Cost` , `Owner` , `Koords` , `Locked` , `Interior` ) VALUES ( NULL , ?,  '0', ?,  '0', ?);", tonumber(cost), tostring(thePlayer:getInterior()).."|"..tostring(thePlayer:getDimension()).."|"..tostring(X).."|"..tostring(Y).."|"..tostring(Z),tonumber(int))
+		CDatabase:getInstance():query("INSERT INTO houses (`ID` , `Cost` , `Owner` , `Koords` , `Locked` , `Interior` ) VALUES ( NULL , ?,  '0', ?,  '0', ?);", tonumber(cost), tostring(thePlayer:getInterior()).."|"..tostring(thePlayer:getDimension()).."|"..tostring(X).."|"..tostring(Y).."|"..tostring(Z),tonumber(int))
 
-		local result2 	= CDatabase:getInstance():query("SELECT * FROM House_Interiors WHERE ID = ?", tonumber(int))
+		local result2 	= CDatabase:getInstance():query("SELECT * FROM house_interiors WHERE ID = ?", tonumber(int))
 
-		local result3	= CDatabase:getInstance():query("SELECT LAST_INSERT_ID() AS ID FROM Houses;");
+		local result3	= CDatabase:getInstance():query("SELECT LAST_INSERT_ID() AS ID FROM houses;");
 
 		CHouseManager:getInstance():createHouse(tonumber(result3[1]["ID"]), result2[1]["Price"], (tonumber(cost) or 0), 0, "0|0|"..X.."|"..Y.."|"..Z, 0, {result2[1]["X"], result2[1]["Y"], result2[1]["Z"], result2[1]["Int"]}, iDistance, 0, {});
 
@@ -657,12 +657,12 @@ addCommandHandler("changehouseinterior", function(uPlayer, cmd, iHouse, iInt)
 		iHouse 	= tonumber(iHouse);
 		iInt	= tonumber(iInt);
 
-		local result = CDatabase:getInstance():query("SELECT X, Y, Z, Int, Rotation FROM House_Interiors WHERE ID = '"..iInt.."';");
+		local result = CDatabase:getInstance():query("SELECT X, Y, Z, Int, Rotation FROM house_interiors WHERE ID = '"..iInt.."';");
 		if(#result > 0) then
 			Houses[iHouse].Interior		= {result[1]["X"], result[1]["Y"], result[1]["Z"], result[1]["Int"]};
 			Houses[iHouse]:updateInterior();
 
-			CDatabase:getInstance():query("UPDATE Houses SET Interior = '"..iInt.."' WHERE ID = '"..iHouse.."';");
+			CDatabase:getInstance():query("UPDATE houses SET Interior = '"..iInt.."' WHERE ID = '"..iHouse.."';");
 
 			outputChatBox("Haus Interior geaendert!", uPlayer, 0, 255, 0);
 

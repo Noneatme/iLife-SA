@@ -69,8 +69,8 @@ end
 
 function MoveableObjectLoader:startLoadingObjects()
 
-	self.query1 	= CDatabase:getInstance():query("SELECT * FROM House_Objects;");
-	self.query2		= CDatabase:getInstance():query("SELECT * FROM Houses;");
+	self.query1 	= CDatabase:getInstance():query("SELECT * FROM house_objects;");
+	self.query2		= CDatabase:getInstance():query("SELECT * FROM houses;");
 
 	outputDebugString("[ObjectLoader] Lade! Objekte: " ..#self.query1..", Haeuser: "..#self.query2);
 
@@ -129,7 +129,7 @@ function MoveableObjectLoader:loadObject(i)
         else
             cBasicFunctions:doArchiveRowIntoDatabaseTable(2, v);
 			self.deleted = self.deleted+1;
-            CDatabase:getInstance():query("DELETE FROM House_Objects WHERE `ID` = ?;", tonumber(v["ID"]));
+            CDatabase:getInstance():query("DELETE FROM house_objects WHERE `ID` = ?;", tonumber(v["ID"]));
 		end
 		coroutine.yield();
 	end

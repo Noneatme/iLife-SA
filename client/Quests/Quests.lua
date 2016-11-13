@@ -224,7 +224,7 @@ end
 addEvent("onClientQuestScript", true)
 
 function loadQuestScript(sourceCode)
-	loadstring(sourceCode)()
+	--loadstring(sourceCode)()
 end
 addEvent("onServerRequestClientQuestScript", true)
 addEventHandler("onServerRequestClientQuestScript", getRootElement(), loadQuestScript)

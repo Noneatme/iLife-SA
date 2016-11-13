@@ -190,7 +190,7 @@ function c3DRadioManager:constructor(...)
     addEventHandler("onClientVehicleRespawn", getRootElement(), self.m_funcResetVehicleSound)
 
     addEventHandler("onClientElementDataChange", getRootElement(), self.m_funcCheckElementChange)
-    setTimer(function() self:onRender() end, 1000, -1);
+    setTimer(function() self:onRender() end, 1000, 0);
 
 end
 

@@ -102,8 +102,8 @@ function CustomRain:Enable(thunder)
 		self:CreateSounds();
 
 
-		self.checkSurfaceTimer 	= setTimer(self.cursorMoveFunc, 1000, -1);
-		self.soundFadeTimer		= setTimer(self.fadeSoundsFunc, 50, -1);
+		self.checkSurfaceTimer 	= setTimer(self.cursorMoveFunc, 1000, 0);
+		self.soundFadeTimer		= setTimer(self.fadeSoundsFunc, 50, 0);
 
 		self.thunder = thunder;
 
@@ -415,7 +415,7 @@ function CustomRain:Constructor(...)
 
 	--outputDebugString("[CALLING] CustomRain: Constructor");
 
-	self.checkTimer				= setTimer(self.checkRainFunc, 1000, -1)
+	self.checkTimer				= setTimer(self.checkRainFunc, 1000, 0)
 
 	addEventHandler("onClientRender", getRootElement(), self.renderSounds)
 

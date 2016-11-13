@@ -100,7 +100,7 @@ function CHouseManager:loadHouses()
 	for k,v in pairs(Factions) do
 		FactionHouses[v:getID()] = {}
 	end
-	local keys = CDatabase:getInstance():query("SELECT HK.HID, U.Name FROM house_keys AS HK LEFT JOIN User AS U ON (U.ID = HK.UID);")
+	local keys = CDatabase:getInstance():query("SELECT HK.HID, U.Name FROM house_keys AS HK LEFT JOIN user AS U ON (U.ID = HK.UID);")
 	local houseKeys
 	if (#keys > 0) then
 		houseKeys = {}

@@ -354,7 +354,7 @@ function()
 			new(CLobby, mapstr, 1024, "Ranked Lobby", 3, false)
 		end
 	end
-end,30000,-1)
+end,30000,0)
 
 setTimer(
 function()

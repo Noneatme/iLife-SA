@@ -149,7 +149,7 @@ function ChurchBellManager:Constructor(...)
 	self.checkChurchBellFunc	= function() self:CheckChurchBell() end;
 	
 	-- Events Timer
-	setTimer(self.checkChurchBellFunc, 1*60000, -1)		-- Jede Minute
+	setTimer(self.checkChurchBellFunc, 1*60000, 0)		-- Jede Minute
 
 	--outputDebugString("[CALLING] ChurchBellManager: Constructor");
 end

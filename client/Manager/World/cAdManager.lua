@@ -42,8 +42,8 @@ function cAdManager:init()
 
    self:reload()
 
-   self.m_uReloadTimer     = setTimer(function() self:reload() end, self.m_iReloadTime, -1)
-   self.m_uChangeTimer     = setTimer(function() self:changeAd() end, self.m_iChangeTime, -1)
+   self.m_uReloadTimer     = setTimer(function() self:reload() end, self.m_iReloadTime, 0)
+   self.m_uChangeTimer     = setTimer(function() self:changeAd() end, self.m_iChangeTime, 0)
 end
 
 -- ///////////////////////////////

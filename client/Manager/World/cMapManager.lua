@@ -171,7 +171,7 @@ function cMapManager:getMapInfos(tblMaps, tblSettings)
 
 	coroutine.resume(self.m_co)
 
-	self.loadMapTimer   = setTimer(self.m_loadNextMapFunc, 150, -1)
+	self.loadMapTimer   = setTimer(self.m_loadNextMapFunc, 150, 0)
 end
 
 -- ///////////////////////////////

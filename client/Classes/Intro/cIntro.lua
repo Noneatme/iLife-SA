@@ -821,7 +821,7 @@ end
 function CIntro:start()
 	setElementDimension(getLocalPlayer(), 27569)
 	self.Dim = getElementDimension(getLocalPlayer())
-	showPlayerHudComponent ( "all", false)
+	setPlayerHudComponentVisible ( "all", false)
 	hud:Toggle(false)
 	self.CurrentFrame = 1
 	if (#IntroFrames > 0) then

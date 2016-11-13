@@ -53,7 +53,7 @@ end
 
 function Hud:HideDefaultHud()
 	for index, component in pairs(self.hudsToHide) do
-		showPlayerHudComponent(component, false);
+		setPlayerHudComponentVisible(component, false);
 	end
 
 	return true;

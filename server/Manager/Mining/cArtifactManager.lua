@@ -171,7 +171,7 @@ function cArtifactManager:constructor(...)
     -- Klassenvariablen --
     addEvent("onArtifactZPositionUpdate", true)
 
-    self.m_iMaxArtifactsAtOnce      = 50;
+    self.m_iMaxArtifactsAtOnce      = 500;
     self.m_iMinArtifactDistance     = 50;
 
     self.m_iCurrentArtifact         = 1

@@ -52,7 +52,7 @@ function CSystemManager:destructor()
 end
 
 function CSystemManager:loadSystemVariables ()
-	local result = CDatabase:getInstance():query("SELECT * FROM System WHERE iID = '" .. self.iServerID .. "'")
+	local result = CDatabase:getInstance():query("SELECT * FROM system WHERE iID = '" .. self.iServerID .. "'")
 	if(result) then
 		self.Servername 			= result[1]["Servername"]
 		self.Serverpasswort 		= result[1]["Passwort"]

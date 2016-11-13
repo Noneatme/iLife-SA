@@ -30,6 +30,8 @@ cVehicleCategoryManager = inherit(cSingleton);
 -- ///////////////////////////////
 
 function cVehicleCategoryManager:getVehicleCategory(uVeh)
+return 1
+--[[
   local iVehID = uVeh
   if type(uVeh) == "userdata" and getElementType(uVeh) == "vehicle" then
     iVehID = getElementModel(uVeh)
@@ -43,7 +45,7 @@ function cVehicleCategoryManager:getVehicleCategory(uVeh)
       end
     end
   end
-  return false
+  return false]]
 end
 
 
@@ -183,7 +185,8 @@ end
 -- ///////////////////////////////
 
 function cVehicleCategoryManager:loadFromMySQL()
-  local result = CDatabase:getInstance():query("SELECT * FROM vehicle_category;")
+return true;
+ --[[ local result = CDatabase:getInstance():query("SELECT * FROM vehicle_category;")
 	if(result) and (#result > 0) then
 		for index, row in pairs(result) do
       if not   self.tbl_VehicleCategoryData[tonumber(row['id'])] then
@@ -196,7 +199,7 @@ function cVehicleCategoryManager:loadFromMySQL()
       self.tbl_VehicleCategoryData[tonumber(row['id'])].tax = tonumber(row['tax'])
       self.tbl_VehicleCategoryData[tonumber(row['id'])].fueltype = row['fueltype']
 		end
-	end
+	end]]
 end
 
 

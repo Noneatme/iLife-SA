@@ -113,7 +113,7 @@ function cArtifactScannerGUI:onResultsGet(tblResult)
             if(newZ and newZ < pos.z+500) then
 
                 if(newZ-pos.z < -5) then
-                    newZ = pos-getElementDistanceFromCentreOfMassToBaseOfModel(localPlayer)
+                    newZ = pos.z-getElementDistanceFromCentreOfMassToBaseOfModel(localPlayer)
                 end
 
                 triggerServerEvent("onArtifactZPositionUpdate", localPlayer, artifact.m_iID, newZ+0.1)

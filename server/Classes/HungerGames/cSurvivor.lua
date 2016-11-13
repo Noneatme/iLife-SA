@@ -30,7 +30,7 @@ function CSurvivor:constructor(Player, Lobby, Spawn)
 	self.bOnLeave = bind(CSurvivor.bLeave, self)
 	bindKey(self.Player, "F4", "down", self.bOnLeave)
 
-	showPlayerHudComponent(self.Player, "crosshair", true)
+	setPlayerHudComponentVisible(self.Player, "crosshair", true)
 
 	self.Player:showInfoBox("info", "Du kannst die Lobby mit F4 verlassen!")
 end

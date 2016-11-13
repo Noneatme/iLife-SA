@@ -299,7 +299,7 @@ function HudModifier:Toggle()
 			self:DestroyGui();
 			
 			if(self.showRadarAgain == true) then
-				showPlayerHudComponent("radar", true)
+				setPlayerHudComponentVisible("radar", true)
 			end
 			
 			playSound(hud.pfade.sounds.."menu_close.mp3", false)
@@ -312,7 +312,7 @@ function HudModifier:Toggle()
 			
 			if(isPlayerHudComponentVisible("radar")) then
 				self.showRadarAgain = true;
-				showPlayerHudComponent("radar", false)
+				setPlayerHudComponentVisible("radar", false)
 			else
 				self.showRadarAgain = false;
 			end

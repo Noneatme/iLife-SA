@@ -68,7 +68,7 @@ function CUserVehicleManager:createVehicles()
 					local theVehicle = createVehicle(value["VID"], gettok(value["Koords"],1,"|"), gettok(value["Koords"],2,"|"), gettok(value["Koords"],3,"|"), gettok(value["Koords"],4,"|"), gettok(value["Koords"],5,"|"), gettok(value["Koords"],6,"|"), value["Plate"])
 					setVehicleRespawnPosition(theVehicle, gettok(value["Koords"],1,"|"), gettok(value["Koords"],2,"|"), gettok(value["Koords"],3,"|"), gettok(value["Koords"],4,"|"), gettok(value["Koords"],5,"|"), gettok(value["Koords"],6,"|"))
 					enew(theVehicle, CUserVehicle, value["ID"], value["OwnerID"], value["Int"], value["Dim"], value["VID"], value["Koords"], value["Color"], value["Tuning"], value["Plate"], value["Fuel"],value["KM"], value["Health"], value["LichtFarbe"], value["Dirtlevel"], value["Abstellposition"], value["Paintjob"], value["Spezialtunings"], value["Schluessel"], value["Inventar"], value["MiscSettings"], value["KaufDatum"])
-					count = count1
+					count = count+1
 				else
 					self:packFahrzeugInAndereTabelle(value)
 					Old = Old+1;

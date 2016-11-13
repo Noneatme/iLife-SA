@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 	/////// //////////////////
 	/////// PROJECT: MTA iLife - German Fun Reallife Gamemode
 	/////// VERSION: 1.7.2 
@@ -18,17 +18,10 @@ global_vehicle_preise = {};
 local randNMR           = math.random(1, 10000);	-- Best Key Security 2015
 local tblLoginSounds    =
 {
-	teaEncode("http://rewrite.ga/iLife/login.mp3", randNMR),								                -- Default
-	teaEncode("http://noneat.me/sound/hero.mp3", randNMR),						                        -- Hero
-	--teaEncode("http://rewrite.ga/iLife/intro.mp3", randNMR),					                            -- Epic von Johnny
-	--teaEncode("http://www.vio-race.de/servermusic/mapmusic/realsteel-ft-banana_dark-time.mp3", randNMR),  -- Register Music
-	teaEncode("http://noneat.me/sound/safehouse_part2.mp3", randNMR),										-- Safehouse, Copyright EA Games
-	teaEncode("http://noneat.me/sound/pr0nGroove.mp3", randNMR),											-- Soundcloud, "pr0n Groove", Copyleft
-	--teaEncode("http://noneatme.de/sound/mus_amasian1.mp3", randNMR),										-- Amnasian, Copyright Rockstar Games
-	teaEncode("http://noneat.me/sound/tsfw.ogg", randNMR),												-- Sound von Samy, eventuell Copyright
-	teaEncode("http://noneat.me/sound/iLife/3d_ambience_loginscreen.ogg", randNMR),						-- Perpeetum, Hammer	(Copyright)
-	teaEncode("http://noneat.me/sound/JUNLAJUBALAM%20-%20Adobe%20CS5activator.ogg", randNMR),				-- Adobe CS5 Activator Keygen (Copyleft!)
-
+	teaEncode("http://download.noneat.me/gameservers/mta/ilife/sounds/pr0nGroove.mp3", randNMR),
+	teaEncode("http://download.noneat.me/gameservers/mta/ilife/sounds/s8.mp3", randNMR),
+	teaEncode("http://download.noneat.me/gameservers/mta/ilife/sounds/s10.mp3", randNMR),
+	teaEncode("http://download.noneat.me/gameservers/mta/ilife/sounds/s1.mp3", randNMR),
 }
 
 --Provisorisch
@@ -472,7 +465,7 @@ function CPlayer:loadData()
 			self:checkForLoginRewards();
 
 
-			CDatabase:getInstance():query("UPDATE User SET Last_Login=? WHERE ID= ?", getRealTime()["timestamp"], self.ID)
+			CDatabase:getInstance():query("UPDATE user SET Last_Login=? WHERE ID= ?", getRealTime()["timestamp"], self.ID)
 		end
 	else
 		kickPlayer(self, "Bitte erneut einloggen")
@@ -531,7 +524,7 @@ function CPlayer:checkForLoginRewards()
 		iNextTime = iNextTime+dayLenght;
 
 		-- Aktualisieren
-		CDatabase:getInstance():query("UPDATE User SET NextReward = ?, RewardLevel = ? WHERE ID = ?", iNextTime, iLevel, self.ID)
+		CDatabase:getInstance():query("UPDATE user SET NextReward = ?, RewardLevel = ? WHERE ID = ?", iNextTime, iLevel, self.ID)
 
 
 	end

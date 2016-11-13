@@ -391,7 +391,7 @@ function AussichtsPunkt:constructor(...)
 
     self:generateRandomPeds()
 
-    self.m_updateTimer  = setTimer(function() self:generateRandomPeds() end, 60*60*1000, -1);
+    self.m_updateTimer  = setTimer(function() self:generateRandomPeds() end, 60*60*1000, 0);
 -- Events --
 
 --logger:OutputInfo("[CALLING] AussichtsPunkt: Constructor");

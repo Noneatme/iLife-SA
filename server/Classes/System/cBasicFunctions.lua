@@ -75,7 +75,8 @@ function cBasicFunctions:isOwnerInTheLastMonthsActive(iID)
         -- 1424213329
         local time				= getRealTime().timestamp
         if(last_logins[iID]) and (time-last_logins[iID] > _Gsettings.gmaxOfflineTime) then
-            return false;
+		-- OVERRIDE
+            return true;
         else
             return true;
         end

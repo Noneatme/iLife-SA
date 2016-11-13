@@ -110,6 +110,8 @@ function ServerTrains:constructor()
             table.insert(self.m_Tracks[k], {index = i-1, x = x, y = y, z = z})
             end
         end
+        
+        fileClose(file);
     end
 
     -- Calculate distances
@@ -127,7 +129,7 @@ function ServerTrains:constructor()
 
 
     -- Start position updating timer
-    setTimer(function() self:updateTrains() end, self.Settings.Interval, -1)
+    setTimer(function() self:updateTrains() end, self.Settings.Interval, 0)
 
 
 	-- load train stations

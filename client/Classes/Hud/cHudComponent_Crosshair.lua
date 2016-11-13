@@ -70,7 +70,7 @@ end
 -- ///////////////////////////////
 
 function HudComponent_Crosshair:Constructor(...)
-	showPlayerHudComponent("crosshair", true);
+	setPlayerHudComponentVisible("crosshair", true);
 	
 	local name, hudklasse = debug.getlocal(3, 1)
 	
