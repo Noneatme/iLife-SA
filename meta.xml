@@ -1266,6 +1266,21 @@ w
 			<file src="res/images/ammunation.png" />
 			<file src="res/images/sexshop.png" />
 
+		<!-- LOCALIZATIONS: Neu 2017 -->
+			<file src="res/localizations/de_DE.ini" />
+			<file src="res/localizations/en_US.ini" />
+		<!-- WIchtige Info hier!!!
+			Falls im Gamemode einige Sachen falsch angezeigt werden, d.h.
+			Bei Deutschen Texten wird Englisch angezeigt -> In der de_DE die Uebersetzungen korrigieren!
+			Es wurde nicht alles uebersetzt. Also bitte manuell uebersetzen.
+
+			Falls ingame solche Platzhalter wie "btn_impressum" steht, bitte nachtraegliuch in die .ini Datei einbauen!
+			Dann ist die Uebersetzung auch vorhanden.
+
+			BEI WEITERENTWICKLUNG DIESES GAMEMODES BITTE BEACHTEN:
+			ALLE CLIENT SEITIGEN STRINGS BITTE IN DIE UEBERSETUNGSDATEIEN PACKEN! STRINGS GEHOEREN CLIENTSEITIG NICHT
+			IN DIE SCRIPTDATEIEN!
+		-->
 		<!-- MAPS -->
 			<!-- DECORATION -->
 				<!--<custommap src="res/maps/decoration/cartmen.map" dimension="0" />-->

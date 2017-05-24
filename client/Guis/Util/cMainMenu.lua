@@ -439,7 +439,10 @@ function MainMenu:showLoginpanel()
 		self.guiEleLogin["Button"][1]:addClickFunction(function ( button, state )
 			if not(LoginAttempt) then
 				LoginAttempt = true
-		        local pw = teaDecode(_Gsettings.currentPassword, tostring(config:getConfig("password_key")))
+				local pw;
+				if(_Gsettings.currentPassword) then
+		        	pw = teaDecode(_Gsettings.currentPassword, tostring(config:getConfig("password_key")))
+				end
 		        local sha = true;
 
 		        if not(pw) or (self.guiEleLogin["Edit"][1]:getText() ~= "Text") then

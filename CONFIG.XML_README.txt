@@ -1,0 +1,21 @@
+Einstellungen in der Coreconfig Datei sollten mit Vorsicht veraendert werden.
+Falls das Script bei aenderung von Einstellungen nicht mehr laufen sollte, so kann man die config.xml Datei loeschen.
+Sie wird anschliessend wieder neu erstellt.
+
+Tipps zur Behebung von FPS-Drops:
+Folgende Einstellungen koennen FPS Einbrueche verhindern:
+
+lowrammode: true  				Standart: false  			Beschreibung: Aktiviert den Low-Grafikspeichermodus.
+load_world_Textures: false  	Standart: true  			Beschreibung: Vehindert das laden von Welttexturen.
+log_actions: false				Standart: true				Beschreibung: Aktiviert das Loggen von Aktionen wie Chatnachrichten, etc.
+log_console: false				Standart: true				Beschreibung: Loggt den Input der Console auf die Disk.
+occlusions: true				Standart: false				Beschreibung: Umgebungsverdeckung an / aus. Kann Flackern hervorrufen.
+
+Die Config.xml wird ausschliesslich von iLife verwendet.
+
+Andere Einstellungen:
+
+ooc_chat: true					Standart: true				Beschreibung: OOC Chat Lokal deaktivieren / aktivieren
+render_3dtext: true				Standart: true				Beschreibung: 3D Text (Haeuserlabel usw.) deaktivieren / aktivieren
+popsound: "res/sounds/poke.ogg" Standart: ""				Beschreibung: Der Standart Poke Sound. Wird fuer GUIS verwendet.
+save_password: false			Standart: false				Beschreibung: Diese Einstellung auf "true" setzen erlaubt das Speichern vom Login-Passwort. Eventuelles Sicherheitsrisiko, deshalb standartmaessig deaktiviert.

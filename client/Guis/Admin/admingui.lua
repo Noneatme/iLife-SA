@@ -246,9 +246,9 @@ addEventHandler("onClientResourceStart", getResourceRootElement(),
 
 		AdminGui.tab[3] = guiCreateTab("Servermanagement", AdminGui.tabpanel[1])
 
-		AdminGui.staticimage[1] = guiCreateStaticImage(11, 17, 87, 81, ":ilife/res/images/infobox/warning.png", false, AdminGui.tab[3])
+		AdminGui.staticimage[1] = guiCreateStaticImage(11, 17, 87, 81, "res/images/infobox/warning.png", false, AdminGui.tab[3])
 		AdminGui.button[11] = guiCreateButton(109, 18, 402, 47, "NOTFALLABSCHALTUNG", false, AdminGui.tab[3])
-		AdminGui.staticimage[2] = guiCreateStaticImage(523, 17, 87, 81, ":ilife/res/images/infobox/warning.png", false, AdminGui.tab[3])
+		AdminGui.staticimage[2] = guiCreateStaticImage(523, 17, 87, 81, "res/images/infobox/warning.png", false, AdminGui.tab[3])
 		AdminGui.label[13] = guiCreateLabel(197, 70, 244, 26, "Achtung: Es gibt keinen Bestätigungsdialog!", false, AdminGui.tab[3])
 		guiSetFont(AdminGui.label[13], "default-bold-small")
 		guiLabelSetColor(AdminGui.label[13], 137, 0, 0)
@@ -260,7 +260,7 @@ addEventHandler("onClientResourceStart", getResourceRootElement(),
 		AdminGui.label[16] = guiCreateLabel(113, 144, 49, 21, "Minuten", false, AdminGui.tab[3])
 		guiSetFont(AdminGui.label[16], "default-bold-small")
 		AdminGui.button[12] = guiCreateButton(10, 177, 158, 37, "GMX Durchführen", false, AdminGui.tab[3])
-		AdminGui.staticimage[3] = guiCreateStaticImage(524, 312, 94, 91, ":ilife/res/images/rewrite.png", false, AdminGui.tab[3])   
+		AdminGui.staticimage[3] = guiCreateStaticImage(524, 312, 94, 91, "res/images/rewrite.png", false, AdminGui.tab[3])
 		
 		addEventHandler("onClientGUIClick", AdminGui.button[11], onShutdownButtonHit, false)
 		addEventHandler("onClientGUIClick", AdminGui.button[12], onGMXButtonHit, false)
