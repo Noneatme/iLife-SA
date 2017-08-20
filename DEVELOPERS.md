@@ -30,7 +30,7 @@ Justus(Jusonex): Server-Side Trains
 
 sbx320: classLib
 
-Shape
+Shape:
 cBusJob.lua, cBusJob.old, cHeliJob.lua
 
 And many other people from the iLife-SA Community.
