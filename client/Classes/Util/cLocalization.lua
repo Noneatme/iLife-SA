@@ -65,9 +65,18 @@ end
 function cLocalization:loadLocalization()
     local loc = getLocalization()["code"];
 
+    if(loc == "en_US") then
+        loc = "en";
+    end
+
+    if(loc == "de_DE") then
+        loc = "de";
+    end
+
     if not(fileExists("res/localizations/"..loc..".ini")) then
         loc = "en";
     end
+
 
     self.m_sLocalization    = loc;
     --[[

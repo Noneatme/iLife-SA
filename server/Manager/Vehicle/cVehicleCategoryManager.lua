@@ -147,7 +147,7 @@ function cVehicleCategoryManager:getCategoryTankSize(iID)
   if self.tbl_VehicleCategoryData[iID] then
     return self.tbl_VehicleCategoryData[iID].tank
   else
-    return false
+    return 100
   end
 end
 

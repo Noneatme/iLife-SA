@@ -81,7 +81,7 @@ function CarStart:VehicleSound(vehicle, was)
 			else
 				killTimer(self.vehicleTurnTimer[vehicle])
 			end
-		end, 100, -1)
+		end, 100, 0)
 	end
 end
 
