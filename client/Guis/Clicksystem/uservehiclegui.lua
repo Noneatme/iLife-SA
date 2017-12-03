@@ -94,9 +94,9 @@ function showUserVehicleClickGui(theVehicle)
 
 		for tuning, cost in pairs(TTP.ItemPrices) do
 			local upgrade 	= getElementData(theVehicle, "tuningteil:"..tuning)
-			local text 		= getLocalizationString("default_string_no")
+			local text 		= "Nein"
 			if(upgrade) then
-				text 		= getLocalizationString("default_string_yes")
+				text 		= "Ja"
 			end
 
 			if(tuning == "Bessere Hydraulik") then

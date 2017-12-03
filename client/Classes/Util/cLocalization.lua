@@ -66,7 +66,7 @@ function cLocalization:loadLocalization()
     local loc = getLocalization()["code"];
 
     if not(fileExists("res/localizations/"..loc..".ini")) then
-        loc = "en_US";
+        loc = "en";
     end
 
     self.m_sLocalization    = loc;
@@ -80,6 +80,9 @@ function cLocalization:loadLocalization()
 
     self.xml = EasyIni:LoadFile("res/localizations/"..loc..".ini");
 
+    if not(self.xml) then
+        outputConsole("Localization file not found! "..loc..".ini");
+    end
     localPlayer:setData("cg:loc", loc);
 end
 
